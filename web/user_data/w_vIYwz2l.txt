@@ -1,0 +1,2952 @@
+07/06/2019, 2:57 pm - Messages to this group are now secured with end-to-end encryption. Tap for more info.
+30/05/2019, 11:19 pm - +91 80098 16660 created group "Codevita season 8"
+07/06/2019, 2:57 pm - You joined using this group's invite link
+07/06/2019, 5:33 pm - +91 96288 51475 joined using this group's invite link
+07/06/2019, 9:31 pm - +91 86503 76210 joined using this group's invite link
+07/06/2019, 11:42 pm - +91 96168 76192: Help if anybody has done prblm A of mockvita
+07/06/2019, 11:43 pm - +91 96168 76192: How rcr is not anagram to any substring of "carrace"
+07/06/2019, 11:43 pm - +91 82991 04558: import java.util.*; 
+import java.io.*; 
+  
+public class Kashaf
+          
+    static String leftrotate(String str, int d) 
+    { 
+            String ans = str.substring(d) + str.substring(0, d); 
+            
+            return ans; 
+    } 
+  
+    static String rightrotate(String str, int d) 
+    { 
+            return leftrotate(str, str.length() - d); 
+    } 
+  
+    public static void main(String args[]) 
+    { 
+            String st = leftrotate("carrace",2);
+            System.out.println(st); 
+            String rt = rightrotate(st,2);
+            System.out.println(rt); 
+            String tt = leftrotate(rt,3);
+            
+            System.out.println(tt); 
+            
+            
+    } 
+}
+07/06/2019, 11:43 pm - +91 82991 04558: that'sa logic
+07/06/2019, 11:43 pm - +91 82991 04558: u have to change it a bit and it's solved
+07/06/2019, 11:44 pm - +91 82991 04558: [10:55 PM, 6/7/2019] 5alco: run this on compiler
+[10:55 PM, 6/7/2019] 5alco: note first character of every output.
+[10:56 PM, 6/7/2019] 5alco: r
+[10:56 PM, 6/7/2019] 5alco: c r
+ which is not a part of original string
+07/06/2019, 11:44 pm - +91 79051 46793: First thing don't share code in this group. Everyone follow this advice.
+07/06/2019, 11:44 pm - +91 81810 09879: Question ka screenshot bhej do koi....jisne nhi kiya h usko idea lg jaega
+07/06/2019, 11:45 pm - +91 96168 76192: Its mockvita codevita ka mt bhejna
+07/06/2019, 11:45 pm - +91 96168 76192: Koi
+07/06/2019, 11:46 pm - Avinash: Everyone should consider this...
+07/06/2019, 11:47 pm - Pawan Mishra: What is the problem in that?
+07/06/2019, 11:48 pm - +91 79051 46793: https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/
+07/06/2019, 11:48 pm - +91 79051 46793: justify your definition of anagram from this
+07/06/2019, 11:50 pm - Avinash: I mean avoid that as much as possible...  Program is long text of non indentation code for mobile user... Code sharing is also a manner of cheating.. Any way of cheating would result immediate disqualification
+07/06/2019, 11:53 pm - +91 79051 46793: If u people use any online resource then specify that you have taken help from online sources there is a special section at the bottom for it
+07/06/2019, 11:56 pm - +91 79051 46793: anyone have knowledge that how much time did it take to give the result of a submitted solution mine has been running for the past 5 minutes
+08/06/2019, 12:06 am - +91 84237 62476: This message was deleted
+08/06/2019, 12:08 am - +91 91299 29958: Anyone coding in java for the mockvita...?
+08/06/2019, 12:08 am - Amritesh Khare: 🙋🏼‍♂
+08/06/2019, 12:20 am - +91 84237 62476: How have you submitted?
+I mean directly copy the code to their IDE or uploading file?
+08/06/2019, 12:21 am - +91 79051 46793: Copying the code from ide. They are clearly specifying that we can use our ide to code.
+08/06/2019, 1:05 am - +91 80098 16660: Make pdf of questions and share please
+08/06/2019, 1:06 am - +91 79051 46793: last year problems are asked only for which you have provided link in description
+08/06/2019, 1:09 am - +91 80098 16660: Everyone is requested to not share code with anyone and also not in this group. Share ideas, links etc but not codes
+08/06/2019, 1:10 am - +91 80098 16660: Please share questions in pdf format by printing the page as pdf
+08/06/2019, 1:12 am - +91 79051 46793: This message was deleted
+08/06/2019, 1:13 am - +91 84237 62476: Hm doc file bhej rhe ruko😅
+08/06/2019, 1:14 am - +91 84237 62476: <Media omitted>
+08/06/2019, 7:48 am - +91 98890 70069 joined using this group's invite link
+08/06/2019, 9:39 am - Tejashavi: Khul nhi RHA
+08/06/2019, 9:57 am - Avinash: . Rtf ko .doc karlo
+08/06/2019, 9:57 am - Avinash: Sayad kaam kar jaega
+08/06/2019, 11:33 am - Shivang: What the hell is "Submission (against private test cases) successful?
+08/06/2019, 11:34 am - +91 96168 76192: Any idea for problm E
+08/06/2019, 11:34 am - +91 96168 76192: No.  Of even points in polygon
+08/06/2019, 11:38 am - Avinash: I did not solve the problem... but I think this idea works... scale the points(divide both x and y by 2 for all the coordinates ).... now question changed to find all integral points inside a polygon .... see https://en.wikipedia.org/wiki/Pick%27s_theorem  to find number of integral points inside a polygon
+08/06/2019, 11:39 am - Avinash: its means AC
+08/06/2019, 11:40 am - +91 82991 04558: Yes, it's done using this theorem
+08/06/2019, 11:40 am - Avinash: raise hands if ... your program compiles without error on your system gives compilation error on Submit ....😅✋
+08/06/2019, 11:41 am - +91 82991 04558: 🤚🏻🤚🏻🤚🏻🤚🏻🤚🏻🤚🏻🤚🏻🤚🏻
+08/06/2019, 11:45 am - +91 96168 76192: Also which graph algo will be used in prblm C
+08/06/2019, 11:46 am - Nikhil Knit: warning is also considered as error.
+08/06/2019, 11:47 am - Avinash: bfs will be used
+08/06/2019, 11:48 am - Avinash: turbo c++ ke compiler🤣
+08/06/2019, 11:48 am - +91 80098 16660: Compilation then runtime then ac without any changes
+08/06/2019, 12:29 pm - S5: kuch important hoto cse group me bhi dal dena @919717482499
+08/06/2019, 12:29 pm - S5 left
+08/06/2019, 12:43 pm - Amritesh Khare: Plagiarism kb lgti h?
+08/06/2019, 12:44 pm - Amritesh Khare: Agra koi function online copy kiya ho tb?
+08/06/2019, 12:44 pm - Avinash: code segment match ho ... code match ho .... variable name chage karnai sai bhi kuch nahi hota..
+08/06/2019, 12:44 pm - Tejashavi: Help from internet Wala option tha na ek
+08/06/2019, 12:45 pm - Avinash: ya toh reference section mai likh do us site ke bare mai ... ya pray karo koi aur ussai  copy na kare
+08/06/2019, 12:45 pm - Amritesh Khare: Mockvita mei plagiarism lgne se codevita pe koi farak pdega?
+08/06/2019, 12:45 pm - Avinash: na kuch nahi
+08/06/2019, 12:46 pm - Tejashavi: Execution time aur memory taken bhi dekhte hai 
+ie same code mein agar plagiarism hatana ho toh ek array initialize kardo faltuka extra memory lega aur execution time mein bhi diff AA jayega
+08/06/2019, 1:08 pm - Amritesh Khare: Means?
+08/06/2019, 1:15 pm - Avinash: Accepted
+08/06/2019, 1:22 pm - +91 80098 16660: Nice idea tv
+08/06/2019, 1:54 pm - Tejashavi: Seniors bataye the fir bhi Jo code share Kar RHA hoga apne risk par Kare 😅😅
+08/06/2019, 2:16 pm - +91 80098 16660: Wahi.. Jo share kiya aur jisne copy kiya dono jaate hai
+08/06/2019, 2:31 pm - Shivang: This contest is a joke. The compiler is a piece of shit and some questions has extra hidden constraints not mentioned anywhere in the code.
+08/06/2019, 2:32 pm - +91 80098 16660: Truth has been spoken!
+08/06/2019, 2:34 pm - Avinash: Try brute force in missing constraint case... Assume count goes to maximum 100
+08/06/2019, 7:58 pm - +91 84237 62476: Infosys off-campus recruitment for 2020 passouts
+Infosys is likely to begin its regular on-campus placement drives from 1st September 2019 in colleges across India. But prior to this Infosys is going to conduct an off-campus drive. This off-campus drive has no aptitude questions/tests and is purely technical. The procedure is as given below.
+
+Eligibility for Infosys off-campus drive: B.E, B.Tech, M.E, M.Tech, M.Sc and MCA students of 2020 batch
+
+Visit https://infytq.infosys.com/
+08/06/2019, 7:59 pm - +91 84237 62476: *FACE Pulse | Campus placement updates*
+
+*InfyTq updates:*
+
+- Nearly 1.7 Lakh students have registered for infy TQ till now
+
+-  1st test is scheduled on June 7 2019
+
+- If a student fails in first attempt he can reapply after one month
+
+- If a student fails in second attempt he can reapply after three months 
+
+- Students who clear Infy TQ interview cleared students are eligible for job roles with a CTC of Rs. 5 to 8 lakhs
+
+- Infosys is planning to hire 15, 000 candidates before August end via Infy Tq
+08/06/2019, 11:52 pm - +91 80098 16660: <Media omitted>
+08/06/2019, 11:52 pm - +91 80098 16660: Solution please..
+08/06/2019, 11:55 pm - +91 82991 04558: #include<iostream>
+
+using namespace std;
+
+bool isPrime( int num )
+{
+	if( num >= 1 && num <= 3 )
+		return true;
+	if( num % 2 == 0 )
+		return false;
+	for( int i = 3 ; i < num/2 ; i=i+2 )
+	{
+		if( num%i==0 )
+			return false;
+	}
+	return true;
+}
+
+int main()
+{
+	int n;
+	cin >> n;
+	
+	int tempSum = 2;
+	int myCount = 0;
+	for( int j = 3 ; j < n ; j++ )
+	{
+		if( isPrime(j) )
+		{
+			tempSum+=j;
+			if( isPrime(tempSum) && tempSum<n )
+			{
+				myCount++;
+				//cout <<tempSum << endl;		// If you want to see those prime no then uncomment this statement.
+			}
+			
+		}
+	}
+	cout << myCount << endl;
+	return 0;
+}
+09/06/2019, 12:04 am - +91 82991 04558: need explanation too ?
+09/06/2019, 12:07 am - +91 80098 16660: I doubt that it will run for the given constrain.. N
+09/06/2019, 12:07 am - +91 80098 16660: Max value of n is greater than 10^9
+09/06/2019, 12:07 am - +91 82991 04558: Try it
+09/06/2019, 12:07 am - +91 80098 16660: Okk
+09/06/2019, 12:11 am - +91 82991 04558: Use local compiler*
+09/06/2019, 12:12 am - +91 80098 16660: Tle de rha 10^6 pr
+09/06/2019, 12:12 am - +91 82991 04558: Wait, let me check
+09/06/2019, 12:13 am - +91 80098 16660: Ok
+09/06/2019, 12:13 am - Karan: j<n ki jagah tempsum<n nhi hona chahiye??
+09/06/2019, 12:14 am - +91 82991 04558: Nahi
+09/06/2019, 12:14 am - +91 82991 04558: N is input
+09/06/2019, 12:14 am - Karan: for loop m
+09/06/2019, 12:14 am - +91 82991 04558: Value
+09/06/2019, 12:14 am - +91 79051 46793: N✓n type complexity hai nhi chalega 10^6 ki liye bhut zyada brute Force hai
+09/06/2019, 12:14 am - +91 82991 04558: Temp sum is storing sum
+09/06/2019, 12:15 am - Karan: tempsum hi toh req. prime nos h
+09/06/2019, 12:16 am - Karan: aur woh hi n se small hone chahiye
+09/06/2019, 12:16 am - Karan: toh is condn ko for loop m check kre toh shi rhega
+09/06/2019, 12:17 am - Karan: kyuki j extra condn check kr rha h
+09/06/2019, 12:18 am - +91 82991 04558: For loop is starting from j=3 lets suppose n=20 , it checks whether 3 is prime, yes it is then tempsum = tempsum+j =2+3=5 so if(5 is prime and 5<n ) yes then increment count
+09/06/2019, 12:19 am - Avinash: Tareeka galat hai... Time complexity bahut hai...
+09/06/2019, 12:19 am - +91 82991 04558: After j=4 is it prime  no
+09/06/2019, 12:19 am - +91 82991 04558: J=5 is it prime, yes then add to tempsum which was 2+3
+09/06/2019, 12:19 am - Avinash: Continuous prime sum... It can be 3 +5+7
+09/06/2019, 12:20 am - Karan: j=7 last condn h
+09/06/2019, 12:20 am - +91 80098 16660: it is given to start with 2
+09/06/2019, 12:20 am - Karan: 17 k liye
+09/06/2019, 12:21 am - Avinash: Okay
+09/06/2019, 12:21 am - Karan: toh loop extra 8 se 19 tk chalega
+09/06/2019, 12:21 am - +91 82991 04558: Yes, it's checking whether other conditions satisfy or not
+09/06/2019, 12:23 am - +91 82991 04558: check this out. maybe this is pseudo code is write
+09/06/2019, 12:23 am - +91 82991 04558: 1. Find all the prime numbers till N
+    i.  A  is an array length N + 1 initialized with numbers from 0 to N                 (0,1,2, ..., N)
+    ii. initialize p = 2
+        a.  for p = 2 to p * p <= N ; p++
+               if A[p] != 0 then
+                  for  i = p * 2; i <= N; i += p
+                         A[i] = 0 // mark non prime as 0
+2.  sum = 5, count = 0
+3. for j = 5 to j <= N;  j = j+2
+    i.  if  ( (A[j]  != 0 && A[j] = sum) || A[j] = -1)
+        count = count + 1
+    ii. if (A[j] != 0 || A[j] == -1)
+        sum = sum + j
+        if ( A[sum] != 0) // if A[sum] is prime
+            A[sum] = -1 // mark A[sum] as sum of consecutive
+4. print count
+09/06/2019, 12:23 am - +91 82991 04558: right*
+09/06/2019, 12:26 am - +91 80098 16660: Okk
+09/06/2019, 12:26 am - +91 80098 16660: Thanks
+09/06/2019, 12:27 am - +91 80098 16660: Upar sieve use kiya primes ke liye?
+09/06/2019, 12:27 am - +91 82991 04558: Yep, sieve of sundaram
+09/06/2019, 12:56 am - Karan: A[j]=sum
+*j=sum
+09/06/2019, 10:13 pm - Uqba joined using this group's invite link
+10/06/2019, 3:05 pm - +91 90588 37665 joined using this group's invite link
+11/06/2019, 8:57 pm - Diwakar: in this form knit collge is not available
+what are you fill in college block ?
+11/06/2019, 9:12 pm - +91 70802 12870: Write full college name, its not in the list you need to type and it will accept
+11/06/2019, 9:13 pm - Diwakar: thanks
+11/06/2019, 10:45 pm - Karan: codevita k liye apna zone konsa h??
+11/06/2019, 10:45 pm - Karan: 1 ya 2
+11/06/2019, 10:45 pm - Shivang: 2
+11/06/2019, 10:45 pm - Shivang: July wala
+11/06/2019, 10:46 pm - Karan: 👍👍
+14/06/2019, 6:33 pm - Tejashavi: How do u overcome presentation error
+14/06/2019, 6:34 pm - Avinash: That is caused by an extra /n
+14/06/2019, 6:35 pm - Shivang: Yes. Remove endline. No problem even if you don't
+14/06/2019, 6:35 pm - Tejashavi: Java use karta Hoon 
+Local compiler PE sahi dikha rha hai
+14/06/2019, 6:35 pm - Avinash: Means sometime they need next line and we do not give it...
+14/06/2019, 6:35 pm - Tejashavi: Wrong ans nhi dega ??
+14/06/2019, 6:35 pm - Shivang: Nahi
+14/06/2019, 6:35 pm - Avinash: Sahi hai... Presentation error AC hi hota hai
+14/06/2019, 6:36 pm - Tejashavi: Okay
+14/06/2019, 6:53 pm - Amritesh Khare: Println ki jgah print kr do bss
+14/06/2019, 9:34 pm - Karan: 28 june ya 12 july konsa codevita dena h hume???
+14/06/2019, 9:35 pm - Vedas: July
+14/06/2019, 9:35 pm - Karan: 👍👍
+14/06/2019, 10:15 pm - +91 91252 92576: 28 june show kar rha h
+14/06/2019, 10:16 pm - Shivang: That is not for our zone
+14/06/2019, 10:17 pm - +91 91252 92576: Tumhre me bhi 28 june hi show kar rha h?
+14/06/2019, 10:17 pm - avanish: You deleted this message
+15/06/2019, 1:03 am - Avinash: Hey koines time mockvita kar raha hai
+15/06/2019, 1:03 am - Avinash: ?
+15/06/2019, 1:03 am - Avinash: *koi
+15/06/2019, 1:05 am - Avinash: Es time
+15/06/2019, 1:08 am - Amritesh Khare: Haaa
+15/06/2019, 1:16 am - Avinash: thanks
+15/06/2019, 11:35 am - +91 91188 72207: Python 3 mei presentation error kaise hataye?
+15/06/2019, 11:36 am - Vedas: End = " "
+15/06/2019, 11:39 am - Vedas: print("your_string", end = " ")... Sayad isse hojaye
+15/06/2019, 11:42 am - +91 91188 72207: Haa ho gya ..thank you
+15/06/2019, 5:25 pm - +91 96168 76192: Has anyone solved prblm A of mkvita 2
+15/06/2019, 5:36 pm - +91 82991 04558: Send question
+15/06/2019, 5:47 pm - Tejashavi: Yes
+15/06/2019, 5:49 pm - Tejashavi: But try problem B instead that's way easy
+15/06/2019, 5:49 pm - Tejashavi: Try it first
+15/06/2019, 5:59 pm - Tejashavi: <Media omitted>
+15/06/2019, 9:01 pm - Sadhana left
+16/06/2019, 10:36 pm - +91 80098 16660: Bhai presentation error matlab answer correct ryt?
+16/06/2019, 10:37 pm - +91 84237 62476: Yupp
+16/06/2019, 10:37 pm - +91 80098 16660: Okk thanks
+17/06/2019, 3:50 pm - +91 81810 09879: .
+17/06/2019, 3:51 pm - +91 81810 09879: Isme 6 july k digital hiring waale test ka registration ka kuchh pta h kisi ko?
+17/06/2019, 4:23 pm - +91 98892 60075: Ok
+17/06/2019, 4:34 pm - +91 81810 09879: ??
+18/06/2019, 12:16 am - Tejashavi: Digital Hiring ka link bhej do registration karne ke liye
+18/06/2019, 8:07 pm - +91 84237 62476: For Digital Hiring there is no link available till now, We will respond you when we have any information regarding this....
+Thank you for your patience..😅
+18/06/2019, 8:07 pm - Tejashavi: Okay 👍🏻👍🏻
+19/06/2019, 8:12 pm - Avinash: <Media omitted>
+19/06/2019, 8:12 pm - Avinash: Apna compiler version check kar lo 🤣🤣
+21/06/2019, 5:35 pm - +91 88537 60748: This message was deleted
+21/06/2019, 5:36 pm - +91 88537 60748: This message was deleted
+22/06/2019, 10:25 am - Shivang added S5
+22/06/2019, 9:44 pm - +91 80098 16660: Register here for tcs digital hiring
+22/06/2019, 9:44 pm - +91 80098 16660: https://forms.gle/1XcUYo1JJQz397Xe9
+22/06/2019, 9:45 pm - +91 80098 16660: For premium institutes like knit they asked for registration separately so you have to fill out this form
+22/06/2019, 9:54 pm - Amritesh Khare: Last date?
+22/06/2019, 9:55 pm - +91 80098 16660: 6 ko test hai
+22/06/2019, 9:55 pm - +91 80098 16660: Aaj hi bhar do
+22/06/2019, 9:55 pm - +91 88537 60748: Sunday End of the day
+22/06/2019, 9:56 pm - +91 88537 60748: Prefer this
+22/06/2019, 9:56 pm - +91 85340 20321: Koi % criteria
+22/06/2019, 9:58 pm - +91 80098 16660: 70
+22/06/2019, 10:02 pm - Vedas: Venue??
+22/06/2019, 10:02 pm - +91 80098 16660: Online
+22/06/2019, 10:02 pm - Vedas: Achha
+22/06/2019, 10:02 pm - Vedas: 👍
+22/06/2019, 10:02 pm - +91 86301 61987: Last time to lko m tha na
+22/06/2019, 10:03 pm - +91 80098 16660: Sorry offline
+22/06/2019, 10:03 pm - +91 80098 16660: 😂
+22/06/2019, 10:03 pm - +91 80098 16660: Venue ni pta
+22/06/2019, 10:03 pm - +91 86301 61987: This message was deleted
+22/06/2019, 10:04 pm - Vedas: Lko hoga most probably
+22/06/2019, 10:05 pm - +91 80098 16660: Haa maybe
+22/06/2019, 10:06 pm - Vedas: Jo.. Next step mei fill kiye the.. Usme Test centre toh lko fill kiya gaya tha
+22/06/2019, 10:07 pm - Vedas: digital n ninja - both kiya gaya tha date - 20th July thi
+22/06/2019, 10:08 pm - Tejashavi: Woh alag hai
+22/06/2019, 10:08 pm - Vedas: Oh ok
+22/06/2019, 10:09 pm - Tejashavi: Jo colleges  premier institute nhi hai unke liye digital hiring sirf nqt ke though ho sakti hai
+22/06/2019, 10:10 pm - Vedas: Okay
+22/06/2019, 10:10 pm - Vedas: 👍
+22/06/2019, 10:29 pm - +91 79051 46793: Digital KE test me Sirf coding hogi ya apti aur English bhi pucha jayega?
+22/06/2019, 10:30 pm - +91 96168 76192: All advanced level
+22/06/2019, 10:30 pm - +91 96168 76192: Tougher than ninja
+22/06/2019, 10:30 pm - Vedas: Overall
+23/06/2019, 12:13 am - Prashant knit changed their phone number to a new number. Tap to message or add the new number.
+23/06/2019, 3:57 am - Prashant Knit changed their phone number to a new number. Tap to message or add the new number.
+23/06/2019, 7:57 pm - +91 80098 16660: Codevita registeration me khi cv upload toh ni krni thi na?
+23/06/2019, 7:59 pm - +91 78449 92214: Tcs NQT wale k liye upload krna hai
+23/06/2019, 7:59 pm - +91 80098 16660: Okk
+23/06/2019, 7:59 pm - +91 80098 16660: Uska registration next step portal pr ho rha?
+23/06/2019, 7:59 pm - +91 78449 92214: Han
+23/06/2019, 8:00 pm - +91 80098 16660: Last date?
+23/06/2019, 8:00 pm - +91 73797 43197: Ha 10 july aakhiri date h
+23/06/2019, 8:00 pm - +91 78449 92214: Pehle pura application form fill kr lo fir drive k liye register kr dena
+23/06/2019, 10:28 pm - +91 80098 16660 added Sadhana
+24/06/2019, 3:04 pm - +91 79057 11949 joined using this group's invite link
+24/06/2019, 7:03 pm - +91 80098 16660 added +91 85638 87701
+25/06/2019, 6:50 pm - Shivang added +91 94570 09431
+25/06/2019, 10:10 pm - +91 80098 16660 added +91 85740 09400
+27/06/2019, 12:40 pm - +91 80098 16660: Guys keep sharing questions
+27/06/2019, 12:41 pm - +91 80098 16660: Also if you see any event news then do share here
+27/06/2019, 12:41 pm - Prakhar: Hamara codevita round kab hoga
+27/06/2019, 12:41 pm - Prakhar: 28 ya 13?
+27/06/2019, 12:41 pm - +91 80098 16660: July wala date
+27/06/2019, 12:41 pm - Prakhar: Thanks
+27/06/2019, 1:04 pm - +91 73797 43197: Mail aaya hoga sabko
+27/06/2019, 1:04 pm - Prakhar: Zone check karne ko aaya tha
+27/06/2019, 1:05 pm - +91 80098 16660: 12 se 13 July
+27/06/2019, 1:05 pm - +91 80098 16660: Lucknow branch
+27/06/2019, 1:33 pm - +91 73797 43197: <Media omitted>
+27/06/2019, 6:50 pm - +91 80098 16660 added +91 99970 63375
+28/06/2019, 2:30 pm - Prerna: 6th july ko tcs ke test ka venue kya hai?
+28/06/2019, 6:02 pm - Amritesh Khare: .
+28/06/2019, 11:43 pm - Priyanka joined using this group's invite link
+30/06/2019, 3:05 am - +91 84236 02223 left
+30/06/2019, 10:46 am - SDV3 changed their phone number to a new number. Tap to message or add the new number.
+30/06/2019, 10:48 am - +91 82995 34168 changed to +91 85778 23944
+30/06/2019, 3:00 pm - +91 88539 03404 joined using this group's invite link
+30/06/2019, 9:54 pm - Shivang: Hello TPRs
+Please make sure to consult us regarding the centre for TCS Digital drive. Last year, I recall, there was a provision of centre change in case you couldn't make it to Lucknow.
+30/06/2019, 11:06 pm - +91 98073 91504: same query
+30/06/2019, 11:53 pm - +91 84237 62476: This message was deleted
+30/06/2019, 11:55 pm - +91 84237 62476: *We are hoping to get it decided by tomorrow or by the end of next day........then we will surely try to know the provision if any*
+
+_*-Thank you for your patience*_
+01/07/2019, 1:57 pm - +91 80098 16660: <Media omitted>
+01/07/2019, 1:57 pm - +91 80098 16660: Came across this problem
+03/07/2019, 10:53 am - +91 73797 43197: https://on.tcs.com/2Xss6qa
+03/07/2019, 10:53 am - +91 73797 43197: Last date 10 july jisne nhi bhara bhar de
+03/07/2019, 10:53 am - +91 73797 43197: TNQT TCS
+03/07/2019, 11:18 am - +91 80098 16660: https://forms.gle/KEzFg3YUhQyzt5ZPA
+03/07/2019, 11:19 am - +91 80098 16660: Centre preference for tcs digital! Fill before 2 pm! Those who have name in the list provided in the form should only fill the form!
+03/07/2019, 11:22 am - Shivang: The exam is on 6th right?
+03/07/2019, 11:22 am - +91 88537 60748: I fear...it is
+03/07/2019, 12:38 pm - +91 84237 62476: College will open on 22 nd july for Final year
+03/07/2019, 12:46 pm - +91 95549 16622 joined using this group's invite link
+03/07/2019, 1:00 pm - +91 75710 74633 joined using this group's invite link
+04/07/2019, 3:08 pm - +91 84237 62476 added +91 77058 40766
+05/07/2019, 7:19 am - Khushboo: Lucknow confirm hai na?
+05/07/2019, 9:21 am - +91 79051 46793: Kisi ko koi bhi venue aur timing se related mail aaya hai?
+05/07/2019, 9:21 am - Shivang: Na
+05/07/2019, 9:24 am - +91 79051 46793: Does anyone have any idea of the whereabouts of  test scheduled for tomorrow?
+05/07/2019, 9:24 am - +91 79051 46793: @TPRs and @Group Admins
+05/07/2019, 9:38 am - ASHUTOSH Knit: Most probably in lucknow
+05/07/2019, 2:08 pm - +91 84237 62476: Mail aana start ho gya
+05/07/2019, 2:08 pm - +91 84237 62476: 🤟🏻
+05/07/2019, 2:08 pm - +91 84237 62476: Get ready🤣
+05/07/2019, 2:08 pm - +91 98380 81123: Yup😁
+05/07/2019, 2:08 pm - Tejashavi: Yo
+05/07/2019, 2:08 pm - +91 84237 62476: Finally Wait is over...😂
+05/07/2019, 2:09 pm - +91 84237 62476: Venue Name & Address :  iON Digital Zone iDZ  Jankipuram Extension
+                                          Cosmo Foundation,Opposite SEWA Hospital, Sitapur Road, Behind CDRI, Jankipuram Extension,Lucknow,Uttar Pradesh,226031
+05/07/2019, 2:10 pm - +91 84237 62476: Sabka address yahi hai...ya change hua hai?🤔
+05/07/2019, 2:10 pm - +91 87658 86391: Same
+05/07/2019, 2:10 pm - Vineet Maurya: Same
+05/07/2019, 2:10 pm - Raj Shrivastava: Mera bhi yahi h
+05/07/2019, 2:10 pm - Vedas: Timing bhi same hai??
+05/07/2019, 2:10 pm - Vedas: 5:00 pm??
+05/07/2019, 2:10 pm - Raj Shrivastava: 3.30 reporting लिखा h
+05/07/2019, 2:11 pm - Vedas: Haan..
+05/07/2019, 2:11 pm - Vedas: 5 bje se exam
+05/07/2019, 2:29 pm - +91 73098 78907: Kisika ka kanpur gya h kya?
+05/07/2019, 2:34 pm - +91 88537 60748: Kch logo ka
+05/07/2019, 2:38 pm - +91 73098 78907: Kiska h bta do bhai
+05/07/2019, 2:39 pm - +91 88537 60748: Abhi tak to kewal MCA walo ne bola h...aur ek tu
+05/07/2019, 2:42 pm - +91 80098 16660: Shit
+05/07/2019, 2:43 pm - +91 73098 78907: Maine to btech dala tha😅
+05/07/2019, 2:43 pm - +91 80098 16660: Mera kanpur ni haj
+05/07/2019, 2:43 pm - +91 80098 16660: 😂
+05/07/2019, 2:43 pm - Raj Shrivastava: 😂
+05/07/2019, 2:45 pm - Shivang: Sabka 5 baje Hai ya humhi badkismat Hai?
+05/07/2019, 2:46 pm - +91 84237 62476: Sabka
+05/07/2019, 2:47 pm - Shivang: Mai Kal raat wapas nikal sakta hu na?
+05/07/2019, 2:47 pm - Shivang: @918423762476
+05/07/2019, 2:48 pm - +91 84237 62476: 3 hours ka hi test hai.....
+Aage agar unhe jyada pyar aaya tbhi rokenge....
+05/07/2019, 2:48 pm - +91 84237 62476: Warna chhod denge..... probably😂😂😂
+05/07/2019, 3:12 pm - +91 70802 12870: Exam 5-7 hai
+05/07/2019, 3:12 pm - +91 70802 12870: Probably
+05/07/2019, 3:14 pm - +91 98380 81123: 3 ghnte ka h na exam to?
+05/07/2019, 3:15 pm - +91 84237 62476: Yupp
+05/07/2019, 3:16 pm - +91 84237 62476: Iska aim 2 hrs me complete karne ka hai #kanpuria_rocks.😂😂
+05/07/2019, 3:16 pm - +91 98380 81123: 😂😂
+05/07/2019, 3:18 pm - Pawan Mishra: 3 ghante Kaise Kya hona hai yaar?
+05/07/2019, 3:19 pm - +91 84237 62476: Hm bhi pahli bar hi ja rhe.....aake bata denge🤔
+05/07/2019, 3:19 pm - +91 84237 62476: 😂😂
+05/07/2019, 3:19 pm - Pawan Mishra: 🤣🤣
+05/07/2019, 3:20 pm - +91 84237 62476: google kar lo pattern👍🏻
+05/07/2019, 3:20 pm - Pawan Mishra: <Media omitted>
+05/07/2019, 3:20 pm - Pawan Mishra: Ok
+05/07/2019, 3:23 pm - Pawan Mishra: <Media omitted>
+05/07/2019, 3:24 pm - Pawan Mishra: 3 hours it is
+05/07/2019, 3:37 pm - +91 73797 43197: <Media omitted>
+05/07/2019, 3:38 pm - Vedas: English mei.. 10 questions the cutoff 12 kaise gya..
+05/07/2019, 3:38 pm - Vedas: 😅
+05/07/2019, 3:39 pm - +91 79057 11949: This message was deleted
+05/07/2019, 3:40 pm - +91 84237 62476: Iski link bhej do..... atleast test se pahle pata rhe...karne kya ja rhe waha😂
+05/07/2019, 3:42 pm - +91 73797 43197: Senior ne yhi diya h, Aur kisi ko kuch mile tho bhej dena
+05/07/2019, 9:49 pm - +91 73797 43197: please carry college id card and government id proof. 
+Along with Mail printout
+Spread the message.
+05/07/2019, 9:50 pm - +91 73797 43197: Who are not in this group
+05/07/2019, 9:53 pm - +91 96168 76192: Mail print out wo address wala
+05/07/2019, 9:54 pm - +91 96168 76192: Application form ka print out nhi lejana
+05/07/2019, 9:55 pm - +91 80098 16660: Mail jo aaj aaya hai?
+05/07/2019, 9:55 pm - +91 95326 86711: This message was deleted
+05/07/2019, 9:59 pm - +91 73797 43197: Haa
+05/07/2019, 9:59 pm - +91 75220 17983: Okk
+05/07/2019, 10:09 pm - Sadhana: Hey .. I lost my college id.
+05/07/2019, 10:12 pm - +91 84237 62476: Soft copy...agar ho to
+05/07/2019, 10:12 pm - +91 75220 17983: Okk
+05/07/2019, 10:34 pm - Sadhana: Nhi
+05/07/2019, 10:38 pm - Sadhana: I got my hall ticket mail.
+05/07/2019, 10:38 pm - +91 88537 60748: Students should have received a mail in which their roll no. Is written
+05/07/2019, 10:39 pm - +91 88537 60748: Get that printed...instead of previous one
+05/07/2019, 10:39 pm - Sadhana: Ok
+05/07/2019, 10:42 pm - +91 88537 60748: If not, then wait...
+05/07/2019, 10:43 pm - +91 88537 60748: I hope there is no query left....
+05/07/2019, 10:44 pm - +91 80098 16660: <Media omitted>
+05/07/2019, 11:19 pm - +91 98380 81123: Exam to 2 ghnte ka h..to phr uske pattern mei bhi change hoga?
+05/07/2019, 11:21 pm - +91 84237 62476: ab whi jai mata di karenge
+05/07/2019, 11:21 pm - +91 84237 62476: jaisa bhi rhe
+05/07/2019, 11:21 pm - +91 98380 81123: Ok😅
+05/07/2019, 11:22 pm - +91 84237 62476: May be NQT ka pattern ho fir
+05/07/2019, 11:23 pm - +91 79051 46793: 3 hour ka hi to hai
+05/07/2019, 11:23 pm - +91 84237 62476: abhi jo mail aay hai usme check kariye
+05/07/2019, 11:24 pm - +91 95218 68035 joined using this group's invite link
+05/07/2019, 11:25 pm - +91 88537 60748: Shayad kewal apti/coding and coding Ability yhi teen section honge
+05/07/2019, 11:26 pm - +91 79051 46793: Shayad advanced coding vala na ho🤨🤨ek ghante ka separate section vahi hai
+05/07/2019, 11:26 pm - +91 88537 60748: Shayad....
+05/07/2019, 11:26 pm - +91 84237 62476: ye suspense kal 5 bje khatm hoga😂
+05/07/2019, 11:26 pm - +91 88537 60748: 😂
+05/07/2019, 11:28 pm - +91 84237 62476: By the way best of Luck to everyone.....and thanks for the effort made by Sajag and Shiva....🤟
+05/07/2019, 11:28 pm - Devesh: 😂😂
+05/07/2019, 11:29 pm - +91 98380 81123: Yup..all d best everyone...👍🏻
+05/07/2019, 11:50 pm - +91 88537 60748: And to vivek as well....for being the spokesperson....the toughest task
+05/07/2019, 11:50 pm - +91 88537 60748: 😂
+06/07/2019, 1:13 am - +91 80098 16660: <Media omitted>
+06/07/2019, 1:14 am - +91 80098 16660: This message was deleted
+06/07/2019, 1:14 am - +91 80098 16660: Our date 30 right?
+06/07/2019, 1:15 am - +91 79051 46793: 29 final year me aa jaoge ab to
+06/07/2019, 1:38 am - +91 80098 16660: Ooh
+06/07/2019, 1:38 am - +91 80098 16660: Sorry
+06/07/2019, 6:31 am - Avinash: <Media omitted>
+06/07/2019, 6:39 am - Vedas: Tumhe bhi
+06/07/2019, 6:39 am - Vedas: 😊
+06/07/2019, 9:18 am - +91 98073 91504: Is anyone who's reporting time is 8:30.
+06/07/2019, 9:19 am - +91 98073 91504: I mean in the new test centres
+06/07/2019, 11:06 am - Shivang: Anybody at Charbagh railway station or near willing to share an Uber ride to the centre, feel free to contact.
+06/07/2019, 3:45 pm - +91 84237 62476: <Media omitted>
+06/07/2019, 10:43 pm - +91 79051 46793: Farewell to all people, travel safe.
+07/07/2019, 8:23 am - Tejashavi: https://discuss.codechef.com/tags/codevita/
+07/07/2019, 8:39 am - Tejashavi: Avinash or anyone else plz do share some math problems to practice for codevita I don't wanna choke in yet another test
+07/07/2019, 8:41 am - +91 96168 76192: Atleast just tell the maths used in the coding problem of tcs digital exam
+07/07/2019, 8:42 am - +91 96168 76192: That legendre polynomial
+07/07/2019, 11:40 am - Avinash: okay mai dekhta hu
+07/07/2019, 5:01 pm - +91 79051 46793: I don't remember the entire recurrence relation that is why the solution would be incorrect but an approach similar to fibonacci i used to solve yesterday's problem and it was simple if we keep the mind calm
+07/07/2019, 5:01 pm - +91 79051 46793: #include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+	int m;
+	cin>>m;
+	while(m--)
+	{
+		int n;
+		double x;
+		cin>>n>>x;
+		if(n==0)
+			cout<<0<<endl;
+		else if(n==1)
+			cout<<setprecision(4)<<x<<endl;
+		else
+		{
+			double first=0,second=x,next;
+			for(int i=2;i<=n;i++)
+			{
+				next=(((2*(i-1)+1)*x*second)-((i-1)*first))/i;
+				first=second;
+				second=next;
+			}
+			cout<<setprecision(4)<<next<<endl;
+		}
+	}
+	return 0;
+}
+07/07/2019, 5:09 pm - +91 79051 46793: If anyone has any issue to bol dena
+07/07/2019, 5:09 pm - +91 79051 46793: Aur agar kisi ko recurrence relation yaad ho to BTA do Mai is solution ko sahi KR dunga
+07/07/2019, 6:14 pm - +91 80098 16660: Usme recurrence diya hua tha bs usko thoda modify krna tha
+07/07/2019, 9:32 pm - +91 79051 46793: https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/
+08/07/2019, 9:48 am - Vedas: Infosys - https://infytq.infosys.com/home
+08/07/2019, 9:48 am - Vedas: slots are available for 18th July
+08/07/2019, 9:48 am - Vedas: in Noida
+08/07/2019, 11:05 am - +91 80098 16660: This is for?
+08/07/2019, 11:05 am - +91 80098 16660: Certification?
+08/07/2019, 11:06 am - Shivang: Yes.
+08/07/2019, 11:06 am - Shivang: This message was deleted
+08/07/2019, 11:07 am - Vedas: Placement too if u get 65% + in the test n clear the HR round interview
+08/07/2019, 11:08 am - +91 88537 60748: 😂
+08/07/2019, 11:08 am - Shivang: Ah yes.
+08/07/2019, 11:23 am - +91 70802 12870: This means the test will be at noida or if selected, then the interview will be at noida??
+08/07/2019, 11:23 am - Vedas: There are more test locations too
+08/07/2019, 11:23 am - Vedas: Closest one is Noida
+08/07/2019, 11:24 am - Vedas: And interview will be just after the test
+08/07/2019, 11:24 am - +91 70802 12870: Oh okay!
+08/07/2019, 11:27 am - +91 73797 43197: <Media omitted>
+08/07/2019, 11:28 am - +91 70802 12870: 🤘🏻
+08/07/2019, 11:32 am - Shivang: There is no centre other than Noida in the state of UP.
+08/07/2019, 11:32 am - Shivang: FYI
+08/07/2019, 12:14 pm - S5: koi fess submit krni h ya free h
+08/07/2019, 12:21 pm - +91 98380 81123: Free h
+08/07/2019, 5:36 pm - +91 79051 46793: Digital wale ka result ka kaise PTA chalega??
+09/07/2019, 9:04 pm - +91 81810 09879: TCS NQT 2020 mein mera ek friend aaj register kr rha h to usko exam date 3 aug dikha rha h
+09/07/2019, 9:05 pm - +91 81810 09879: Kisi aur ki bhi exam date 20 july k alawa h?
+09/07/2019, 9:05 pm - +91 81810 09879: And TPRs, pta kr skte ho ki date change to nhi ho gyi sbki?
+09/07/2019, 10:15 pm - +91 96345 94599: Meri 3 august
+09/07/2019, 10:21 pm - +91 88537 60748: Screenshots..
+09/07/2019, 10:22 pm - +91 96345 94599: Nahi liya
+09/07/2019, 10:23 pm - +91 81810 09879: Maine send kr diya sajag ko
+09/07/2019, 10:29 pm - +91 88537 60748: Yr 20 ke liye application limit exceed ho gya hoga...we will confirm and let you know
+10/07/2019, 10:46 am - Vedas: Sayad shift hua hai
+10/07/2019, 10:46 am - Vedas: 3-4 August mei
+10/07/2019, 10:47 am - Shivang: Maine, abhi edit drive kiya to Sirf 3rd Aug ki date thi aur maine wahi select karke change kar di.
+10/07/2019, 10:47 am - +91 73797 43197: This message was deleted
+10/07/2019, 10:47 am - Shivang: August is more convenient.
+10/07/2019, 10:47 am - +91 73797 43197: Apply for drive m 3 August ki date aa rahi h tho update kar sakte h
+10/07/2019, 10:48 am - Vedas: The TNQT Test scheduled to be held on 20th July has now been shifted to 3rd and 4th August.
+
+The last date to apply has also been extended to 24th July.
+
+Points to Note :
+
+1.The Test Center which was given earlier by the student will remain the same. 
+
+2.If students wish to change the Test Center they can do so using ‘Update Drive Details’.
+
+System queries :
+
+1. For already applied students the test center will remain blank, this is nothing to worry about.
+
+2. The system will only show 3rd August as the date though the test is on both 3rd and 4th. We are working to fix this issue.
+10/07/2019, 10:51 am - Vedas: Sabhi log update krlo TCS Next step p jake
+10/07/2019, 11:07 am - Rohit: Anyone here jisne  *infosys* ka slot book na ker paya ho..??
+10/07/2019, 11:11 am - Prakhar: 🙌
+10/07/2019, 11:12 am - +91 89608 31685: Me
+10/07/2019, 11:13 am - Rohit: Slot available in bhopal
+10/07/2019, 11:14 am - Rohit: Only 49 slot remains maine bhopal ker diya hai
+10/07/2019, 11:16 am - Rohit: 18 July
+10/07/2019, 11:21 am - Amritesh Khare: Open nhi ho rha
+10/07/2019, 11:23 am - +91 91299 29958: Recheck krlo...ab open ho rha
+10/07/2019, 11:23 am - +91 73797 43197: Open ho rha h
+10/07/2019, 11:50 am - +91 98892 60075: maine bhi abhi slot book nhi kya h
+10/07/2019, 12:13 pm - Prerna: nhi open ho rhi site.
+10/07/2019, 12:14 pm - Amritesh Khare: Naah
+10/07/2019, 12:38 pm - Tejashavi: Wait Karo ho jayegi open
+10/07/2019, 1:02 pm - S5: infosys ka syllabus bta do bhai log kisi ko pta ho to
+10/07/2019, 1:47 pm - Vedas: Python - OOPs, DS n Algo and DBMS
+10/07/2019, 1:47 pm - Vedas: Sample test hai idea lene k liye
+11/07/2019, 9:09 am - +91 94159 07304 joined using this group's invite link
+11/07/2019, 9:17 am - Khushboo: This message was deleted
+11/07/2019, 12:28 pm - Devesh: Anyone who booked infosis slot for bhuvneshwar????
+11/07/2019, 12:46 pm - +91 80098 16660: Kal 3 se exam hai! Jo jo apna session krte jae woh jo jo questions hue hai woh daal dena aur session ke beech me koi doubt hoga toh question daal dena.. We will try to help
+11/07/2019, 2:47 pm - +91 72378 94200: Mai dala hoo
+11/07/2019, 3:52 pm - Devesh: 👍👍
+11/07/2019, 4:19 pm - +91 98380 81123: <Media omitted>
+11/07/2019, 4:23 pm - +91 79051 46793: Test pass KR Lena doesn't guarantee a job role and interview
+11/07/2019, 4:25 pm - +91 98380 81123: Mtlb this is nt a proper hiring test? Its mainly fr certification?
+11/07/2019, 4:25 pm - +91 79051 46793: Yes
+11/07/2019, 4:41 pm - S5: bhai tum UT wale utkarsh ho ya GT vale
+11/07/2019, 4:41 pm - +91 79051 46793: Ye kaisa sawal hai ut Hun vaise
+11/07/2019, 4:42 pm - S5: ese hi puch raha tha
+thank s
+11/07/2019, 4:42 pm - S5: thanks*
+11/07/2019, 5:20 pm - +91 74081 28242: 😂
+11/07/2019, 5:35 pm - Prashant Dowedi: 😂 😂
+11/07/2019, 7:23 pm - +91 98380 81123: <Media omitted>
+11/07/2019, 7:23 pm - +91 98380 81123: <Media omitted>
+11/07/2019, 7:30 pm - +91 96212 36512: This message was deleted
+11/07/2019, 7:30 pm - +91 96212 36512: This message was deleted
+11/07/2019, 7:49 pm - +91 73797 43197: Jinka Hackwithinfy m 2nd Round ka mail aa gya h vo check kar le ki test ki link unke kl tk mil jaae, agar nhi milti h tho ek baar infosys m contact kar le.
+11/07/2019, 7:49 pm - +91 73797 43197: Thing that is required in Round 2 is the webcam and good internet connection so make sure of it.
+11/07/2019, 10:07 pm - Tejashavi: Koi Kal 3 baje wale slot mein karega codevita
+11/07/2019, 10:08 pm - Tejashavi: ?
+11/07/2019, 11:06 pm - +91 79051 46793: Yup around 3
+11/07/2019, 11:33 pm - +91 95325 82402 joined using this group's invite link
+11/07/2019, 11:07 pm - Tejashavi: Screenshot bhej Dena questions ka jab start karega
+12/07/2019, 12:40 am - +91 94540 86837 joined using this group's invite link
+11/07/2019, 11:09 pm - +91 79051 46793: Acha
+12/07/2019, 12:57 am - +91 91250 31384 joined using this group's invite link
+12/07/2019, 10:38 am - +91 70558 17896 joined using this group's invite link
+12/07/2019, 10:55 am - +91 82189 79852 joined using this group's invite link
+12/07/2019, 11:50 am - Vineet Maurya: This message was deleted
+12/07/2019, 3:45 pm - +91 80098 16660: Jinhone shuru kr diya ho.. Questions daalte jao please
+12/07/2019, 3:46 pm - +91 89799 84329: <Media omitted>
+12/07/2019, 3:46 pm - +91 89799 84329: <Media omitted>
+12/07/2019, 3:46 pm - +91 89799 84329: <Media omitted>
+12/07/2019, 3:46 pm - +91 89799 84329: <Media omitted>
+12/07/2019, 3:46 pm - +91 89799 84329: <Media omitted>
+12/07/2019, 3:46 pm - +91 89799 84329: <Media omitted>
+12/07/2019, 3:46 pm - +91 89799 84329: <Media omitted>
+12/07/2019, 3:46 pm - +91 89799 84329: <Media omitted>
+12/07/2019, 3:46 pm - +91 89799 84329: <Media omitted>
+12/07/2019, 3:47 pm - +91 89799 84329: <Media omitted>
+12/07/2019, 3:52 pm - +91 88537 60748: <Media omitted>
+12/07/2019, 3:53 pm - +91 88537 60748: Congratulations to all the selected candidates.
+12/07/2019, 4:52 pm - Anmol KNIT: Ye question agar koi kia ho to pair ka koi hint de do
+12/07/2019, 5:01 pm - Amritesh Khare: Isse alag questions jo aae vo share krte rhna
+12/07/2019, 5:01 pm - Devesh: <Media omitted>
+12/07/2019, 5:01 pm - Devesh: <Media omitted>
+12/07/2019, 5:01 pm - Devesh: <Media omitted>
+12/07/2019, 5:02 pm - Devesh: <Media omitted>
+12/07/2019, 5:02 pm - Devesh: <Media omitted>
+12/07/2019, 5:02 pm - Devesh: <Media omitted>
+12/07/2019, 5:02 pm - Devesh: <Media omitted>
+12/07/2019, 5:02 pm - Devesh: <Media omitted>
+12/07/2019, 5:02 pm - Devesh: <Media omitted>
+12/07/2019, 5:02 pm - Devesh: <Media omitted>
+12/07/2019, 5:02 pm - Devesh: <Media omitted>
+12/07/2019, 5:16 pm - +91 86301 61987: Yr presentation error kaise remove krte hn
+12/07/2019, 5:17 pm - Tejashavi: Mt Kar
+12/07/2019, 5:17 pm - Anmol KNIT: Output se space hta do
+12/07/2019, 5:17 pm - +91 86301 61987: Ku
+12/07/2019, 5:18 pm - Tejashavi: Accept correct hi hota hai presentation error
+12/07/2019, 5:18 pm - +91 86301 61987: Mtlb
+12/07/2019, 5:18 pm - Tejashavi: Mtlb sahi hai jab Tak wrong ans na likha ho
+12/07/2019, 5:18 pm - Tejashavi: Sahi hai ans
+12/07/2019, 5:18 pm - +91 86301 61987: Ohkay
+12/07/2019, 5:20 pm - Tejashavi: Tera kaun se Wala set hai
+12/07/2019, 5:39 pm - +91 79051 46793: Yr PDF bna KE daal dete
+12/07/2019, 5:40 pm - Avinash: yes
+12/07/2019, 5:48 pm - Prashant knit: <Media omitted>
+12/07/2019, 5:48 pm - Prashant knit: <Media omitted>
+12/07/2019, 5:48 pm - Prashant knit: <Media omitted>
+12/07/2019, 5:48 pm - Prashant knit: <Media omitted>
+12/07/2019, 5:48 pm - Prashant knit: <Media omitted>
+12/07/2019, 5:48 pm - Prashant knit: <Media omitted>
+12/07/2019, 6:11 pm - +91 86301 61987: <Media omitted>
+12/07/2019, 6:11 pm - +91 86301 61987: <Media omitted>
+12/07/2019, 6:11 pm - +91 86301 61987: <Media omitted>
+12/07/2019, 6:11 pm - +91 86301 61987: <Media omitted>
+12/07/2019, 6:11 pm - +91 86301 61987: <Media omitted>
+12/07/2019, 6:11 pm - +91 86301 61987: <Media omitted>
+12/07/2019, 6:38 pm - ASHUTOSH Knit: help krna
+12/07/2019, 6:38 pm - Vedas: This message was deleted
+12/07/2019, 6:39 pm - ASHUTOSH Knit: This message was deleted
+12/07/2019, 6:39 pm - ASHUTOSH Knit: This message was deleted
+12/07/2019, 6:39 pm - Shivang: first question, the clock one. Getting wrong answer. Any suggestions
+12/07/2019, 6:39 pm - Vedas: This message was deleted
+12/07/2019, 6:39 pm - Shivang: ?
+12/07/2019, 6:45 pm - Raj Shrivastava: Angle nikalte time vo ध्यान rakha hai na.. Hour hand के आगे move krne ka between wrt minutes into the hour
+12/07/2019, 6:46 pm - Raj Shrivastava: *b/w 2 adjacent hours
+12/07/2019, 6:46 pm - Vedas: Matlb?
+12/07/2019, 6:47 pm - +91 82189 79852: Bhai clock angle Wala hua kisa ka
+12/07/2019, 6:50 pm - +91 89608 31685: Test cases clear Ho re?
+12/07/2019, 6:51 pm - Khushboo: Presentation error ko neglect karna hai na???
+12/07/2019, 6:51 pm - Raj Shrivastava: Test case हुआ?
+12/07/2019, 6:52 pm - Tejashavi: Yes agar correct ans AA Jaye
+12/07/2019, 6:52 pm - Shivang: ha test case clear ho rahe hai
+12/07/2019, 6:52 pm - Khushboo: Showing submission against private test cases successful
+12/07/2019, 6:53 pm - Tejashavi: Sahi hai
+12/07/2019, 6:53 pm - Khushboo: Ok
+12/07/2019, 6:55 pm - Anmol KNIT: Bottle neck questions jiska hoga main hint de sakta hoon
+12/07/2019, 6:57 pm - +91 96168 76192: Dedo bhai fir deri kaisi
+12/07/2019, 6:58 pm - +91 89608 31685: Logic ?
+12/07/2019, 6:58 pm - Anmol KNIT: 2 nested priority queue bnega
+12/07/2019, 6:59 pm - Anmol KNIT: Outer max and inner min store krega peak per
+12/07/2019, 7:01 pm - +91 82991 04558: @919717482499 ... Hour hand moves 0.5° per min .... Whereas minute hand moves at 6° per minute? Am i thinking in right direction?
+12/07/2019, 7:11 pm - +91 79051 46793: <Media omitted>
+12/07/2019, 7:11 pm - +91 79051 46793: <Media omitted>
+12/07/2019, 7:11 pm - +91 79051 46793: <Media omitted>
+12/07/2019, 7:11 pm - +91 79051 46793: <Media omitted>
+12/07/2019, 7:11 pm - +91 79051 46793: <Media omitted>
+12/07/2019, 7:11 pm - +91 79051 46793: <Media omitted>
+12/07/2019, 7:27 pm - Tejashavi: Kisi ka clock Wala ho Jaye toh btana
+12/07/2019, 7:31 pm - ASHUTOSH Knit: salary paid vala question kisi ne kiya hai ?
+12/07/2019, 8:15 pm - Atharva Knit: Lexi string h kisi ka?
+12/07/2019, 8:16 pm - Shivang: ha mera
+12/07/2019, 8:16 pm - Raj Shrivastava: @918755389926
+12/07/2019, 8:16 pm - Avinash: Prime face kisi nai kiya ?
+12/07/2019, 8:17 pm - Tejashavi: Kar RHA Hoon
+12/07/2019, 8:21 pm - S5: secret code kese dalte h
+12/07/2019, 8:21 pm - +91 79051 46793: Campus commune pr tumhara secret code hoga
+12/07/2019, 8:22 pm - +91 79051 46793: Vahi login krte waqt password daalna hoga
+12/07/2019, 8:22 pm - S5: jesa h vesa hi same
+12/07/2019, 8:22 pm - S5: uspr Mouse le jane pr words dikh rhe h voto nhi dalne na
+12/07/2019, 8:23 pm - +91 79051 46793: Nhi
+12/07/2019, 8:23 pm - +91 79051 46793: Jaisa hai vaise hi
+12/07/2019, 8:23 pm - S5: accha thik h
+12/07/2019, 8:23 pm - S5: thank s
+12/07/2019, 8:35 pm - +91 79053 22742: Lazy problem ka koi aur test hai?
+12/07/2019, 8:35 pm - +91 79053 22742: Koi de sakta hai?
+12/07/2019, 8:37 pm - +91 88537 60748: Yr clock wale mein 5:30 pr 15 degree ka angle kaise banega..any explanations?
+12/07/2019, 8:37 pm - Raj Shrivastava: Kyuki 5:30 pe hour hand भी 5 के आगे होगा
+12/07/2019, 8:38 pm - Raj Shrivastava: .5*30 डिग्री age
+12/07/2019, 8:38 pm - Raj Shrivastava: 15 degree age
+12/07/2019, 8:38 pm - +91 88537 60748: Acha..ok
+12/07/2019, 8:38 pm - Raj Shrivastava: 👍
+12/07/2019, 8:39 pm - Khushboo: Is anyone doing VM fitment question?
+12/07/2019, 9:06 pm - Shivang: anybody got a better dp solution for "uncertain steps". Large values result in stack overflow using top down approach.
+12/07/2019, 9:28 pm - +91 85340 20321: yrr kise ne DIVINE DIVISORS kiya, mera run time error arha h
+12/07/2019, 9:36 pm - Khushboo: Kisine digit pairs kiya hai kya
+12/07/2019, 9:41 pm - Diwakar: <Media omitted>
+12/07/2019, 9:42 pm - Diwakar: <Media omitted>
+12/07/2019, 9:44 pm - Diwakar: <Media omitted>
+12/07/2019, 9:44 pm - Diwakar: <Media omitted>
+12/07/2019, 9:45 pm - Diwakar: <Media omitted>
+12/07/2019, 9:45 pm - Diwakar: <Media omitted>
+12/07/2019, 9:54 pm - Raj Shrivastava: <Media omitted>
+12/07/2019, 9:54 pm - Raj Shrivastava: Ye kya h... Sahi या galat
+12/07/2019, 9:55 pm - Anmol KNIT: Digit pairs
+Lexi string
+Prime face
+Islands
+Vm fitments
+
+Inme se koi kia ho to hint de do
+12/07/2019, 9:56 pm - Shivang: galat
+12/07/2019, 9:56 pm - Atharva Knit: This message was deleted
+12/07/2019, 9:56 pm - Atharva Knit: *Any one with salary paid*
+12/07/2019, 9:58 pm - Anmol KNIT: 👍🏻
+12/07/2019, 9:58 pm - +91 79051 46793: Anyone has solved digit pairs can explain pair forming rules??
+12/07/2019, 10:08 pm - S5: <Media omitted>
+12/07/2019, 10:08 pm - S5: kisiko iska logic pta h to btado yr
+12/07/2019, 10:09 pm - Devesh: Rohit se puch lo
+12/07/2019, 10:09 pm - Devesh: Usne kiya h
+12/07/2019, 10:09 pm - S5: thik h
+12/07/2019, 10:10 pm - S5: <Media omitted>
+12/07/2019, 10:10 pm - S5: ye wala kisi ne kiya hoto bta do bhai
+12/07/2019, 10:14 pm - Tejashavi: Island wale mein wrong ans AA RHA hai kisi ko koi hidden test case PTA ho toh bta de
+12/07/2019, 10:18 pm - Prakhar: Abe program name me kya dalna hai
+12/07/2019, 10:18 pm - Prakhar: <Media omitted>
+12/07/2019, 10:19 pm - Pawan Mishra: file name ke beech se space hatao
+12/07/2019, 10:19 pm - Prakhar: Thanks
+12/07/2019, 10:31 pm - ASHUTOSH Knit: kisi ne salary paid ka question kiya hai ?
+12/07/2019, 10:36 pm - +91 80098 16660: pdf bhejo question ka jra
+12/07/2019, 10:36 pm - +91 80098 16660: agar aa chuka hai toh tag krna jara..
+12/07/2019, 10:38 pm - +91 84237 62476: <Media omitted>
+12/07/2019, 10:39 pm - +91 84237 62476: Divine devisor kisi ne kia hai?
+12/07/2019, 10:39 pm - +91 85340 20321: iska soln mle to btana runtime error arhi h meri
+12/07/2019, 10:40 pm - +91 84237 62476: Abhi waha tk pahuche tb to😂😂
+12/07/2019, 10:41 pm - +91 80098 16660: saara bhejo apna
+12/07/2019, 10:41 pm - Prakhar: Presentation error kya hai
+12/07/2019, 10:41 pm - +91 84237 62476: No issue.... Leave it as it is.. 👍🏻
+12/07/2019, 10:41 pm - +91 80098 16660: tension na le..correct hi hai
+12/07/2019, 10:42 pm - +91 84237 62476: Abhi 3 dekhe hai.... Sab grp pe already h👍🏻
+12/07/2019, 10:42 pm - +91 80098 16660: okk
+12/07/2019, 10:42 pm - +91 88537 60748: <Media omitted>
+12/07/2019, 10:43 pm - Amritesh Khare: Congratulations bfo submitted
+12/07/2019, 10:43 pm - Amritesh Khare: Bro*
+12/07/2019, 10:43 pm - +91 84237 62476: Sabka aise hi aa rha.....means accepted
+12/07/2019, 10:44 pm - +91 80098 16660: https://www.geeksforgeeks.org/find-all-divisors-of-a-natural-number-set-2/
+12/07/2019, 10:46 pm - +91 85340 20321: isse use krne se runtime error arhi h ,i did it
+12/07/2019, 10:47 pm - +91 80098 16660: error ka screen shot bhejna
+12/07/2019, 10:48 pm - Prakhar: Island kisi ne kiya
+12/07/2019, 10:48 pm - +91 85340 20321: <Media omitted>
+12/07/2019, 10:49 pm - +91 80098 16660: are java wale  tum
+12/07/2019, 10:49 pm - +91 85340 20321: hmm
+12/07/2019, 10:50 pm - +91 80098 16660: ek kaam kro jitne divisors hai usko array me daal kr sort kr lo
+12/07/2019, 10:50 pm - +91 85340 20321: Ho jayega usse
+12/07/2019, 10:50 pm - +91 80098 16660: ho jaana chahiye..
+12/07/2019, 10:50 pm - +91 80098 16660: try kr lo
+12/07/2019, 10:51 pm - +91 85340 20321: Bottle neck
+Roman iteration
+divine divisors
+odi score
+Cross words
+Uncertain steps
+12/07/2019, 10:51 pm - +91 85340 20321: INME se kise ka koi ques hua h
+12/07/2019, 10:58 pm - Shivang: Clock wala hua kisi se?
+12/07/2019, 11:00 pm - Tejashavi: Kisi ka Island Wala hua hai ??
+12/07/2019, 11:10 pm - Tejashavi: This message was deleted
+12/07/2019, 11:10 pm - +91 80098 16660: Tag kro question.. Group me hai toh
+12/07/2019, 11:10 pm - Tejashavi: Acha logic nhi poochonga  bas yeh BTA do koi hai jisne solve Kiya ho 
+
+ problem bahaut asaan lag rhi but kuch test case pass nhi ho rhe
+12/07/2019, 11:13 pm - +91 91252 92576: <Media omitted>
+12/07/2019, 11:14 pm - +91 80098 16660: 😂😂
+12/07/2019, 11:14 pm - +91 80098 16660: Refresh maaro
+12/07/2019, 11:14 pm - Vedas: logout ho gye hoge tum
+12/07/2019, 11:24 pm - +91 91252 92576: Ho gya bhai
+12/07/2019, 11:24 pm - +91 91252 92576: Thanks
+12/07/2019, 11:27 pm - Raj Shrivastava: Lazy Student anyone?
+12/07/2019, 11:28 pm - +91 80098 16660: me..lazy ad
+12/07/2019, 11:28 pm - +91 80098 16660: af*
+12/07/2019, 11:28 pm - +91 81810 09879: Galat baat....mze nhi lete aise mauke pr
+12/07/2019, 11:28 pm - Raj Shrivastava: 😂
+12/07/2019, 11:29 pm - +91 80098 16660: shit sorry
+12/07/2019, 11:29 pm - +91 80098 16660: bhai question bhejo dekhte hai
+12/07/2019, 11:39 pm - Raj Shrivastava: Uncertain steps me..किसी का aaya ac
+12/07/2019, 11:39 pm - Raj Shrivastava: ?
+12/07/2019, 11:39 pm - Raj Shrivastava: Using dp, how to avoid that 3 step once case
+12/07/2019, 11:42 pm - +91 73797 43197: https://www.math.upenn.edu/~deturck/m170/wk2/numdivisors.html
+12/07/2019, 11:43 pm - +91 73797 43197: Divine Divisora
+12/07/2019, 11:43 pm - +91 73797 43197: Approach
+12/07/2019, 11:49 pm - Pawan Mishra: did this work for you dear?
+13/07/2019, 12:39 am - Shivang: Anybody alive?
+13/07/2019, 12:39 am - Vedas: bolo CR bhai
+13/07/2019, 12:40 am - Shivang: Kuch nahi, bas dekh rahe the kaun kaun jaga hai
+13/07/2019, 12:40 am - Raj Shrivastava: Uncertain steps किया?
+13/07/2019, 12:40 am - Diwakar: ??
+13/07/2019, 12:46 am - +91 80098 16660: Koi collision course kiya hai
+13/07/2019, 12:46 am - +91 80098 16660: ?
+13/07/2019, 12:48 am - Prakhar: <Media omitted>
+13/07/2019, 12:48 am - Prakhar: Ye kya hai
+13/07/2019, 12:48 am - Piyush Ojha: koi bottle neck kar chuka h?
+13/07/2019, 12:48 am - Raj Shrivastava: WA
+13/07/2019, 12:48 am - Prakhar: <Media omitted>
+13/07/2019, 12:48 am - Prakhar: Ye
+13/07/2019, 12:48 am - Raj Shrivastava: Sample test case oe चला rha h... लेकिन private tc pe wa h
+13/07/2019, 12:49 am - Prakhar: Island kiya kisi ne
+13/07/2019, 12:50 am - +91 80098 16660: Wrong answer
+13/07/2019, 12:52 am - +91 84237 62476: Compile aur run karne pe ye Aa rha......
+Submit karne pe kuchh test case honge jispe wrong answer aa rha
+13/07/2019, 12:52 am - +91 84237 62476: Hoga
+13/07/2019, 12:54 am - +91 96212 36512: ??
+13/07/2019, 12:55 am - +91 80098 16660: Question collision course
+13/07/2019, 12:55 am - +91 80098 16660: Kiya hai tumne?
+13/07/2019, 12:55 am - +91 96212 36512: arre kisi ne ans nhi diya toh i was asking again agar kisi ne kiya ho toh..😅
+13/07/2019, 12:56 am - +91 80098 16660: Okk
+13/07/2019, 12:57 am - +91 99359 07163: <Media omitted>
+13/07/2019, 12:58 am - Anmol KNIT: Durse system me 15 min bad hi login kar sakte ho
+13/07/2019, 12:58 am - +91 91252 92576: Abe har jagah logout karke fir se login kar
+13/07/2019, 12:59 am - +91 99359 07163: abe sirf mere system pe chal raha h
+13/07/2019, 1:00 am - +91 80098 16660: Logout kr ke login kro ni toh 15 min wait kro
+13/07/2019, 1:01 am - +91 91252 92576: <Media omitted>
+13/07/2019, 1:04 am - +91 81810 09879: Clock waale ka koi ek sample input bta do koi, with output
+13/07/2019, 1:08 am - Vineet Maurya: Salary wala Kiya kisi ne?
+13/07/2019, 1:09 am - +91 91252 92576: Input
+24
+82.50
+Output
+15.00
+13/07/2019, 1:11 am - +91 81810 09879: Ye to question mein bhi diya h....agar koi dusra kisi ne apne mn se socha h to wo bta do pls
+13/07/2019, 1:13 am - Pawan Mishra: This message was deleted
+13/07/2019, 1:13 am - Vineet Maurya: This message was deleted
+13/07/2019, 1:16 am - S5: kisine salary paid wala kiya h
+13/07/2019, 1:16 am - +91 88537 60748: koi marathon_winner??
+13/07/2019, 1:16 am - +91 88537 60748: i mean marathon_winner kiya h?
+13/07/2019, 1:17 am - Prakhar: Prime face??
+13/07/2019, 1:17 am - Prakhar: Anyone
+13/07/2019, 1:17 am - Ashish: anyone have solved similar char problem?
+13/07/2019, 1:18 am - S5: garibo ki ktare lgi h galib
+koi solution de jae to kya bat
+13/07/2019, 1:18 am - S5: 👆
+13/07/2019, 1:21 am - Ashish: <Media omitted>
+13/07/2019, 1:21 am - Ashish: run time error in this?
+13/07/2019, 1:24 am - +91 85340 20321: Koi meri help krega mera classpath set nhi h ,koi mera java code c++ m convert krne m meri help krdo
+13/07/2019, 1:35 am - Mk Knit: Roman iteration kisi ka tha???
+13/07/2019, 1:37 am - +91 80098 16660: Question tag kr do
+13/07/2019, 2:15 am - Prakhar: Kisi ne digit pairs kiya hai??
+13/07/2019, 2:51 am - Raj Shrivastava: Anyone?
+13/07/2019, 2:51 am - +91 88537 60748: puch bhai
+13/07/2019, 2:51 am - +91 88537 60748: bta paya to
+13/07/2019, 2:51 am - Atharva Knit: Yeah?
+13/07/2019, 2:51 am - Raj Shrivastava: Uncertain steps का test case koi bata sake to...
+13/07/2019, 2:52 am - Atharva Knit: Gn bro
+13/07/2019, 2:52 am - Raj Shrivastava: 😂
+13/07/2019, 2:52 am - Raj Shrivastava: Final year me ho tum bro... ऐसा kroge 😂
+13/07/2019, 2:52 am - Atharva Knit: 3 baj gye ar soye ni final year m jake b 😒😒😒
+13/07/2019, 2:52 am - +91 78449 92214: Bottle Necks wale m time limit exceeded aa ra hai 
+Koi help kr sakta hai ?
+13/07/2019, 2:53 am - Raj Shrivastava: Final year me jake bhi aise emojis 😂
+13/07/2019, 2:54 am - Atharva Knit: May be this @917844992214
+13/07/2019, 2:55 am - Devesh: Yes meraa
+13/07/2019, 2:55 am - Atharva Knit: 1 35 bje ka msg h vo timing to dekh le
+13/07/2019, 2:56 am - Devesh: 😂
+13/07/2019, 2:56 am - Raj Shrivastava: Vo bhi final year me aake 😂
+13/07/2019, 2:56 am - Devesh: Ab time milaa h to ab respond kr rhaa hu😂😂
+13/07/2019, 2:56 am - Atharva Knit: 😂
+13/07/2019, 2:56 am - Raj Shrivastava: हो gya tumhara roman😂
+13/07/2019, 2:57 am - SDV3: map ka use kro map me frequenty store karao input lete time hi
+13/07/2019, 3:44 am - +91 88537 60748: Uncertain steps hi uncertain h....
+13/07/2019, 3:45 am - Raj Shrivastava: 😂
+13/07/2019, 3:45 am - Raj Shrivastava: Overflow हो gya mera steps pe पहुचते पहुचते 😂
+13/07/2019, 3:49 am - Prakhar: Dimag ka aisi ki taisi ho gai
+13/07/2019, 3:50 am - Raj Shrivastava: Abe main logic me galti ढूंढ rha tha.. उसके चक्कर मे खुद से 15 तक टेस्ट case लिख daale😂
+13/07/2019, 3:51 am - Raj Shrivastava: Logic sahi tha.. लेकिन बड़े number pe overflow हो rha tha ye baat मुझे time khatam hone ke 30 sec पहले पता chali😂
+13/07/2019, 4:08 am - Avinash: kisika Prime Face hue toh batana ...
+13/07/2019, 4:08 am - Avinash: plz
+13/07/2019, 4:49 am - Vineet Maurya: Divine divisor Kiya hai kisi ne
+13/07/2019, 4:49 am - Vineet Maurya: ?
+13/07/2019, 4:51 am - Ashish: nahi
+13/07/2019, 4:51 am - Vineet Maurya: Aur kisi ne
+13/07/2019, 4:51 am - SDV3: This message was deleted
+13/07/2019, 4:56 am - Vineet Maurya: Yaar phone pick nahi kar Raha hai
+13/07/2019, 5:00 am - +91 78449 92214: Koi java pe krr ra hai ?
+13/07/2019, 7:48 am - Harsh: This message was deleted
+13/07/2019, 7:50 am - Tejashavi: The problem does not exist kaise solve hua
+13/07/2019, 7:51 am - Harsh: Logout kr ke login karna pada tha shayad
+13/07/2019, 7:52 am - Tejashavi: Ok
+13/07/2019, 7:54 am - S5: last me koi alag se submit to nhi krna tha na
+13/07/2019, 7:54 am - S5: final submit hi final tha??
+13/07/2019, 8:22 am - Rijwan Knit: Salary paid
+Roman iteration
+Marathon winner
+Collision course
+VM fitment
+Uncertain steps
+13/07/2019, 8:22 am - Rijwan Knit: Koi kiya hai isme se koi
+13/07/2019, 8:22 am - +91 73797 43197: Same here kisi ne kiya h koi inme se
+13/07/2019, 8:25 am - +91 94512 07948: Same here
+13/07/2019, 8:25 am - +91 95988 59972: Same here
+13/07/2019, 8:43 am - Prashant knit: kiska h ye bhai inme se
+
+holes and balls
+similar char
+dole out cadbury 
+pattern printing
+death battle h
+work life
+13/07/2019, 8:46 am - +91 96168 76192: Dole out is very easy you should try it
+13/07/2019, 9:52 am - +91 73098 78907: Pattern Printing anyone?
+13/07/2019, 9:53 am - Avinash: abe ye puch rahe ho
+13/07/2019, 9:54 am - Avinash: puneet sai pucho
+13/07/2019, 9:54 am - +91 80098 16660: Islands?
+13/07/2019, 9:54 am - Avinash: humsai pucho
+13/07/2019, 9:55 am - Tejashavi: Tu Kal poori raat Kahan tha 😒😒
+13/07/2019, 9:55 am - Gulam Mujuddin: TLE aa raha mera ...
+optimal kaise kre
+13/07/2019, 9:58 am - +91 73098 78907: Precompute kr lo ek matrix me
+13/07/2019, 9:59 am - Gulam Mujuddin: ha kiya hai dictionary ke through
+13/07/2019, 10:00 am - +91 73098 78907: 1500*1500 itna hi hoga?
+13/07/2019, 10:00 am - Gulam Mujuddin: 1000*1000 tk right ho raha
+13/07/2019, 10:01 am - Abhishek Rathore: Similar char ka optimal soln any logic tle aa raha h
+13/07/2019, 10:01 am - Gulam Mujuddin: ok fir check krte hai
+13/07/2019, 10:01 am - Harsh: Nahi yaar 1501*1501 ka mera matrix hai usme to ho raha hai
+13/07/2019, 10:02 am - Gulam Mujuddin: ok dekhte hai
+13/07/2019, 10:10 am - +91 94512 07948: Uncertain steps m..3 ka case kse handle kra h?
+13/07/2019, 10:30 am - Rijwan Knit: Salary wala koi hint dede
+13/07/2019, 10:32 am - Atharva Knit: Try to find ranges of salary tax
+13/07/2019, 10:53 am - Avinash: sabka compile chalta ja raha hai?
+13/07/2019, 10:54 am - Avinash: mtlb sahi chal raha hai sabka compile
+13/07/2019, 10:54 am - Avinash: aur submit
+13/07/2019, 10:54 am - Avinash: ?
+13/07/2019, 10:54 am - +91 94512 07948: Ha
+13/07/2019, 10:56 am - anuj it branch: Similar char
+ bottle neck 
+Island 
+Collision course 
+Vm fitment 
+Friend circle 
+Inme se hai kisika
+13/07/2019, 10:56 am - Avinash: VM aur friend circle kisi nai kiya hai?
+13/07/2019, 10:57 am - anuj it branch: Iske alawa hai kisi ka
+13/07/2019, 10:57 am - Avinash: island
+13/07/2019, 11:05 am - +91 95981 26898: Lazy student anyone?
+13/07/2019, 11:08 am - +91 96168 76192: <Media omitted>
+13/07/2019, 11:08 am - +91 96168 76192: 1 - this is the ans
+13/07/2019, 11:11 am - +91 72378 94200: Login ka problem kaise solve ho
+13/07/2019, 11:12 am - +91 72378 94200: <Media omitted>
+13/07/2019, 11:12 am - +91 94512 07948: Same here
+13/07/2019, 11:12 am - +91 72378 94200: Need help anyone?
+13/07/2019, 11:13 am - Atharva Knit: Har jagah se logout krke fir se try kro
+13/07/2019, 11:13 am - +91 70558 17896: Same here
+13/07/2019, 11:14 am - +91 89608 31685: Same here
+13/07/2019, 11:14 am - +91 72378 94200: Ek hi jagah pe login kia hoo bas
+13/07/2019, 11:14 am - +91 90588 37665: Same here
+13/07/2019, 11:14 am - +91 85740 09400: same here
+13/07/2019, 11:14 am - +91 94512 07948: Incognito use kr rhi
+13/07/2019, 11:14 am - +91 70558 17896: Try clearing cache 
+It worked
+13/07/2019, 11:15 am - +91 94512 07948: .
+13/07/2019, 11:15 am - +91 94512 07948: No cache in that
+13/07/2019, 11:16 am - +91 88537 60748: Try refreshing and login again...logout and login
+13/07/2019, 11:16 am - Nikhil Knit: call karne pe bol rhe hai ki issue resolve ki ja rhi hai. thodi det baad kosis karen.
+13/07/2019, 11:16 am - Rohit: ✋
+13/07/2019, 11:18 am - Atharva Knit: This ☝🏻
+13/07/2019, 11:23 am - Rohit: But hear not working..
+13/07/2019, 11:24 am - +91 89608 31685: Cache clear krne ke baad bhi not working
+13/07/2019, 11:24 am - +91 70802 12870: Agr kissi ka chlne lge toh bta dena idhar
+13/07/2019, 11:24 am - +91 70802 12870: 15 min karke aadhe ghante se baithe hai😒
+13/07/2019, 11:27 am - avanish: Same here
+13/07/2019, 11:28 am - Prashant knit: 2 hour
+13/07/2019, 11:28 am - Prashant knit: Open hua fir 2 min bad bnd ho gya 🙁
+13/07/2019, 11:28 am - Anmol KNIT: Same here
+13/07/2019, 11:30 am - Prashant knit: 😂
+13/07/2019, 11:31 am - Prashant knit: <Media omitted>
+13/07/2019, 11:32 am - +91 80098 16660: What is going on
+13/07/2019, 11:32 am - +91 80098 16660: Yeh kya nai panchayat hai tcs walo ki
+13/07/2019, 11:34 am - +91 80098 16660: Chalne laga.. Try clearing cache and login again
+13/07/2019, 11:35 am - +91 91252 92576: Nhi ho rha
+13/07/2019, 11:37 am - avanish: Kisi ka login hua?
+13/07/2019, 11:37 am - +91 89608 31685: Chlne laga
+13/07/2019, 11:37 am - +91 89608 31685: Yes
+13/07/2019, 11:38 am - +91 94512 07948: .
+13/07/2019, 11:38 am - +91 91252 92576: Kaise kia?
+13/07/2019, 11:38 am - +91 89608 31685: Cache clear krne ke baad page refresh krke login
+13/07/2019, 11:39 am - Prashant knit: Not working
+13/07/2019, 11:40 am - +91 91252 92576: Nhi ho rha
+13/07/2019, 11:41 am - +91 95325 82402 left
+13/07/2019, 11:45 am - Pawan Mishra: left hona shuru
+13/07/2019, 11:46 am - Prashant Dowedi: 😂 😂
+13/07/2019, 11:46 am - +91 98073 91504: This message was deleted
+13/07/2019, 11:47 am - avanish: Login ho raha hain kya ab
+13/07/2019, 11:48 am - +91 95320 00017: Dole out cadbury
+Odi score
+Lazy student
+Death battle  
+Any ?
+13/07/2019, 11:48 am - +91 72378 94200: Mera login nhi nhi ho rha
+13/07/2019, 11:51 am - +91 89608 31685: Fir log out Ho gya 😫
+13/07/2019, 11:52 am - Avinash: call karo koi yr
+13/07/2019, 11:53 am - Harsh: Had hai yaar!!!!
+13/07/2019, 11:53 am - Nikhil Knit: kiya tha bhai... issue reslove ho rahi hai.. aise unka kahna hai
+13/07/2019, 11:54 am - avanish: 1.30 hour se login nhi ho rha hai
+13/07/2019, 11:55 am - Prashant knit: Bhai so ja ab 😂
+13/07/2019, 11:55 am - Avinash: 🤣🤣🤣
+13/07/2019, 11:58 am - +91 73797 43197: Login nhi ho rha h
+13/07/2019, 11:59 am - Nikhil Knit: login hone ke baad compile nhi ho raha
+13/07/2019, 11:59 am - Rohit: Same hear
+13/07/2019, 12:00 pm - Shivang: Don't worry, they should provide extra time for the niggles.
+13/07/2019, 12:00 pm - +91 70558 17896: Same here
+13/07/2019, 12:01 pm - avanish: Bhai kisi ka ho jaye to bata dena
+13/07/2019, 12:02 pm - +91 89608 31685: Yes please.
+13/07/2019, 12:02 pm - +91 89608 31685: Bta dena
+13/07/2019, 12:02 pm - +91 73797 43197: Login ho rha h
+13/07/2019, 12:02 pm - +91 73797 43197: ??
+13/07/2019, 12:02 pm - +91 89608 31685: Ni Ho ra
+13/07/2019, 12:02 pm - +91 96701 36229: haa but submit nhi ho rha
+13/07/2019, 12:03 pm - +91 73797 43197: Abhi kiya login
+13/07/2019, 12:03 pm - +91 73797 43197: ??
+13/07/2019, 12:03 pm - +91 96701 36229: haa
+13/07/2019, 12:03 pm - +91 98073 91504: login k baad code complile ho raha h ??
+13/07/2019, 12:03 pm - +91 96701 36229: nhi
+13/07/2019, 12:04 pm - +91 80098 16660: 15 minute wala error aa rha abhi bhi
+13/07/2019, 12:05 pm - +91 73797 43197: Mera bhi
+13/07/2019, 12:05 pm - +91 70558 17896: Yes
+13/07/2019, 12:05 pm - +91 70802 12870: Mera bhi
+13/07/2019, 12:06 pm - +91 95320 00017: +1
+13/07/2019, 12:06 pm - avanish: Mera bhi
+13/07/2019, 12:07 pm - +91 94512 07948: Login ho gya..compile nhi ho rha
+13/07/2019, 12:08 pm - +91 72378 94200: Kisi ka hua login
+13/07/2019, 12:08 pm - +91 73098 78907: Same
+13/07/2019, 12:08 pm - +91 80098 16660: Nope
+13/07/2019, 12:08 pm - +91 73797 43197: Yha login bhi nhi ho rha h
+13/07/2019, 12:08 pm - +91 80098 16660: Jinka hua hai compile ni ho rha
+13/07/2019, 12:09 pm - Prashant knit: Open ho gya
+13/07/2019, 12:09 pm - avanish: Compile ho rha?
+13/07/2019, 12:10 pm - +91 94512 07948: Nhi..
+13/07/2019, 12:10 pm - +91 73797 43197: Nhi hua bhai
+13/07/2019, 12:11 pm - Rohit: Nhi bhai
+13/07/2019, 12:11 pm - Prashant knit: 😂😂😂
+13/07/2019, 12:11 pm - avanish: Merathon vale prblm ka pdf kisi ne bheja hai kya group me?
+13/07/2019, 12:11 pm - Prashant knit: <Media omitted>
+13/07/2019, 12:11 pm - +91 84237 62476: Sabka yhi ho rha
+13/07/2019, 12:12 pm - +91 94512 07948: Ha
+13/07/2019, 12:12 pm - +91 73098 78907: Submissions bhi nhi khul rha
+13/07/2019, 12:12 pm - +91 73797 43197: Yha login nhi ho rha h
+13/07/2019, 12:12 pm - +91 89608 31685: Login ni Ho ra
+13/07/2019, 12:13 pm - avanish: +1
+13/07/2019, 12:15 pm - Pawan Mishra: TPRs please contact TCS regarding the issue
+13/07/2019, 12:15 pm - Pawan Mishra: if possible
+13/07/2019, 12:15 pm - +91 73797 43197: Number busy aa rha h
+13/07/2019, 12:15 pm - +91 73797 43197: Unka
+13/07/2019, 12:17 pm - +91 73797 43197: Salary paid
+Roman iteration
+Marathon winner
+Collision course
+VM fitment
+Uncertain steps
+13/07/2019, 12:18 pm - +91 73797 43197: Inme se kisi ka koi hua h
+13/07/2019, 12:19 pm - Avinash: roman ho jaega ... Uncertain Step mai thoda DP
+13/07/2019, 12:21 pm - S5: mera bhi nhi ho raha
+13/07/2019, 12:22 pm - +91 70558 17896: <Media omitted>
+13/07/2019, 12:22 pm - +91 84237 62476: Team se contact karo....
+13/07/2019, 12:23 pm - +91 84237 62476: Contact no? 🤭
+13/07/2019, 12:23 pm - +91 70558 17896: I have given u 
+Now contact them
+13/07/2019, 12:28 pm - +91 98073 91504: mera bhi yahi aa raha
+13/07/2019, 12:28 pm - Avinash: yaar email karo sab unki mail par
+13/07/2019, 12:29 pm - Avinash: campuscommune@tcs.com
+13/07/2019, 12:29 pm - Tejashavi: Mera bhi
+13/07/2019, 12:29 pm - S5: jis company ki site nhi chal rhi usme job krne ka kya faeda
+13/07/2019, 12:29 pm - S5: 😂😂
+13/07/2019, 12:29 pm - Harsh: Ha ye sahi hai
+Sab log email karo unhe
+13/07/2019, 12:29 pm - +91 94512 07948: Ditto.
+13/07/2019, 12:30 pm - +91 98073 91504: sahi h 🤣🤣
+13/07/2019, 12:30 pm - +91 96215 85624: 😂
+13/07/2019, 12:30 pm - +91 70558 17896: I was just typing the same😂
+13/07/2019, 12:31 pm - Prashant Dowedi: Bhai tu interview mt dena.. 😜😜
+13/07/2019, 12:31 pm - Pawan Mishra: try submitting through solution file
+13/07/2019, 12:31 pm - Pawan Mishra: it worked
+13/07/2019, 12:31 pm - +91 73098 78907: +1
+13/07/2019, 12:31 pm - S5: login hone lga kya
+13/07/2019, 12:32 pm - +91 73098 78907: Yes it worked for me
+13/07/2019, 12:33 pm - Prashant knit: 😂
+13/07/2019, 12:39 pm - Nikhil Knit: +1
+13/07/2019, 12:39 pm - +91 96701 36229: +1
+13/07/2019, 12:40 pm - Avinash: +1 ka +1 na kro yaat
+13/07/2019, 12:41 pm - +91 80098 16660: compilation error aa rha..kaise dekhe kya hai?..codeblocks me succesfully compile ho rha
+13/07/2019, 12:41 pm - +91 80098 16660: koi inke similar ide hai?
+13/07/2019, 12:41 pm - Avinash: codeblock mai warning dekho
+13/07/2019, 12:43 pm - +91 80098 16660: 0 warnings..
+13/07/2019, 12:44 pm - Pawan Mishra: Kaun sa ques
+13/07/2019, 12:45 pm - +91 80098 16660: bottleneck
+13/07/2019, 12:58 pm - +91 80098 16660: kisi aur ka compile error aa rha file submit krne pr
+13/07/2019, 12:59 pm - Rijwan Knit: Uncertain step anyone
+13/07/2019, 12:59 pm - +91 70802 12870: Mera aara Lexi string waale mai
+13/07/2019, 1:00 pm - +91 80098 16660: tumhare apne compiler me compile ho rha?
+13/07/2019, 1:00 pm - +91 70802 12870: Haan ho rha
+13/07/2019, 1:01 pm - +91 85740 09400: Agar string ho toh cin use karna instead of gets()
+13/07/2019, 1:01 pm - +91 85740 09400: Mere program mein ishi ki wajah se error aa rha tha
+13/07/2019, 1:02 pm - +91 70802 12870: Cin hi kiya hai maine toh
+13/07/2019, 1:02 pm - +91 80098 16660: mera ho gya
+13/07/2019, 1:02 pm - Prashant knit: File upload kro error ni aayegi
+13/07/2019, 1:03 pm - Prashant knit: Complier fail ho gya inka 😂😂
+13/07/2019, 1:03 pm - Prashant knit: Death battle anyone?
+13/07/2019, 1:09 pm - +91 72378 94200: Codevita vali IDE me compile Karo compiler error bta dega
+13/07/2019, 1:09 pm - +91 89608 31685: Pattern printing anyone?
+13/07/2019, 1:10 pm - Tejashavi: @917055817896
+13/07/2019, 1:12 pm - +91 70558 17896: Yes
+13/07/2019, 1:12 pm - Tejashavi: BTA de
+13/07/2019, 1:12 pm - S5: <Media omitted>
+13/07/2019, 1:13 pm - S5: codeblock me ans aa raha h
+13/07/2019, 1:14 pm - +91 80098 16660: galat chhe
+13/07/2019, 1:15 pm - +91 80098 16660: kuchh compile time error aa rhi
+13/07/2019, 1:21 pm - +91 73098 78907: Kisine friend circle try kiya h
+13/07/2019, 1:27 pm - +91 72378 94200: Coding area me corner par online editor h uspe run karai code compile time error bta dega
+13/07/2019, 1:28 pm - S5: file upload krke kiya fir bhi vhi dikha raha
+13/07/2019, 1:28 pm - +91 72378 94200: Clock vala koi kiya h
+13/07/2019, 1:30 pm - +91 73177 20954: Yha pr code paste krke run kroao phir jo line pr compile error aayega wo batayega
+Kuch unsigned value me signed value insert kr rhe hoga.
+13/07/2019, 1:30 pm - +91 73177 20954: ...
+13/07/2019, 1:31 pm - +91 80098 16660: nitish
+13/07/2019, 1:32 pm - Prashant knit: 30 min extra mil rha
+13/07/2019, 1:32 pm - Prashant knit: Ab
+13/07/2019, 1:32 pm - S5: ye wala error aa raha h abhi tk
+13/07/2019, 1:32 pm - +91 70558 17896: direct file upload KR rhe toh ni aarha
+13/07/2019, 1:32 pm - +91 70558 17896: Vese check ni kara
+13/07/2019, 1:32 pm - +91 80098 16660: kaise pta
+13/07/2019, 1:33 pm - +91 84237 62476: <Media omitted>
+13/07/2019, 1:33 pm - Prashant knit: Time dikha rha hai
+13/07/2019, 1:33 pm - Prashant knit: Mera 2:45 pr off hona tha
+13/07/2019, 1:33 pm - +91 84237 62476: Upload your file.... Rather than compiling and then submitting
+13/07/2019, 1:34 pm - Prashant knit: Bt abi bi 2:11 min timer chl rha
+13/07/2019, 1:51 pm - Prashant knit: Holes and balls kisi NE Kiya
+13/07/2019, 2:38 pm - Prashant knit: Work life kisi NE Kiya hai kya
+13/07/2019, 2:38 pm - Prashant knit: Questions smjha do ye koi
+13/07/2019, 5:10 pm - Khushboo: Jo select ho jaenge codevita Mai unke liye ab next interview hoga ya koi coding test
+13/07/2019, 8:28 pm - Rohit: 👉👉👉 *Codevita* ka *result* kab tak ayega???
+13/07/2019, 8:51 pm - Avinash: Pta nahi dekho... Jaldi aa jata hai
+13/07/2019, 9:27 pm - SDV3: This message was deleted
+14/07/2019, 11:29 am - S5: kisi ko infosys wale ka email aaya kya
+14/07/2019, 11:29 am - S5: hall ticket wala
+14/07/2019, 11:39 am - Diwakar: <Media omitted>
+14/07/2019, 11:39 am - Prashant Dowedi: Nhi
+14/07/2019, 11:40 am - Diwakar: <Media omitted>
+14/07/2019, 11:40 am - Diwakar: <Media omitted>
+14/07/2019, 11:40 am - Diwakar: inme se koi question kra do yr agr kisi se ho ske
+14/07/2019, 11:40 am - +91 82991 04558: Mere questions sb alg hey
+14/07/2019, 11:40 am - Diwakar: Infosys wala hackthon chl reha h1 bje tk h
+14/07/2019, 11:41 am - Diwakar: agr kise se ho ske to kra do
+14/07/2019, 12:03 pm - Vineet Maurya: 59 min reamin
+15/07/2019, 10:21 pm - Tejashavi: Interview 18th ko hai spread the word aur Kahan hai yeh decided nhi hai most probably Lko hoga
+15/07/2019, 10:26 pm - +91 80098 16660: Ok
+16/07/2019, 12:09 pm - Tejashavi: NCR mein hoga interview @918009816660  Tiwari ko BTA Dena mere khyaal SE woh active nhi rehta jyada WhatsApp PE
+16/07/2019, 12:11 pm - Nikhil Knit: timing?
+16/07/2019, 12:11 pm - Tejashavi: Abhi PTA nhi chali
+16/07/2019, 12:11 pm - Tejashavi: Rathore ko message Kar de aur Harsh ko bhi
+16/07/2019, 12:11 pm - Nikhil Knit: okk
+16/07/2019, 12:21 pm - +91 89608 31685: Sabka?
+16/07/2019, 12:28 pm - Raj Shrivastava: Ncr 😂
+16/07/2019, 12:35 pm - +91 70558 17896: Yes
+16/07/2019, 12:36 pm - +91 89608 31685: Timing?
+16/07/2019, 12:37 pm - +91 70558 17896: Timings are not confirmed yet
+16/07/2019, 12:37 pm - +91 70558 17896: You will receive mail regarding the same in some time
+16/07/2019, 12:37 pm - +91 89608 31685: Okay
+16/07/2019, 1:03 pm - +91 80098 16660: Mail aa gya
+16/07/2019, 1:09 pm - Raj Shrivastava: Ab original marksheet कहा से laaye
+16/07/2019, 1:10 pm - +91 80098 16660: Online attest krwate hai
+16/07/2019, 1:10 pm - Raj Shrivastava: कैसे attest krwaenge
+16/07/2019, 1:11 pm - +91 80098 16660: College chale kal?
+16/07/2019, 1:12 pm - Raj Shrivastava: Attest to kisi ne bhi nahi karaya hoga.. Online marksheet i guess
+16/07/2019, 1:13 pm - +91 80098 16660: Haa 3rd year ka toh chahiye atleast
+16/07/2019, 1:14 pm - +91 80098 16660: Original bhi 2nd year aur 1st year ki mili hai
+16/07/2019, 1:27 pm - Raj Shrivastava: चाहे एक attest केरानी हो चाहे 3.. Utna hi effort lagna h..
+16/07/2019, 1:27 pm - +91 70558 17896: Attesting k liye ruk jao abhi baat kr rhe hai TCS se
+16/07/2019, 1:29 pm - +91 80098 16660: Okk
+16/07/2019, 1:29 pm - +91 80098 16660: Exactly
+16/07/2019, 1:30 pm - +91 70558 17896: Self attested will work🤘🤘
+16/07/2019, 1:31 pm - +91 70558 17896: and you have to also verify your result online to them
+16/07/2019, 1:35 pm - +91 80098 16660: Site khol kr?
+16/07/2019, 1:36 pm - +91 70558 17896: Yes
+16/07/2019, 1:36 pm - Devesh: 👍👍
+16/07/2019, 2:31 pm - +91 96701 36229: koi vns se ja rha digital ke lie
+16/07/2019, 2:32 pm - Nikhil Knit: mai.
+16/07/2019, 2:34 pm - +91 73098 78907: Allahabad se h koi jane vala
+16/07/2019, 2:34 pm - Raj Shrivastava: Lko?
+16/07/2019, 2:34 pm - Harsh: Mai
+16/07/2019, 2:35 pm - Raj Shrivastava: Cs वाले harsh?
+16/07/2019, 2:35 pm - Harsh: Haa
+18/07/2019, 7:26 am - Vineet Maurya changed their phone number to a new number. Tap to message or add the new number.
+19/07/2019, 8:09 am - Vineet New changed their phone number to a new number. Tap to message or add the new number.
+19/07/2019, 1:26 pm - +91 84237 62476: <Media omitted>
+19/07/2019, 1:26 pm - +91 84237 62476: *FACE Pulse | Workshops*
+
+FACE is organizing a 6-hour repeat workshop for students aspiring to crack TCS NQT 2020. The *workshop will focus on discussing previous year NQT questions* that will boost up students preparation. The above image contains all the relevant details.
+
+*Please ask your NQT eligible students to enroll here for the workshop* - http://bit.ly/2SkIqro
+
+*Note:* With just 2 weeks to go for the test, this workshop will help them revise some of the most repeated TCS NQT questions. Also, for any queries, your students can write to us at enquiry@faceprep.in
+19/07/2019, 9:19 pm - Avinash: can admin change Name group from codevita  to IT && CSE (Somthing) . I think this group will be very useful for our final year.
+19/07/2019, 9:28 pm - +91 80098 16660: There is electronics also
+19/07/2019, 9:30 pm - Avinash: I am just saying this as a idea , your decision
+19/07/2019, 9:30 pm - +91 84237 62476: Electrcal too😂
+19/07/2019, 9:30 pm - +91 80098 16660: Btech final year will be good
+19/07/2019, 9:31 pm - +91 84237 62476: Le de k ek TCS hi hai....
+TCS hi rakh lo🤭🤭🤭🤭
+19/07/2019, 9:32 pm - +91 80098 16660: 😂
+19/07/2019, 9:32 pm - S5: naukari group rkh lo
+nam me kya rakkha h
+19/07/2019, 9:33 pm - +91 81810 09879: 😂😂jiska-jiska placement ho jaye, group left krte jaana
+19/07/2019, 9:34 pm - S5: 😂😂
+19/07/2019, 9:34 pm - +91 81810 09879: Pehli fursat mein
+19/07/2019, 9:34 pm - Prashant Dowedi: 🙏🙏😂😂😂
+19/07/2019, 9:34 pm - +91 84237 62476: 🤣🤣🤣🤣
+19/07/2019, 9:35 pm - Prashant Dowedi changed the subject from "Codevita season 8" to "Naukari group.. 👨‍⚖️👩‍⚖️"
+19/07/2019, 9:36 pm - +91 84237 62476 changed the subject from "Naukari group.. 👨‍⚖️👩‍⚖️" to "बेरोजगार युवा संघ 👨‍⚖️👩‍⚖️"
+19/07/2019, 9:38 pm - +91 84237 62476: जिसको रोजगार मिलता जाए, निकलता जाए....# पहली फुरसत में😂
+19/07/2019, 9:38 pm - Prashant Dowedi: Bhai ye saal bhar nhi chalega.. 😂 😂 😂
+Kuch din mein kuch logon ko रोजगार mil jayega.. 🤞🤞
+19/07/2019, 9:39 pm - S5: tu tension mt le sb chale jaege pr tera bhai yhi rhega
+19/07/2019, 9:39 pm - Prashant Dowedi: 😂 😂
+Are nhi bhai
+Package bhi to बढ़ाना hoga na logon ko... 😂 😂
+19/07/2019, 9:39 pm - +91 81810 09879: *Civil waale left the group 😂
+19/07/2019, 9:40 pm - Prashant Dowedi: 😂 😂 😂
+Bhai yha pr bhi meme
+19/07/2019, 9:41 pm - +91 81810 09879: 🤣🤣
+19/07/2019, 9:47 pm - Tejashavi: Iski toh Zindagi hi meme hai
+19/07/2019, 9:48 pm - Tejashavi: Juspay ki yaad dila di
+19/07/2019, 9:53 pm - +91 89608 31685: This message was deleted
+19/07/2019, 9:54 pm - +91 81810 09879: Shit...pehle delete ho gya 😂
+19/07/2019, 9:57 pm - Prashant knit: बहुत उच्च विचार है 😂😂😂
+20/07/2019, 10:20 am - Raj Shrivastava changed this group's icon
+20/07/2019, 1:08 pm - +91 86503 76210: dont upload your photo
+20/07/2019, 1:37 pm - Khushboo: Kab upload karni hai photo
+20/07/2019, 1:37 pm - Khushboo: Payment ke baad to esa koi step nhi aaya
+20/07/2019, 8:47 pm - +91 82991 04558: As suggested by Dr. Amit Medhaviwe are very happy to conduct the TCS NQT Preparation Program to you. We have created the Logins and shared to your registered Email Id's and Mobile Numbers. Please Login into ReferenceGlobe and avail this program to crack the TCS NQT 2020 test easily.  link to login; https://referenceglobe.com/index.php
+22/07/2019, 3:03 pm - +91 84237 62476: Codevita and Digital results will be announced this week 
+and codevita interview will ne before TNQT
+22/07/2019, 3:03 pm - +91 84237 62476: Abe yar is grp ka name English me rkho kuchh.....
+Search karne me dikkat ho rhi😂😂😂
+22/07/2019, 4:06 pm - Shivang changed the subject from "बेरोजगार युवा संघ 👨‍⚖️👩‍⚖️" to "Unemployed peeps👨‍⚖️👩‍⚖️"
+22/07/2019, 5:28 pm - +91 70558 17896: codevita results are out
+22/07/2019, 5:29 pm - S5: kese check krege
+22/07/2019, 5:29 pm - Prakhar: Mail aaya hai
+22/07/2019, 5:29 pm - +91 88537 60748: Mail aaya hoga
+22/07/2019, 5:29 pm - Vineet Maurya: This message was deleted
+22/07/2019, 5:31 pm - Raj Shrivastava: Mail pe yahi aa rha h na ki cleared round 1 and eligible for round 2
+22/07/2019, 5:32 pm - Rohit: Hmm
+22/07/2019, 5:33 pm - SDV3: This message was deleted
+22/07/2019, 7:48 pm - Shivang: Is anybody able to see their rank?
+22/07/2019, 7:53 pm - Prashant Dowedi: Nope bro
+22/07/2019, 7:54 pm - Anmol KNIT: Not released yet. 
+Only last year rank is showing in id.
+22/07/2019, 7:56 pm - Avinash: Open ho gya tha?
+22/07/2019, 7:59 pm - Anmol KNIT: Ha , but 10-15 minutes lge the
+22/07/2019, 8:01 pm - Avinash: Itni bekaar architecture website ka.... Laptop pe host kiya hai lagta hai... 😡😡
+22/07/2019, 8:01 pm - ASHUTOSH Knit: 🤣🤣
+22/07/2019, 8:01 pm - Anmol KNIT: 🤣🤣
+22/07/2019, 8:02 pm - Prashant Dowedi: 😂 😂 😂
+TCS hai kuch bhi kr skta hai kyu @917068439075..
+22/07/2019, 8:03 pm - ASHUTOSH Knit: True 😅
+22/07/2019, 8:17 pm - +91 81810 09879: Codevita ki site pr likha h campus commune pr jao, aur campus commune mein likha h codevita ki site pr jao
+22/07/2019, 8:17 pm - +91 81810 09879: SBI bna diya h
+22/07/2019, 8:18 pm - +91 80098 16660: 😂😂
+22/07/2019, 8:18 pm - Prashant Dowedi: 😂 😂 😂
+Coool... meme wale dost.
+Aa jayega.. Jldi hi
+22/07/2019, 8:31 pm - +91 91252 92576: Sirf qualified for next round dikha rha
+22/07/2019, 8:31 pm - +91 91252 92576: Rank kha dikha rha
+22/07/2019, 8:32 pm - +91 81810 09879: Baitho beta, abhi bohot kuchh seekhna h zindagi mein
+22/07/2019, 8:32 pm - +91 91252 92576: Hehe
+22/07/2019, 8:33 pm - Prashant Dowedi: 😂 😂 😂
+22/07/2019, 8:37 pm - Shivang: Yaar Iss hafte interview mat rakhe bas ye log.
+22/07/2019, 8:37 pm - Shivang: Abhi to Ghar aaen hai
+22/07/2019, 8:37 pm - S5: 🤣🤣
+22/07/2019, 8:37 pm - S5: cr ki jai ho
+22/07/2019, 8:40 pm - +91 84237 62476: Rank dekh k karna ky hai......yaha to Palgarism se bchne ki khusi jyada hai😂😂😂😂
+22/07/2019, 8:40 pm - Prashant Dowedi: 😂 😂 😂 😂
+22/07/2019, 8:40 pm - Prashant Dowedi: Ha yrr
+22/07/2019, 8:40 pm - Prakhar: 😂😂
+22/07/2019, 8:41 pm - Prashant Dowedi: @918423762476 @917068439075 @918755389926... Kuch kro paaji.. 😂
+22/07/2019, 8:41 pm - +91 91252 92576: 🤣
+22/07/2019, 8:44 pm - +91 84237 62476: <Media omitted>
+22/07/2019, 8:45 pm - Tejashavi: 😂😂😂😂😂😂
+22/07/2019, 8:46 pm - Tejashavi: Kya karoge rank dekhke
+22/07/2019, 8:47 pm - Vineet Maurya: <Media omitted>
+22/07/2019, 8:57 pm - Shivang: To reduce load on servers, TCS disables most of the features of campus commune during codevita. This is what is explained there.
+22/07/2019, 8:57 pm - Shivang: ... And the site still crashes.
+22/07/2019, 8:58 pm - Prashant knit: Open in desktop mode then refresh the page
+22/07/2019, 9:01 pm - Vineet Maurya: Ok
+22/07/2019, 9:01 pm - Pawan Mishra: Yogi bro will be visiting the campus
+22/07/2019, 9:14 pm - Shailu: 😀
+22/07/2019, 9:15 pm - +91 81810 09879: Sultanpur ka naam bdalne to ni aa rhe?
+22/07/2019, 9:23 pm - +91 84237 62476: Yar sabko mail aa gya h kya codevita k result ka?
+22/07/2019, 9:23 pm - Prakhar: Mujhe ha
+22/07/2019, 9:23 pm - Raj Shrivastava: Haa
+22/07/2019, 9:24 pm - +91 84237 62476: Koi aisa bhi hai jiska nhi aaya hai ab tk?
+22/07/2019, 9:24 pm - Raj Shrivastava: जो plagiarism me gye h.. उनका nhi aaya h shayad
+22/07/2019, 9:25 pm - +91 84237 62476: Unhe notify kia gya hai?
+Ki is wajah se nahi qualify hua🤔
+22/07/2019, 9:25 pm - Raj Shrivastava: Nhi
+22/07/2019, 9:25 pm - Raj Shrivastava: Bas not qualified आज rha h shayad unke tcs account pe
+22/07/2019, 9:26 pm - Raj Shrivastava: *aa
+22/07/2019, 9:26 pm - +91 84237 62476: Nextstep ya campus cimmune....
+22/07/2019, 9:26 pm - Raj Shrivastava: Campuscommune
+22/07/2019, 9:26 pm - +91 91982 98650: 🙋‍♂
+22/07/2019, 9:27 pm - +91 91982 98650: 🙋‍♂
+22/07/2019, 9:27 pm - +91 84237 62476: Okay thanks👍🏻
+22/07/2019, 9:42 pm - +91 85740 09400: 🙋🏻‍♂
+22/07/2019, 9:48 pm - Devesh: Meraa nhi aaya...
+22/07/2019, 10:22 pm - anuj it branch: 🙋🏻‍♂
+22/07/2019, 10:23 pm - +91 73098 78907: This message was deleted
+22/07/2019, 10:23 pm - Shivang: Go on codevita campus commune and it also shows the status whether you have qualified or not.
+22/07/2019, 10:24 pm - +91 84237 62476: @917309878907 
+Hmne padh lia🤭🤭🤭
+22/07/2019, 10:24 pm - +91 73098 78907: 😅
+22/07/2019, 10:25 pm - +91 88537 60748: fir bhi usi jagah pr jayenge...ksi jagah pr?
+22/07/2019, 10:25 pm - +91 84237 62476: 😂😂😂😂
+22/07/2019, 10:25 pm - +91 88537 60748: @917309878907
+22/07/2019, 10:26 pm - +91 84237 62476: Ye bas puchh rhe the......
+Baki apna status campus commune pe dekh skte
+22/07/2019, 10:26 pm - +91 73098 78907: Are bhai personal tha
+22/07/2019, 10:26 pm - +91 88537 60748: Ab public ho gya...
+22/07/2019, 10:28 pm - Devesh: Jo grp pe aa jata h vo public ho jata h😂😂
+22/07/2019, 10:28 pm - +91 73098 78907: 2 sec me dekh lete ho mobile se chipke rhte ho kya😅
+22/07/2019, 10:29 pm - +91 88537 60748: 🤭
+24/07/2019, 7:23 am - +91 88537 60748: <Media omitted>
+24/07/2019, 7:24 am - +91 88537 60748: Congratulations to all...
+24/07/2019, 7:33 am - Nikhil Knit: ye Ninja wali profile me hua hai?
+24/07/2019, 7:42 am - +91 88537 60748: Nhi..digital
+24/07/2019, 7:42 am - +91 88537 60748: And yeah atleast a treat is expected 😋
+24/07/2019, 7:42 am - Nikhil Knit: ussi me likha hai TCS Ninja.
+24/07/2019, 7:43 am - +91 73797 43197: Grand treat bro
+24/07/2019, 7:43 am - Devesh: Yes
+24/07/2019, 7:43 am - +91 88537 60748: Yr wait for your offer letter then
+24/07/2019, 7:43 am - +91 88537 60748: This message was deleted
+24/07/2019, 7:43 am - Devesh: This message was deleted
+24/07/2019, 7:44 am - Devesh: Maine pdh liya🤣🤣🤣
+24/07/2019, 7:44 am - +91 88537 60748: This message was deleted
+24/07/2019, 7:49 am - +91 88537 60748: This message was deleted
+24/07/2019, 7:49 am - +91 88537 60748: Yeah....ninja profile mein hi hua h...
+24/07/2019, 7:51 am - +91 81810 09879: <Media omitted>
+24/07/2019, 7:52 am - +91 88537 60748: Paisa hi paisa hoga
+24/07/2019, 7:52 am - +91 81810 09879: 😂
+24/07/2019, 7:54 am - Devesh: 😂😂🤣🤣
+24/07/2019, 7:54 am - +91 88537 60748: This message was deleted
+24/07/2019, 7:55 am - +91 81810 09879: <Media omitted>
+24/07/2019, 7:55 am - +91 88537 60748: 😂
+24/07/2019, 10:26 am - Prashant Dowedi: Congrats guys!
+24/07/2019, 11:59 am - +91 91252 92576: Congrats!
+24/07/2019, 11:59 am - +91 80098 16660: Congrats guys
+24/07/2019, 12:01 pm - Diwakar: congratulation guys
+24/07/2019, 12:05 pm - Abhishek Rathore: Anyone who has got mail regarding selection???
+24/07/2019, 12:52 pm - Prashant knit: congrats 😊
+24/07/2019, 12:53 pm - Amritesh Khare: This message was deleted
+24/07/2019, 6:59 pm - Shivang: Kya TCS wale Ninja profile ke package mein kuch increment kiye hai Iss saal?
+24/07/2019, 10:36 pm - +91 81810 09879: <Media omitted>
+24/07/2019, 10:36 pm - +91 81810 09879: Me looking my TCS interview results in Jofra Archer's tweets 😂
+24/07/2019, 10:38 pm - +91 94570 09431: 🤣
+24/07/2019, 10:39 pm - Tejashavi: Kuch nhi mila 😰
+24/07/2019, 10:40 pm - +91 81810 09879: Btc 😂😡
+24/07/2019, 10:40 pm - Raj Shrivastava: @919118326991  bhai final year me jake bhi ye sab.. 😂
+24/07/2019, 10:46 pm - Tejashavi: Uska toh career yehi hai
+24/07/2019, 10:47 pm - Tejashavi: Meme Wala kaushal
+24/07/2019, 10:47 pm - +91 81810 09879: 😂😂😂
+24/07/2019, 11:03 pm - Atharva Knit: Final year 😂
+25/07/2019, 9:28 am - +91 94509 27138: <Media omitted>
+25/07/2019, 8:11 pm - Prashant knit: <Media omitted>
+25/07/2019, 8:14 pm - Shivang: Who made this?
+25/07/2019, 8:15 pm - Shivang: Because my name is missing.
+25/07/2019, 8:15 pm - Tejashavi: Mera bhi
+25/07/2019, 8:15 pm - Shivang: I hope it isn't some official list
+25/07/2019, 8:15 pm - Tejashavi: Meine college name KNIT Sultanpur daala tha
+25/07/2019, 8:15 pm - Atharva Knit: Its not missing
+25/07/2019, 8:16 pm - Amritesh Khare: This message was deleted
+25/07/2019, 8:16 pm - +91 86301 61987: Is this official
+25/07/2019, 8:16 pm - Shivang: Oh apologies. It is not sorted properly.
+25/07/2019, 8:16 pm - Atharva Knit: Ct ids bad me h
+25/07/2019, 8:16 pm - Anmol KNIT: College rank wise galat sort h
+25/07/2019, 8:17 pm - Rohit: Kisne banayi hai ye list
+25/07/2019, 8:18 pm - Shailu: Yup
+25/07/2019, 8:19 pm - Rohit: Sorting nhi aati hai 🤣🤣🤣
+25/07/2019, 8:20 pm - SDV3: 😂😂
+25/07/2019, 8:20 pm - Anmol KNIT: 🤣🤣
+25/07/2019, 8:21 pm - Shailu: Bhai jisne kiya ....uske effort ko respect do yrr
+25/07/2019, 8:22 pm - Raj Shrivastava: 1 like = 1 Respect👍
+25/07/2019, 8:22 pm - SDV3: 👍👍👍 respect
+25/07/2019, 8:22 pm - avanish: 👍
+25/07/2019, 8:22 pm - Atharva Knit: Final year
+25/07/2019, 8:22 pm - Anmol KNIT: Pta chale tab to
+25/07/2019, 8:23 pm - Shailu: Prashant Badal ne...may be
+25/07/2019, 8:23 pm - Raj Shrivastava: Final year me आज gye to ab respect भी नहीं kr sakte kya 😂 nikhil से clear kro ye
+25/07/2019, 8:23 pm - Raj Shrivastava: *aa
+25/07/2019, 8:23 pm - Rohit: Tahe dil se सम्मान...
+25/07/2019, 8:23 pm - +91 81810 09879: Ye aa kaha lgana tha 😂
+25/07/2019, 8:23 pm - Anmol KNIT: @919005829535 respect 👍🏻👍🏻
+25/07/2019, 8:24 pm - Shailu: 🤣
+25/07/2019, 8:24 pm - Raj Shrivastava: Upar😂
+25/07/2019, 8:25 pm - S5: sale pakda nhi gya padarism wadarism me iski khusi mna
+25/07/2019, 8:25 pm - Ashish: mera name nahi hai
+25/07/2019, 8:26 pm - Shailu: Tmhra to main list me hai...
+Don't worry 😀
+25/07/2019, 8:27 pm - S5: kisike pas pichle sal ka record h kya
+ki kitne log ki list aai thi or kitne log ka final huaa
+25/07/2019, 8:27 pm - Amritesh Khare: This message was deleted
+25/07/2019, 8:27 pm - S5: 😂😂
+25/07/2019, 8:29 pm - Tejashavi: 60 ke aas pass the 30 ke aas pass hue the
+25/07/2019, 8:30 pm - S5: accha
+25/07/2019, 8:33 pm - Tejashavi: Yeh memory ke basis PE hai btw
+25/07/2019, 8:33 pm - S5: 😂😂koi nhi
+25/07/2019, 8:44 pm - Prashant knit: Hmne ni bnayi hme bi kahi se mili
+25/07/2019, 8:47 pm - Prashant knit: <Media omitted>
+25/07/2019, 8:47 pm - Prashant knit: All credit goes to this person 😂
+25/07/2019, 8:49 pm - Shailu: Ab itna bhi kya छिपाना..🤣🤣
+25/07/2019, 8:50 pm - Vineet Maurya: This message was deleted
+25/07/2019, 8:59 pm - Prashant Dowedi: But cheers to these numbers!!
+
+Sala lgta hai abki baar NQT se jada to codevita se select honge.. 😂
+25/07/2019, 9:02 pm - Shailu: 😀
+25/07/2019, 9:41 pm - Rijwan Knit: <Media omitted>
+25/07/2019, 10:05 pm - Prashant knit: Ab Sahi hai
+25/07/2019, 10:32 pm - +91 77058 40766: My name is not in list..🤔🤔
+25/07/2019, 10:34 pm - +91 80098 16660: 😂😂List makers rise
+25/07/2019, 10:34 pm - +91 80098 16660: And explain
+25/07/2019, 10:40 pm - +91 81810 09879: @arzoo ka bhi nhi h...kyo @918423762476
+25/07/2019, 10:41 pm - +91 84237 62476: Isme vivek rai kya kare......🤔
+Is List me missing h pahle wale me to sabka hoga hi
+25/07/2019, 10:41 pm - +91 88537 60748: Instead of list makers..memers have risen..
+25/07/2019, 10:41 pm - +91 84237 62476: 😂😂😂
+25/07/2019, 10:42 pm - +91 81810 09879: Tm nhi smjhe @ waali baat?
+25/07/2019, 10:43 pm - +91 84237 62476: Samjh gye....isme bas IT nahi hai n🤭
+
+Interbranch walo ko maje lene k mauke thodi n dene🤭🤭
+25/07/2019, 10:43 pm - +91 81810 09879: 😂😂
+25/07/2019, 10:43 pm - +91 88537 60748: Ab samjh gye...@918181009879
+25/07/2019, 10:44 pm - +91 81810 09879: बुद्धि बहुत तेज़ है तुम्हारी
+25/07/2019, 10:46 pm - +91 84237 62476: @918853760748 kuchh likhne chale gye kya....
+Meme wale k lie😂😂
+25/07/2019, 11:14 pm - Rijwan Knit: Due to Different College Name
+25/07/2019, 11:15 pm - Ashish: my name is not in list
+25/07/2019, 11:36 pm - +91 80098 16660: Nope she has the same college name
+25/07/2019, 11:37 pm - +91 84237 62476: Chhodo yar...usse ky karna😅😅
+25/07/2019, 11:38 pm - +91 80098 16660: Hawan
+25/07/2019, 11:38 pm - +91 84237 62476: Sab apna apna dekh to lie hai...
+Iske according apni rank dekh lenge......#insertion sort😂😂
+25/07/2019, 11:38 pm - +91 80098 16660: Achha 😂
+26/07/2019, 11:38 am - Avinash: Kisi ka 2 likhkai.. Aa raha hai.. Toh forgot password sai change karke login karo
+26/07/2019, 11:38 am - Avinash: Fee
+26/07/2019, 12:07 pm - Nikhil Knit: ye hi tareeka hai bas ya phir thodi der me normal login bhi hone lagega?
+26/07/2019, 12:50 pm - Diwakar: 8 Ko infityq ka slot available h
+26/07/2019, 3:37 pm - +91 81810 09879: Campus commune ki site pr ranks aa gyi
+26/07/2019, 3:37 pm - +91 81810 09879: Login krke dekh skte h
+26/07/2019, 3:42 pm - ASHUTOSH Knit: This message was deleted
+26/07/2019, 3:56 pm - Anmol KNIT: <Media omitted>
+26/07/2019, 3:56 pm - +91 73797 43197: Kaun h bhai aisa??
+26/07/2019, 3:56 pm - Anmol KNIT: Rank aaya tha ab disqualify dikha ra h
+26/07/2019, 3:57 pm - SDV3: This message was deleted
+26/07/2019, 3:57 pm - SDV3: Eise kaise..
+26/07/2019, 3:57 pm - Shailu: Ye site pr dikha rha hai kya?
+26/07/2019, 3:57 pm - SDV3: This message was deleted
+26/07/2019, 3:58 pm - Anmol KNIT: Ji ha
+26/07/2019, 3:58 pm - Shailu: But ye to last year ka hai..2018
+26/07/2019, 3:59 pm - Anmol KNIT: Are yar
+26/07/2019, 4:00 pm - Anmol KNIT: 🤣🤣
+26/07/2019, 4:00 pm - SDV3: Bhai bhai...😂
+26/07/2019, 4:01 pm - Anmol KNIT: Dusre ka tha
+26/07/2019, 4:01 pm - Anmol KNIT: Hme bhi dra dia 🤣🤣
+26/07/2019, 4:05 pm - Rohit: Baaz ki नजर  walla shailu👍👍👍
+26/07/2019, 4:06 pm - Shailu: 🤣
+26/07/2019, 8:00 pm - +91 73797 43197: <Media omitted>
+26/07/2019, 8:05 pm - Prashant Dowedi: Call as in phone call ayegi kya?
+Ya mail pe hi..?
+26/07/2019, 8:06 pm - +91 78449 92214: Nhi interview call k naam se mail aayega
+26/07/2019, 8:06 pm - Prashant Dowedi: Okay 👍
+26/07/2019, 8:09 pm - +91 73797 43197: This message was deleted
+30/07/2019, 9:47 am - +91 70558 17896: <Media omitted>
+30/07/2019, 11:55 am - Prashant Dowedi: <Media omitted>
+30/07/2019, 11:55 am - Prashant Dowedi: <Media omitted>
+30/07/2019, 11:55 am - Prashant Dowedi: <Media omitted>
+30/07/2019, 6:43 pm - +91 88537 60748: The tentative date of codevita interview is 5 august in lucknow... There is no possibility of change in centre...so plan your schedule accordingly
+30/07/2019, 6:44 pm - Khushboo: This message was deleted
+30/07/2019, 6:52 pm - Tejashavi: It is tentative
+30/07/2019, 6:53 pm - Khushboo: Didn't see that
+31/07/2019, 6:28 pm - +91 91188 72207: <Media omitted>
+01/08/2019, 8:56 am - +91 84237 62476: Venue Name & Address : iON Digital Zone iDZ  Jankipuram Extension
+                  Cosmo Foundation,Opposite SEWA Hospital, Sitapur Road, Behind CDRI, Jankipuram Extension,Lucknow,Uttar Pradesh,226031
+
+
+Reporting time - 7:30 am
+01/08/2019, 8:56 am - +91 84237 62476: Any other Venues and reporting time?
+01/08/2019, 8:56 am - +91 73760 98290: Haa
+01/08/2019, 8:56 am - +91 75220 17983: <Media omitted>
+01/08/2019, 8:56 am - +91 73760 98290: iON Digital Zone iDZ   Sector-9B Vrindawan Colony
+                  NKM Public School, Sector 9B, Vrindawan Colony Raebareli Road,Lucknow,Uttar Pradesh,226029
+01/08/2019, 8:57 am - +91 96212 36512: <Media omitted>
+01/08/2019, 8:57 am - +91 73760 98290: Reporting 7:30 am
+01/08/2019, 8:58 am - +91 84237 62476: Screenshot wale log.......copy /paste kar le...😅
+
+Phone memory full ho jaegi aise😅😅
+01/08/2019, 8:58 am - +91 98380 81123: <Media omitted>
+01/08/2019, 8:58 am - Prashant Dowedi: Reporting time is 10:30 AM
+01/08/2019, 8:59 am - Rohit: ✋
+01/08/2019, 8:59 am - +91 75220 17983: Venue Name & Address : iON Digital Zone iDZ  Azad Puram
+                  Azad Technical Campus, Azad Puram, Adjacent CRPF Camp, Post Chandrawal via Banglabazar Road, Bijnour,Lucknow,Uttar Pradesh,226002
+01/08/2019, 8:59 am - +91 75220 17983: Reporting time 7:30
+01/08/2019, 8:59 am - +91 84237 62476: Jiska isse different ho.....
+Aise hi format me send kare....
+Taki differentiate ho pae....
+01/08/2019, 8:59 am - +91 73760 98290: Hmara 7:30 Ku h😫
+01/08/2019, 8:59 am - +91 77058 40766: 7:30 am
+01/08/2019, 9:01 am - +91 96212 36512: Reporting time : 10:30 am
+01/08/2019, 9:01 am - Rohit: Venue Name & Address : iON Digital Zone iDZ  Azad Puram
+                  Azad Technical Campus, Azad Puram, Adjacent CRPF Camp, Post Chandrawal via Banglabazar Road, Bijnour,Lucknow,Uttar Pradesh,226002
+
+Reporting time :10:30
+01/08/2019, 9:02 am - Vedas: Venue Name & Address : iON Digital Zone iDZ  Azad Puram
+                  Azad Technical Campus, Azad Puram, Adjacent CRPF Camp, Post Chandrawal via Banglabazar Road, Bijnour,Lucknow,Uttar Pradesh,226002
+
+Reporting time : 7:30
+01/08/2019, 9:05 am - Shivang: 7:30
+01/08/2019, 9:05 am - +91 94793 17092: 10.30
+01/08/2019, 9:06 am - S5: Reporting Time : 07:30 AM
+Exam Date and Shift : 2019-08-03  Shift1 08:30 AM - 10:00 AM
+Venue Name & Address : iON Digital Zone iDZ  Jankipuram Extension
+                  Cosmo Foundation,Opposite SEWA Hospital, Sitapur Road, Behind CDRI, Jankipuram Extension,Lucknow,Uttar Pradesh,226031
+01/08/2019, 9:11 am - +91 95549 16622: This message was deleted
+01/08/2019, 9:12 am - ASHUTOSH Knit: Reporting Time : 10:30 AM
+Exam Date and Shift : 2019-08-03  Shift2 11:30 AM - 01:00 PM
+Venue Name & Address : iON Digital Zone iDZ  Azad Puram
+                  Azad Technical Campus, Azad Puram, Adjacent CRPF Camp, Post Chandrawal via Banglabazar Road, Bijnour,Lucknow,Uttar Pradesh,226002
+01/08/2019, 9:12 am - +91 75710 74633: Reporting Time 10:30
+01/08/2019, 9:13 am - SDV3: Reporting Time : 07:30 AM
+Exam Date and Shift : 2019-08-03  Shift1 08:30 AM - 10:00 AM
+Venue Name & Address : iON Digital Zone iDZ  Azad Puram
+                  Azad Technical Campus, Azad Puram, Adjacent CRPF Camp, Post Chandrawal via Banglabazar Road, Bijnour,Lucknow,Uttar Pradesh,226002
+01/08/2019, 9:14 am - Atharva Knit: Reporting Time : 10:30 AM
+Exam Date and Shift : 2019-08-03  Shift2 11:30 AM - 01:00 PM
+Venue Name & Address : iON Digital Zone iDZ  Azad Puram
+                  Azad Technical Campus, Azad Puram, Adjacent CRPF Camp, Post Chandrawal via Banglabazar Road, Bijnour,Lucknow,Uttar Pradesh,226002
+01/08/2019, 9:15 am - +91 74609 69509: Reporting time - 10:30.
+01/08/2019, 9:21 am - +91 94159 07304: 10:30
+01/08/2019, 9:22 am - +91 87652 01698: Reporting time 7:30
+01/08/2019, 9:22 am - Priyanka: Reporting Time : 10:30 AM
+Exam Date and Shift : 2019-08-03  Shift2 11:30 AM - 01:00 PM
+Venue Name & Address : iON Digital Zone iDZ   Sector-9B Vrindawan Colony
+                  NKM Public School, Sector 9B, Vrindawan Colony Raebareli Road,Lucknow,Uttar Pradesh,226029
+01/08/2019, 9:23 am - +91 73807 66501: Reporting Time : 07:30 AM
+Exam Date and Shift : 2019-08-03  Shift1 08:30 AM - 10:00 AM
+Venue Name & Address : iON Digital Zone iDZ  Azad Puram
+                  Azad Technical Campus, Azad Puram, Adjacent CRPF Camp, Post Chandrawal via Banglabazar Road, Bijnour,Lucknow,Uttar Pradesh,226002
+01/08/2019, 9:26 am - +91 84237 62476: Bhai sabhi na bhejo yrr......
+Aise redundant ho ja rha.....
+
+Bas agr timing aur Venue different hai tbhi msg karo....
+Warna skip kar do🙏🏻
+01/08/2019, 9:26 am - Tejashavi: 3 venue aagye na abhi Tak ?
+01/08/2019, 9:26 am - Prashant Dowedi: 😂 😂 😂 😂 😂
+01/08/2019, 9:49 am - +91 85740 09400: Exam Date and Shift : 2019-08-03  Shift3 02:30 PM - 04:00 PM
+Venue Name & Address : iON Digital Zone iDZ 1, Mathura Road
+                  A 27, Mohan Co-Op Industrial Estate, Near Sarita Vihar Metro Station,Near Metro Pillar No. 292-293,New Delhi,Delhi,India,110044
+01/08/2019, 9:52 am - Prakhar: Reporting Time : 07:30 AM
+Exam Date and Shift : 2019-08-03  Shift1 08:30 AM - 10:00 AM
+Venue Name & Address : iON Digital Zone iDZ  Jankipuram Extension
+                  Cosmo Foundation,Opposite SEWA Hospital, Sitapur Road, Behind CDRI, Jankipuram Extension,Lucknow,Uttar Pradesh,226031
+01/08/2019, 9:54 am - +91 96215 85624: Exam Date and Shift : 2019-08-03  Shift2 11:30 AM - 01:00 PM
+Venue Name & Address : iON Digital Zone Sec-34 DPGITM,Sector 34, Near Hero Honda Chowk,NH- 8, Behind Marble Market,Gurgaon,Haryana, 122001
+01/08/2019, 10:03 am - ASEEM SRIVASTAVA: Exam Date and Shift : 2019-08-03  Shift1 08:30 AM - 10:00 AM
+Venue Name & Address : iON Digital Zone Sec-34
+                  DPGITM,Sector 34, Near Hero Honda Chowk,NH- 8, Behind Marble Market,Gurgaon,Haryana, 122001
+01/08/2019, 10:05 am - +91 73098 78907: Exam Date and Shift : 2019-08-03  Shift1 08:30 AM - 10:00 AM
+Venue Name & Address : iON Digital Zone iDZ 2  Naini
+                  United Institue of Management,E 3, UPSIDC Industrial Area,Naini,Allahabad,Uttar Pradesh,211010
+01/08/2019, 10:11 am - Mk Knit: Koi  aisa h jiska mail nahi aya h???
+01/08/2019, 10:13 am - Raj Shrivastava: Haa.. Tumhe
+01/08/2019, 10:22 am - +91 94159 07304: 😂😂
+01/08/2019, 10:24 am - +91 89608 31685: Reporting Time : 01:00 PM
+Exam Date and Shift : 2019-08-03  Shift3 02:30 PM - 04:00 PM
+Venue Name & Address : iON Digital Zone iDZ 1  Hathipur
+                   RND Jan Kalyan Sewa Samiti,184-Hathipur Opposite Thana Maharajpur,Kanpur,Uttar Pradesh,209402
+01/08/2019, 10:55 am - +91 78951 08920: This message was deleted
+01/08/2019, 10:55 am - +91 78951 08920: This message was deleted
+01/08/2019, 10:57 am - Khushboo: Kisika moradabad center aaya hai Kya???
+01/08/2019, 11:32 am - +91 84237 62476: This message was deleted
+01/08/2019, 11:32 am - +91 84237 62476: Hey everyone,
+Please have a note before the start of the session. Followings are  some basics paradigm and rules according to TPO. This is applicable to everything which is coordinated and conducted by TPO for the whole session.
+
+*A- Google form*
+
+1- Details should be in Camel Case (e.g Rahul Gandhi, Uttar Pradesh etc)
+2- Untill you are sure for the purpose, don't fill it in state of dillema. In state of dilemma you can individually contact your branch TPRs so that he/she is acknowledged about your situation.
+3- Kindly assure your filled details are right( your name, roll no,  etc.). For this none of us will be responsible.
+
+*Note-*
+° You will always get a limited time within which you are expected  to fill the form and circulate to your friends before it. After that it's not responsibility of TPRs, you can individually contact the Professor. 
+° The time limit is solely decided by the professor, not by the TPRs. So those who have grudges regarding this can contact the same.
+
+*B- Transportation Facility*
+1- Fill the form only when you are assure to avail the facility.
+2- Those who have chosen the facility must have to return by the same carriage(e.g  bus) . In case of emergency, you have to take permission from our  Additional Professor In-charge Amit Medhavi sir.
+3-In case of any indiscipline the coordinating member will take the action appropriately.
+01/08/2019, 11:34 am - +91 70558 17896: This message was deleted
+01/08/2019, 11:34 am - +91 84237 62476: https://docs.google.com/forms/d/e/1FAIpQLScbfBWGqI7aZpB0BWqbpozeCB_XnNOhDzNy5fkVlfTSjRSLPg/viewform?usp=sf_link
+
+*Bus facility is not confirmed yet*, *will confirm by today evening*.
+
+*Note-To be filled by 1 pm*
+01/08/2019, 11:43 am - Shailu: 👍🏻
+01/08/2019, 12:35 pm - +91 84237 62476: Fill the form as soon as possible.....
+In case any arrangements made possible, it  will surely take some time.......
+And our count down has already start😅
+
+
+Share in your group as well as to your individual friend group.👍🏻
+01/08/2019, 1:11 pm - +91 70558 17896: 1:30 form will be closed
+01/08/2019, 10:07 pm - +91 70558 17896: will be confirmed by 2 pm Tomorrow
+02/08/2019, 11:55 am - +91 70558 17896: Bus facility is confirmed
+02/08/2019, 11:55 am - Prakhar: Timing??
+02/08/2019, 11:56 am - +91 70558 17896: Will be around 2 am
+02/08/2019, 11:56 am - Shivang: 👍
+02/08/2019, 11:59 am - Pawan Mishra: AM? Sure?
+02/08/2019, 12:00 pm - Shailu: 👍🏻
+02/08/2019, 12:01 pm - Tejashavi: Nhi pm hai jaldi se admin ke samne aajao
+02/08/2019, 12:01 pm - +91 73797 43197: Make sure everyone is on time because some of us having Shift 1 paper and the reporting time is 7:30
+02/08/2019, 12:01 pm - Shailu: 🤣🤣
+02/08/2019, 12:01 pm - Raj Shrivastava: 😂
+02/08/2019, 12:01 pm - +91 70558 17896: 😂😂bro
+02/08/2019, 12:01 pm - Raj Shrivastava: Bro मैं hi खड़ा hu.. बस चलने वाली h😌
+02/08/2019, 12:01 pm - Raj Shrivastava: *vahu
+02/08/2019, 12:02 pm - Raj Shrivastava: *vahi
+02/08/2019, 12:02 pm - Prakhar: Bhai ruk ja abhi train me hu
+02/08/2019, 12:02 pm - Shailu: 😃
+02/08/2019, 12:02 pm - Tejashavi: Bas AA rhe hai hum log bhi 😋😋
+02/08/2019, 12:02 pm - SDV3: haan tu derect lucknow utrana
+02/08/2019, 12:02 pm - SDV3: *direct
+02/08/2019, 12:02 pm - Shailu: Ha yrr...thoda rukk😃
+02/08/2019, 12:03 pm - Raj Shrivastava: Jaldi aao बस वाला bol rha hai 12.30 pe hu niklega.. Bengaluru से होते hue😌
+02/08/2019, 12:03 pm - Prakhar: Atleast 2 to bjj jane do
+02/08/2019, 12:03 pm - Prakhar: Itni bhi kya jaldi
+02/08/2019, 12:03 pm - Shailu: 🤣🤣
+02/08/2019, 12:05 pm - +91 84237 62476: Everything will be scheduled as per everyone's convenience, don't bother about it.
+
+You will have the schedule soon.
+02/08/2019, 12:05 pm - +91 84237 62476: This is just a info....
+
+To plan the schedule will surely take time....have a patience till then
+02/08/2019, 12:09 pm - Shailu: 👍🏻
+02/08/2019, 2:36 pm - Prerna: i have not received the hall ticket for tomorrow.
+anyone else?
+02/08/2019, 2:41 pm - +91 70558 17896: CT/DT id?
+02/08/2019, 2:42 pm - avanish: You deleted this message
+02/08/2019, 2:42 pm - Prerna: CT20192709747
+02/08/2019, 2:42 pm - +91 74609 69509: 🙋🏻
+02/08/2019, 2:45 pm - +91 84237 62476: Ye log CT/DT id send kar de...grp pe.hi
+02/08/2019, 2:47 pm - +91 96956 28776: This message was deleted
+02/08/2019, 2:47 pm - +91 74609 69509: CT20192696678
+02/08/2019, 2:48 pm - +91 74609 69509: MERI aa gyi
+02/08/2019, 2:48 pm - +91 84237 62476: Waise abhi wait kar lo....
+Qki mera bhi abhi just aaya hai........😅
+02/08/2019, 2:49 pm - Prerna: aa gyi abhi abhi
+02/08/2019, 2:50 pm - +91 70558 17896: after 5 pm jiska nahi aata hai 
+inform krdena
+02/08/2019, 3:23 pm - +91 98892 60075: 🙋‍♂yes I am also
+02/08/2019, 3:48 pm - +91 70558 17896: <Media omitted>
+02/08/2019, 3:48 pm - +91 70558 17896: <Media omitted>
+02/08/2019, 3:48 pm - +91 70558 17896: <Media omitted>
+02/08/2019, 3:48 pm - +91 70558 17896: Bus 1 and bus 3 
+at 2 am 
+Bus 2
+ at 3 am
+02/08/2019, 3:51 pm - +91 70558 17896: Bus 1:- 
+(2 am )
+To Jankipuram then back to sln
+02/08/2019, 3:51 pm - +91 70558 17896: Bus 2:- 
+(3 am)
+To Azad puram then Jankipuram 
+wait for test at Jankipuram
+Then to vridavan to pick students of slot 2 
+and then to azad puram
+02/08/2019, 3:51 pm - +91 70558 17896: Bus 3:- 2 am
+To Azad puram then to vrindavan 
+wait for test at vrindavan 
+then azad puram
+02/08/2019, 3:57 pm - +91 84237 62476 added +91 70526 85638
+02/08/2019, 6:54 pm - +91 98892 60075: DT20195563433
+02/08/2019, 7:01 pm - +91 98892 60075: <Media omitted>
+02/08/2019, 7:07 pm - +91 84237 62476: Guys there is a query regarding this....
+Vrindavan's 1st slot students  have not to wait there.
+Bus 3 will pick you after the exam and through azad puram it will be back.
+02/08/2019, 7:07 pm - +91 84237 62476: I think it's been clear now.
+02/08/2019, 7:09 pm - +91 84237 62476: Then bus 2 will pick the slot 2 students of all the three test center.
+02/08/2019, 7:12 pm - +91 70558 17896: Wait for it then 
+because it is also not available in the file we have,
+otherwise we can't do anything
+02/08/2019, 7:19 pm - +91 78449 92214: *Hall ticket ka printout coloured nikalwana hai ?*
+02/08/2019, 7:29 pm - Karan: tcs पे इतना खर्च ना करे
+02/08/2019, 7:29 pm - Karan: b&w printout lgaye
+02/08/2019, 7:29 pm - Khushboo: 😂
+02/08/2019, 7:30 pm - +91 78449 92214: Bhai aisi suchana mili hai ki iski zarurat padti hai
+02/08/2019, 7:34 pm - +91 80098 16660: Colored print ki?
+02/08/2019, 7:35 pm - +91 81810 09879: Official hall ticket mein nhi likha h
+02/08/2019, 7:36 pm - Shivang: Ha to admit card mein nahi likha hai. Unko jarurat hogi to wo dekhe
+02/08/2019, 7:39 pm - +91 78449 92214: Bhai chirag sir se baat hui thi... Vaha coloured printout lagta hai
+02/08/2019, 7:40 pm - +91 78449 92214: Safer side k liye le chalo
+02/08/2019, 7:44 pm - S5: racist tcs
+02/08/2019, 7:45 pm - Raj Shrivastava: Bhai black n white ले chalo
+02/08/2019, 7:45 pm - Prakhar: Ha yaar
+02/08/2019, 7:45 pm - Shivang: Mai to digital wale mein print tak nahi karaya tha.
+02/08/2019, 7:45 pm - Raj Shrivastava: Digital me bhi black and white hi tha🤦‍♂
+02/08/2019, 7:45 pm - Karan: 🤣🤣
+02/08/2019, 7:46 pm - Raj Shrivastava: Jispe zyada paise ho mere coloured niklawa do
+02/08/2019, 7:46 pm - Prakhar: Aisa kha bola gya
+02/08/2019, 7:46 pm - Prakhar: Ki coloured chhiye
+02/08/2019, 7:47 pm - Karan: job to teri lgi h😎
+02/08/2019, 7:48 pm - +91 84237 62476: Mere bhai....o bas application form k lie bole honge
+02/08/2019, 7:48 pm - +91 84237 62476: Jiski jarurat interview me padti hai......not in test
+02/08/2019, 7:49 pm - +91 84237 62476: Jinki shakal b&w me na pahchan aa rhi ho....
+Yes they can😂
+02/08/2019, 7:53 pm - Raj Shrivastava: Bhai usme bhi B&W hi tha
+02/08/2019, 8:25 pm - +91 78449 92214: B&W he sahi hai yrr....last yr instructions m likha tha coloured lane k liye.., apne m nhi likha.
+02/08/2019, 8:26 pm - +91 86301 61987: Likha h
+02/08/2019, 8:29 pm - Amritesh Khare: Kha?
+02/08/2019, 9:02 pm - +91 78449 92214: Kaha likha hai ?
+02/08/2019, 9:55 pm - +91 86301 61987: Hall ticket pr
+02/08/2019, 9:56 pm - Shivang: Mere pe to nahi likha hai. Am I missing something?
+02/08/2019, 9:57 pm - +91 86301 61987: Sorry mene glt dekh liya
+02/08/2019, 10:01 pm - +91 73797 43197: Bhai alag hall ticket aa gya kya kuch logo ka kya???
+02/08/2019, 10:09 pm - +91 78449 92214: Hm to pure instructions padh chuke kahi nhi likha hai
+03/08/2019, 1:49 am - Shivang: Please inform before departure.
+03/08/2019, 1:53 am - +91 70558 17896: 3 am slot sb ready hojaye 
+abhi nikalna padh skta hai
+03/08/2019, 1:56 am - +91 70558 17896: nikalna hai abhi 3 am walo ko bhi
+jldi se sb aajaye
+03/08/2019, 5:17 am - +91 84237 62476: 5:30 se niklna h
+03/08/2019, 10:25 am - S5: bus 1 chalu ho gai h chale aao jldi
+03/08/2019, 10:26 am - Aryan Singh: Azad puram ayegi kya??
+03/08/2019, 10:27 am - +91 84237 62476: Pahle vrindavan fir azadpur
+03/08/2019, 10:27 am - +91 84237 62476: puram
+03/08/2019, 10:36 am - Aryan Singh: This message was deleted
+03/08/2019, 10:36 am - Aryan Singh: 👍🏻
+03/08/2019, 10:42 am - +91 84237 62476: Jaise aaye the waise hi jana hai......
+i.e you have to wait for the slot 2 students.
+03/08/2019, 11:20 am - Shivang: Ye kuch Popeye's pizza hai kuch dur pe jaha bus ruki hai
+03/08/2019, 11:20 am - Shivang: Janhit me jari
+03/08/2019, 11:20 am - S5: aa jao mast AC chal raha h
+03/08/2019, 11:59 am - +91 84237 62476: Jankipuram wale.....30 min me aa jao bus k pas....
+Fir chalte hai center😂
+03/08/2019, 12:05 pm - Shivang: 👍
+03/08/2019, 12:58 pm - +91 84237 62476: <Media omitted>
+03/08/2019, 12:58 pm - +91 84237 62476: Wahi hai hm lpg
+03/08/2019, 12:58 pm - +91 84237 62476: <Media omitted>
+03/08/2019, 1:14 pm - S5: <Media omitted>
+03/08/2019, 1:20 pm - +91 84237 62476: <Media omitted>
+03/08/2019, 1:22 pm - +91 84237 62476: Ek hi Sath sabhi log aa jao.......... group me
+03/08/2019, 1:22 pm - +91 84237 62476: Fir chalte hai
+03/08/2019, 1:23 pm - +91 96212 36512: Detailed description👏🏻👏🏻🙇🏻‍♀🙇🏻‍♀😆😆
+03/08/2019, 1:27 pm - +91 70558 17896: Rai sahab TPR hai🤘
+03/08/2019, 1:28 pm - +91 84237 62476: 🤨🤨🤨
+03/08/2019, 1:33 pm - +91 84237 62476: Gate 1 k samne
+03/08/2019, 1:36 pm - +91 84237 62476: Bus chal chuki🤘🏻
+03/08/2019, 1:40 pm - Diwakar: This message was deleted
+03/08/2019, 5:02 pm - Khushboo: Any confirmation for date of interview ????
+03/08/2019, 7:05 pm - +91 81810 09879: Kisi ka koi friend Lucknow region ke kisi dusre college mein pdhta h aur uska interview call aa chuka ho codevita ka?
+04/08/2019, 1:43 am - +91 81810 09879: Mail aa gya
+04/08/2019, 1:43 am - +91 81810 09879: Ramswaroop mein hai
+04/08/2019, 7:02 am - Vineet Maurya changed their phone number to a new number. Tap to message or add the new number.
+04/08/2019, 10:54 am - +91 84237 62476: Interview ki venue to sabki same hi hogi
+04/08/2019, 10:54 am - +91 84237 62476: Timing alg alag hai kya?
+04/08/2019, 10:54 am - +91 81810 09879: Mera 12 bje
+04/08/2019, 10:54 am - +91 98380 81123: Meri 9 bje
+04/08/2019, 10:54 am - Ashish: 9 bje
+04/08/2019, 10:54 am - +91 89608 31685: 9
+04/08/2019, 10:55 am - +91 75710 74633: 12
+04/08/2019, 10:55 am - +91 84237 62476: Shri Ramswaroop College of Engineering and Management
+04/08/2019, 10:55 am - Abhishek Rathore: I have not got the mail
+04/08/2019, 10:55 am - +91 84237 62476: Okay....in do timing k alawa?
+04/08/2019, 10:55 am - +91 96212 36512: Me too not got the mail😶
+04/08/2019, 10:56 am - +91 84237 62476: Tmhe jarurat kya hai..😂
+04/08/2019, 10:56 am - +91 87658 86391: Tera to hogya hai na kya dikkat hai😂
+04/08/2019, 10:56 am - Anmol KNIT: Same venue at 9 am
+04/08/2019, 10:56 am - +91 70558 17896: digital profile bhi upgrade ho skta hai
+04/08/2019, 10:58 am - +91 84237 62476: Okay... ab timing na batane lago sab....
+Bas kewal different time slot janana tha
+04/08/2019, 11:00 am - Raj Shrivastava: Mail nhi aaya
+04/08/2019, 11:00 am - Devesh: Tm sb ho gyaa h. Ab kyaa jarurat h😂
+04/08/2019, 11:01 am - +91 84237 62476: Haa to....ab clear ho gya...
+Selected candidates ko nahi aaya mail
+04/08/2019, 11:01 am - +91 95326 86711: same...
+04/08/2019, 11:01 am - +91 99845 76290: 2 bje
+04/08/2019, 11:03 am - +91 73177 20954: 2 bje
+04/08/2019, 11:03 am - +91 84237 62476: Done
+04/08/2019, 11:03 am - +91 84237 62476: Any other
+04/08/2019, 11:10 am - +91 84237 62476: Selected candidates me....koi aisa hai jise mail aaya ho?
+04/08/2019, 11:10 am - +91 89608 31685: Mere paas aya h mail
+04/08/2019, 11:10 am - +91 84237 62476: Anyone else
+04/08/2019, 11:11 am - +91 75710 74633: This message was deleted
+04/08/2019, 2:04 pm - +91 84237 62476: https://docs.google.com/forms/d/e/1FAIpQLSd3nVJPRCTWpvo3AV6exCegHeCwvUsfIkvRg8J8um3TUcUCHA/viewform?usp=sf_link
+
+
+
+This form is to be filled only by those students who want to avail the bus facility provided by the college for the codevita interview.
+
+*form responses will be closed at 4 pm, please circulate to your friends*
+04/08/2019, 2:25 pm - +91 84237 62476 added +91 99979 73776
+04/08/2019, 2:26 pm - +91 84237 62476 added +91 82854 26877
+04/08/2019, 2:46 pm - +91 81810 09879: Marksheet attest krwaana pdega college se?
+04/08/2019, 3:15 pm - +91 88537 60748: Jiska mail nhi aaya h...(aur aana chahiye tha) wo apni CT /DT id, name and email dedo
+04/08/2019, 3:17 pm - +91 96212 36512: Id : CT20192681147
+Name : Bhavya Srivastava
+Email : sri.bhavya19@gmail.com
+04/08/2019, 3:24 pm - Raj Shrivastava: Raj Srivastava
+rajsriv.14@gmail.com
+CT20192691139
+04/08/2019, 3:28 pm - Abhishek Rathore: Abhishek Singh Rathore
+Email: abhisheksinghrathore72@gmail.com
+CT20192701068
+04/08/2019, 4:00 pm - +91 70558 17896: Are these all ??
+04/08/2019, 4:01 pm - Khushboo: Application form coloured le Jana hai Kya??
+04/08/2019, 4:07 pm - +91 95326 86711: This message was deleted
+04/08/2019, 4:08 pm - +91 95326 86711: Id: DT20195264360
+Name :Aman Singh 
+Email : thakuraman9598@gmail.com
+04/08/2019, 4:09 pm - +91 97932 37273: Id : DT20195472412
+Name: Priyendu Singh
+Email: priyendu.16242@knit.ac.in
+04/08/2019, 4:19 pm - +91 95326 86711: Id : CT20172282218
+Name : Arjun Jaiswal
+Email : arjunjaiswal775@gmail.com
+04/08/2019, 4:21 pm - +91 84237 62476: This depends on you yourself how you want to present it in front of them...
+04/08/2019, 4:23 pm - +91 81810 09879: .
+04/08/2019, 4:25 pm - +91 84237 62476: Karana to hai....
+But kara nahi skte.....shyd kal bhi holiday hai😅
+04/08/2019, 4:26 pm - +91 81810 09879: Bhai kal ki chhutti ka pata kr do ek baar....hmko aana tha college isiliye
+04/08/2019, 4:26 pm - +91 84237 62476: Islie....ab self attest kar skte.....
+Baki dekhne to koi nahi ja rha waise bhi........
+In case dekhta bhi hai to reason bata denge😅
+04/08/2019, 4:27 pm - +91 84237 62476: Academic calendar aaya ki nhi?😅
+04/08/2019, 5:56 pm - +91 75220 17983: This message was deleted
+04/08/2019, 8:52 pm - Shivang: Hi folks
+Kisi ke pass Clock aur lexi string wala question ho to send Kar Dena
+04/08/2019, 10:09 pm - +91 84237 62476: Yr ek bar ise apne group pe forward kar do.....
+Koi bcha ho to form fill kr le
+04/08/2019, 10:09 pm - +91 84237 62476: Apne branch group me
+04/08/2019, 10:10 pm - +91 84237 62476: Jin logo ne fon karke btaya hai....o log bhi fill kr le😅
+05/08/2019, 10:10 am - +91 84237 62476: <Media omitted>
+05/08/2019, 10:11 am - Prashant Dowedi: Thanks bro
+05/08/2019, 10:11 am - avanish: You deleted this message
+05/08/2019, 10:13 am - +91 84237 62476: Baki 1st year ur 2nd year ki marksheet le lena admin se...
+05/08/2019, 10:13 am - +91 84237 62476: Jiske pas na ho
+05/08/2019, 12:02 pm - Prakhar: Kisi ke paas lexi string aur island question hai??
+05/08/2019, 12:06 pm - +91 73760 98290: <Media omitted>
+05/08/2019, 12:22 pm - S5: kisi ke pass chocolate problem vala question ho to bhej do yr
+05/08/2019, 2:02 pm - +91 88537 60748: All the students who hadn't received the email regarding codevita interview should come along other students at the SRMCE...
+05/08/2019, 2:03 pm - +91 96212 36512: This message was deleted
+05/08/2019, 5:55 pm - +91 70558 17896: Bus 1 : For candidates in Slot 1(i.e. 9 am )  will leave at 4:30 am sharp
+Bus 2 : For rest Candidates . will leave at 7 :00 am sharp
+05/08/2019, 8:48 pm - +91 70558 17896: Bus 1 
+4 am
+05/08/2019, 10:09 pm - +91 98890 70069: This message was deleted
+05/08/2019, 10:55 pm - +91 73098 78907: This message was deleted
+06/08/2019, 4:18 am - Amritesh Khare: Chalna h ki nhi?
+06/08/2019, 4:19 am - Aryan Singh: Bus chli kya??
+06/08/2019, 4:19 am - Amritesh Khare: Haa chal di
+06/08/2019, 6:52 am - +91 70558 17896: Bus 2 candidates reach PNB asap
+06/08/2019, 8:37 am - Khushboo: Koi pahucha college ??
+06/08/2019, 8:38 am - Ashish: ha
+06/08/2019, 8:39 am - Khushboo: Ok
+06/08/2019, 11:09 am - S5: include<stdio.h>
+int main()
+{
+  int p,q,r,s;
+  int count=0;
+  scanf("%d",&p);
+  scanf("%d",&q);
+  scanf("%d",&r);
+  scanf("%d",&s);
+  
+  for(int i=p;i<=q;i++){
+    for(int j=r;j<=s;j++){
+      count+=fun(i,j); 
+    }
+}
+  printf("%d",count);
+  return 0;
+}
+
+int fun(int p,int q)
+{ 
+int tmp;
+if(q>p){   
+    tmp=q;
+    q=p;
+    p=tmp;
+    }
+  if(q==1){
+    return p; 
+    }
+ if(p==q){
+   return 1;
+    }
+ 
+  if(p>q){
+    p=p-q;
+    return 1+fun(p,q);
+    }
+}
+06/08/2019, 11:09 am - S5: include<stdio.h>
+#include<conio.h>
+char order[26];
+//position function to determine the position of given alphabet
+int position(char n){
+int i=0;
+while(order[i]!='\0'){
+	if(order[i]==n)
+      break;
+      i++;
+    }
+  return i;
+}
+
+int main(){
+		int t,i=0,j;
+  		int char1,char2;
+  		char str[100],temp;
+  		//test case loop
+  		
+  		scanf("%d",&t);
+  		while(t--){
+        scanf("\n%s",&order);
+         scanf("\n%s",&str);
+          int l=strlen(str);
+          while(i<l-1){
+            for(j=i+1;str[j]!='\0';j++){
+            	char1=position(str[i]);
+              	char2=position(str[j]);
+             
+             // if char1 is greter means it comes after char2 then bellow swappping is used 
+             
+              if(char1>char2){
+                temp=str[i];
+                str[i]=str[j];
+                str[j]=temp;
+              }
+            }
+            i++;
+          }
+    //this will give final output
+          printf("%s\n",str);
+        }
+  return 0;
+}
+06/08/2019, 4:25 pm - S5: aa jao sb bus chalu ho gyi h
+06/08/2019, 4:25 pm - S5: subh 9 bje wale apni bus me aa jao
+06/08/2019, 5:07 pm - +91 84237 62476: Abhi hua hi nahi bahuto ka😬😬
+06/08/2019, 5:09 pm - Aryan Singh: Jitte ka ho gya isme nikle baki dusri me a jaye????
+06/08/2019, 5:09 pm - Aryan Singh: I think 40-50 log ka ho gya hai..
+06/08/2019, 5:12 pm - Prashant Dowedi: Ha jinka ho gya hai wo log chalo bus mein
+06/08/2019, 5:12 pm - S5: ha yr
+06/08/2019, 7:31 pm - +91 84237 62476: Ab sambhi log aa jao bus k pas
+06/08/2019, 7:31 pm - +91 84237 62476: Jinka ho gya hai
+06/08/2019, 7:31 pm - +91 84237 62476: Jinka nahi hua....unhe chhod k sab bus k pas pahucho
+06/08/2019, 7:47 pm - +91 84237 62476: Sabhi log aa jao.......ab chalte hai
+06/08/2019, 8:23 pm - +91 84237 62476: Bus chal di hai........😅
+06/08/2019, 8:35 pm - +91 81810 09879: Kisiko 1st round k baad directly document verification aur package discuss krne k liya bulaya tha?
+06/08/2019, 8:39 pm - +91 84237 62476: Meme_wala_kaushal...🤭
+06/08/2019, 8:39 pm - +91 81810 09879: Bhai seriously poochh rhe h
+06/08/2019, 8:39 pm - +91 81810 09879: 😂
+06/08/2019, 8:40 pm - +91 84237 62476: Ye last me hi hua hai...
+Starting me to 3 round chle hai
+06/08/2019, 8:44 pm - +91 81810 09879: Ok
+06/08/2019, 8:44 pm - +91 91252 92576: <Media omitted>
+06/08/2019, 8:44 pm - +91 91252 92576: Kaushal
+06/08/2019, 8:45 pm - +91 81810 09879: Arre yaar 😂
+06/08/2019, 8:46 pm - +91 91252 92576: 😅
+06/08/2019, 8:53 pm - Baliyan Knit: 🙋🏻‍♂
+06/08/2019, 9:01 pm - +91 88537 60748: Bhai bas documents verification.. Fir bhga diya..
+06/08/2019, 9:22 pm - +91 96212 36512: Bus 1 wale log jaldi aa jao ..bus chalne wali h
+06/08/2019, 9:24 pm - +91 84237 62476: Bas pahuch rhe ruko😂
+07/08/2019, 10:56 pm - +91 84237 62476: Tentative date for NQT interview is 10 August
+07/08/2019, 10:56 pm - Vedas: Result?
+07/08/2019, 10:57 pm - +91 84237 62476: Usse pahle aa jaegi....
+07/08/2019, 10:57 pm - +91 88537 60748: Before 10 August
+07/08/2019, 10:58 pm - +91 70558 17896: 😂
+07/08/2019, 11:03 pm - Shivang: Codevita interview results?
+08/08/2019, 9:34 am - Khushboo: Interview Lucknow hi hoga Kya?
+09/08/2019, 11:20 pm - +91 84237 62476 left
+09/08/2019, 11:44 pm - +91 88537 60748: HackwithInfy round2 results have been announced... Selected students may leave the group
+09/08/2019, 11:44 pm - +91 81810 09879: Kisko remove krna h btao
+09/08/2019, 11:45 pm - +91 81810 09879: *admin bna dena pehle
+09/08/2019, 11:45 pm - +91 88537 60748: Yr uski info nhi h...warna kr deta
+09/08/2019, 11:45 pm - +91 87552 14040: This message was deleted
+10/08/2019, 11:09 am - +91 81810 09879: Kisi k mail pr result aaya NQT ka
+10/08/2019, 11:09 am - +91 81810 09879: ??
+10/08/2019, 11:10 am - Aryan Singh: This message was deleted
+10/08/2019, 11:10 am - +91 80098 16660: Ho gya?
+10/08/2019, 11:12 am - +91 81810 09879: Mere 2 friends ka aa chuka...jinka not qualified h
+10/08/2019, 11:12 am - +91 81810 09879: Kisi qualified waale ka aaye to btaana
+10/08/2019, 11:13 am - +91 80098 16660: Achha
+10/08/2019, 11:16 am - +91 96212 36512: Aa gya mail
+10/08/2019, 11:16 am - Shivang: <Media omitted>
+10/08/2019, 11:17 am - Khushboo: Qualified
+10/08/2019, 11:17 am - +91 80098 16660: Aagya
+10/08/2019, 11:17 am - +91 82991 04558: Qualifie
+10/08/2019, 11:18 am - +91 82991 04558: Qualified*
+10/08/2019, 11:18 am - Rohit: Congrats
+10/08/2019, 11:18 am - Ashish: Qualified
+10/08/2019, 11:19 am - Shivang: Mai 18th vacation par hu. Interview most probably nahi denge
+10/08/2019, 11:21 am - +91 78449 92214: Aa gaya bhai qualified
+10/08/2019, 11:22 am - +91 81810 09879: Aa gya ab mera bhi.... qualified
+10/08/2019, 11:22 am - +91 85740 09400: 🙋🏻‍♂
+10/08/2019, 11:28 am - SDV3: Interview 15 se phle hoga yaa bad me?
+10/08/2019, 11:30 am - +91 86301 61987: 👍🏻
+10/08/2019, 11:30 am - Aryan Singh: This message was deleted
+10/08/2019, 11:32 am - +91 77058 59094: Qualified
+10/08/2019, 11:34 am - Rohit: 👍 Qualified
+10/08/2019, 11:35 am - Baliyan Knit: Not qualified😂
+10/08/2019, 12:31 pm - +91 86308 86066: Qualified👍
+10/08/2019, 2:03 pm - Khushboo: Anybody got mail for tnqt digital
+10/08/2019, 2:03 pm - SDV3: Yes
+10/08/2019, 2:03 pm - Shivang: Yes
+10/08/2019, 2:04 pm - Prakhar: Yes
+10/08/2019, 2:06 pm - Amritesh Khare: Koi attend krega?
+10/08/2019, 2:07 pm - Khushboo: This message was deleted
+10/08/2019, 2:09 pm - +91 74609 69509: Yes
+10/08/2019, 2:13 pm - +91 70802 12870: Yes
+10/08/2019, 2:13 pm - avanish: You deleted this message
+10/08/2019, 2:13 pm - avanish: Yes
+10/08/2019, 2:13 pm - +91 78449 92214: Yes
+10/08/2019, 2:14 pm - Khushboo: Ok got it😅
+10/08/2019, 2:15 pm - +91 99359 07163: Yes
+10/08/2019, 2:15 pm - Pawan Mishra: Yes
+10/08/2019, 2:21 pm - Raj Shrivastava: I think sabko hi mail aaya hai digital के test ka
+10/08/2019, 2:22 pm - +91 81810 09879: Sbko nhi aata laxman
+10/08/2019, 2:42 pm - +91 80098 16660: Koi baat ni
+10/08/2019, 2:42 pm - +91 80098 16660: Sb ninja hi hai
+10/08/2019, 4:58 pm - Prerna: I have an extra ticket for train no. 15012 from Moradabad to Lucknow for tonight.
+Anyone interested can contact me.
+10/08/2019, 5:04 pm - +91 70558 17896: https://forms.gle/rArW1RvsJvz2vLDT6
+10/08/2019, 7:42 pm - +91 70558 17896: different Centres  bta do
+10/08/2019, 7:42 pm - Khushboo: Kisika Noida center aaya hai??
+10/08/2019, 7:42 pm - +91 74609 69509: Azad puram
+10/08/2019, 7:42 pm - +91 73807 66501: iON Digital Zone iDZ Azad Puram
+Azad Technical Campus, Azad Puram, Adjacent CRPF Camp, Post Chandrawal via
+Banglabazar Road, Bijnour, , , Lucknow, Uttar Pradesh, India - 226002
+10/08/2019, 7:43 pm - +91 89608 31685: Reporting time?
+10/08/2019, 7:44 pm - +91 85740 09400: 🙋🏻‍♂
+10/08/2019, 7:45 pm - Prakhar: 1pm
+10/08/2019, 7:46 pm - Khushboo: Same 1 pm
+10/08/2019, 7:47 pm - +91 70558 17896: Jankipuram koi??
+10/08/2019, 7:48 pm - Lal Knit: Prabandh nagar, mubarakpur
+10/08/2019, 7:48 pm - +91 80098 16660: Ajad Puram
+10/08/2019, 7:49 pm - Prakhar: 👍
+10/08/2019, 7:49 pm - +91 80098 16660: 1 bje
+10/08/2019, 7:49 pm - Amritesh Khare: Bus ka koi scene?
+10/08/2019, 7:49 pm - +91 80098 16660: Exactly!!
+10/08/2019, 7:49 pm - Nikhil Knit: vrindavan colony. sector 9B
+10/08/2019, 7:50 pm - +91 73807 66501: 1:00 pm
+10/08/2019, 7:52 pm - +91 70558 17896: Hn
+10/08/2019, 7:52 pm - +91 70558 17896: 1 bus hai
+10/08/2019, 7:53 pm - avanish: 👍
+10/08/2019, 7:55 pm - Atharva Knit: Ajad puram
+10/08/2019, 7:58 pm - +91 80098 16660: Bus ka plan batao jldi
+10/08/2019, 7:59 pm - +91 70558 17896: Thand rkho thoda
+10/08/2019, 8:00 pm - +91 80098 16660: College wale rkhne ni de rhe Light kaat ke
+10/08/2019, 8:02 pm - +91 73797 43197 left
+10/08/2019, 8:12 pm - Raj Shrivastava: ✌
+10/08/2019, 8:22 pm - Shivang: This stupid piece of shit company scheduled test at such short notice. These pricks will make me my test.
+10/08/2019, 8:22 pm - Shivang: *make me miss my test
+10/08/2019, 8:22 pm - +91 70558 17896: mail them this
+10/08/2019, 9:38 pm - SDV3: Azad puram
+10/08/2019, 9:55 pm - Raj Shrivastava: कोई ये है तो btao
+10/08/2019, 10:05 pm - +91 70558 17896: Bus timings 
+7:30 am
+10/08/2019, 10:19 pm - +91 94509 27138: This message was deleted
+10/08/2019, 10:20 pm - +91 80098 16660: This message was deleted
+10/08/2019, 10:20 pm - +91 80098 16660: Sabne hall ticket ka print nikalwa liya hai?
+10/08/2019, 10:21 pm - +91 80098 16660: Koi hai jisne ni nikalwaya?
+10/08/2019, 10:21 pm - Tejashavi: Na yr
+10/08/2019, 10:21 pm - +91 89799 84329: Ha
+10/08/2019, 10:22 pm - +91 70558 17896: my answer also same ...no difference
+10/08/2019, 10:24 pm - +91 74081 28242: 😂😂😂
+10/08/2019, 10:24 pm - +91 88537 60748: Kisi ka noida centre h..? Knowledge park?
+10/08/2019, 10:24 pm - +91 80098 16660: Sanjeev
+10/08/2019, 10:24 pm - +91 73760 98290: Mai
+10/08/2019, 10:25 pm - +91 70558 17896: ye tmhe preference wise mila hai ya random?
+10/08/2019, 10:25 pm - +91 88537 60748: Though in Noida but not in knowledge park...
+10/08/2019, 10:25 pm - +91 88537 60748: Random 😰
+10/08/2019, 10:25 pm - +91 70558 17896: ye sb tere saath hi kyu hota hai😂
+10/08/2019, 10:26 pm - Devesh: 😂😂🤣
+10/08/2019, 10:26 pm - +91 88537 60748: Special hu...
+10/08/2019, 10:26 pm - Devesh: TPR jo thahre😂😂🤣
+10/08/2019, 10:26 pm - +91 80098 16660: 😂
+10/08/2019, 10:26 pm - Devesh: Tcs alag se khayal rkhti j sajag ka😂
+10/08/2019, 10:27 pm - +91 70558 17896: photo id sahi lejana ab
+10/08/2019, 10:27 pm - +91 88537 60748: 😂
+10/08/2019, 10:28 pm - +91 88537 60748: jo mera dukh baant sake...is bhari duniya mein kya aisa koi nhi...?😰
+10/08/2019, 10:30 pm - +91 70558 17896: <Media omitted>
+10/08/2019, 10:30 pm - +91 88537 60748: Let me..."suit up"
+10/08/2019, 10:30 pm - Shivang: I with you bro this time. Mera LKO hai but Mai LKO se 400km dur hu
+10/08/2019, 10:31 pm - +91 88537 60748: But main tmhare sath nhi...main sirf 50-60 km door hu..
+10/08/2019, 10:31 pm - +91 70558 17896: 😂😂toh kyu ro rha hai
+10/08/2019, 10:31 pm - Shivang: Tab kya problem hai
+10/08/2019, 10:31 pm - Devesh: 😂😂
+10/08/2019, 10:32 pm - +91 88537 60748: Abe itna door akele...dimag kharab ho rha...
+10/08/2019, 10:33 pm - +91 70558 17896: 🍻🍻
+10/08/2019, 10:33 pm - +91 88537 60748: Aaja
+10/08/2019, 10:33 pm - +91 70558 17896: on my way😉
+10/08/2019, 10:33 pm - +91 88537 60748: ❤
+10/08/2019, 10:36 pm - Prerna: This message was deleted
+10/08/2019, 10:36 pm - Shivang: 😂
+10/08/2019, 10:36 pm - S5: 🤣🤣🤣🤣
+10/08/2019, 10:36 pm - Shivang: I SAW IT!
+10/08/2019, 10:36 pm - +91 70558 17896 left
+10/08/2019, 10:36 pm - SDV3: This message was deleted
+10/08/2019, 10:36 pm - S5: 🤣🤣
+10/08/2019, 10:37 pm - Devesh: 😂😂
+10/08/2019, 10:37 pm - +91 91252 92576: 🤣🤣
+10/08/2019, 10:39 pm - Prerna: 😂😂
+10/08/2019, 10:42 pm - +91 88537 60748: Bhai yr info dene walon ko group left kra diya..
+10/08/2019, 10:43 pm - Amritesh Khare: 🙋🏼‍♂
+10/08/2019, 10:44 pm - +91 79857 87641 joined using this group's invite link
+10/08/2019, 10:45 pm - Rohit: Anyone here jika *TNQT* qualified ka mail aya ho but *digital* walla na aya ho
+10/08/2019, 10:46 pm - +91 81810 09879: Ab kiya na mere mtlb waali baat
+10/08/2019, 10:47 pm - +91 81810 09879: Hm to lko mein hi h...dusre log ko dekhne k liye jaa skte h center pr 😂
+10/08/2019, 10:47 pm - +91 80098 16660: 😂
+10/08/2019, 10:48 pm - +91 80098 16660: Aajana meme content milega
+10/08/2019, 10:48 pm - +91 88537 60748: Kaushlendra be like....kabhi aate jaate raste mein school ke baste mein...dhundho to mil jayega..ek naya idea
+10/08/2019, 11:40 pm - S5: mera
+11/08/2019, 12:35 am - Tejashavi: @917060118377 neta ban rhi jayada hi khud ko
+11/08/2019, 12:36 am - Tejashavi: Dikkat ho rhi toh nikal ja grp SE
+11/08/2019, 12:38 am - +91 80098 16660: Point... Jo kaam kr rha usse kaam krne de... Jo kaam aap ni krwa sakte dusre ke liye usme comment na kre
+11/08/2019, 1:05 am - Tejashavi: Guys we r not able to contact the driver or faculty incharge for the confirmation of the bus service we did inform sir about it thinking that we have done the work from our side but on trying to confirm the same we didn't get any response since 8pm
+11/08/2019, 1:06 am - Tejashavi: We don't want to keep u in dark it might happen we do not get the bus service so be prepared for other means of transportation as well
+11/08/2019, 1:07 am - Tejashavi: We also might get the bus service but that will only be confirmed in the morning at around 6-7am
+11/08/2019, 1:07 am - Tejashavi: Jo log so gye honge unhe bhi inform kardo subha subha shock Milne SE toh acha abhi BTA do
+11/08/2019, 1:25 am - +91 80098 16660: Ok.. Our college is so consistent in being in consistent
+11/08/2019, 1:29 am - Tejashavi: Waise tcs wale bhi 7 baje hall ticket bhejte hai kisi ke liye bhi commutation mushkil hi hoga 
+Apne cr Bhai ko dekho
+11/08/2019, 1:32 am - +91 80098 16660: Wahi toh
+11/08/2019, 1:57 am - +91 81810 09879: <Media omitted>
+11/08/2019, 2:02 am - +91 91252 92576: 🤣🤣
+11/08/2019, 7:03 am - Tejashavi: Bus AA rhi hai
+11/08/2019, 7:03 am - Tejashavi: This message was deleted
+11/08/2019, 7:03 am - Atharva Knit: Kitne baje?
+11/08/2019, 7:03 am - Tejashavi: Abhi
+11/08/2019, 7:06 am - Tejashavi: Jo log station hai unhe main road SE pic karlenge
+11/08/2019, 7:09 am - Tejashavi: Acha aur Jo log city mein nikal chuke hai aur bus se Janna chahate hai inform kardo
+11/08/2019, 7:10 am - Raj Shrivastava: Raj Pranav Karan हम आ rhe h
+11/08/2019, 7:13 am - Pawan Mishra: Bhai ham abhi nikle Hain abhi
+11/08/2019, 7:14 am - Pawan Mishra: College se kitne baje chalegi bas?
+11/08/2019, 7:14 am - Tejashavi: Min 15-20 min
+11/08/2019, 7:14 am - Pawan Mishra: Ok thanks
+11/08/2019, 7:30 am - Tejashavi: 8 baje SE chalegi bus
+11/08/2019, 8:19 am - Shivang: All the best guys!
+11/08/2019, 11:57 pm - +91 88875 98738 left
+12/08/2019, 12:06 am - +91 75710 74633 left
+12/08/2019, 5:57 pm - Khushboo: Has anyone got different mail for tnqt result or the previous one?
+12/08/2019, 5:58 pm - +91 78449 92214: Han interview se related ek mail aaya hai abhi
+12/08/2019, 5:58 pm - Karan: yup
+12/08/2019, 5:59 pm - +91 81810 09879: Exactly same mail dubaara aaya h
+12/08/2019, 5:59 pm - Khushboo: New mail hai ya pahela wala
+12/08/2019, 5:59 pm - Khushboo: Ok
+12/08/2019, 5:59 pm - +91 86301 61987: Kya mail aaya h
+12/08/2019, 6:00 pm - Vineet New: Date diye kya interview kee?
+12/08/2019, 6:00 pm - +91 88537 60748: Khol hi lo mail...😏
+12/08/2019, 6:01 pm - Vineet New: This message was deleted
+12/08/2019, 6:01 pm - +91 78449 92214: Same he hai yrr pehle ki tarah
+12/08/2019, 6:01 pm - Khushboo: Ok
+12/08/2019, 6:01 pm - +91 78449 92214: Nhi
+12/08/2019, 6:03 pm - +91 88537 60748: Waise hi placed ho infosys mein q tension le rhe
+12/08/2019, 7:20 pm - Vineet New: Maza le rahe..... bade log
+12/08/2019, 10:45 pm - +91 80098 16660 added +91 73797 43197
+12/08/2019, 11:42 pm - +91 96212 36512: *Optum, United Health Group* is conducting placement drive in our college.
+1) *Online test* on *16/08/2019, 2:00 pm* for both job recruitment and internship as well 
+2) *Interview* on *17/08/19*.
+12/08/2019, 11:43 pm - +91 96212 36512: Plz share it in your respective groups
+13/08/2019, 2:04 pm - +91 96212 36512: https://forms.gle/BZ699JnDqLCe6CADA
+13/08/2019, 2:04 pm - +91 96212 36512: All forms filled uptill now are not considered due to changes in Company's requirements , so fill up this form to be eligible for Optum Placement Drive by 3:30 PM today.
+13/08/2019, 3:58 pm - +91 86503 76210 left
+13/08/2019, 4:02 pm - +91 96212 36512: This form is open till 4:30 pm .
+All the interested students kindly fill it by then and ask your friends for the same, as it won't be open again.
+13/08/2019, 8:29 pm - +91 96212 36512: Follow this link : https://forms.gle/BZ699JnDqLCe6CADA
+13/08/2019, 8:29 pm - +91 96212 36512: The google form for Optum, UHG is again active with a slight change in criteria , now the aggregate required for eligibility is 65% or 6.5 CGPA.
+13/08/2019, 8:29 pm - +91 96212 36512: The form will be closed today at 11:00 PM
+14/08/2019, 12:17 am - +91 73797 43197: Kisi ke bag m certificate h Nikhil ke naam ke codevita ke interview tha jis din
+14/08/2019, 12:17 am - +91 96212 36512: Mere😬
+14/08/2019, 12:36 am - +91 96212 36512: Globalogic Campus Pool Drive consent for batch 2020(CSE/IT/EL/EE/MCA) Follow this link : https://forms.gle/qRsoYHvVWq6SYzv1A
+
+*Deadline : 4 PM , 14th August 2019*
+14/08/2019, 1:25 pm - +91 96212 36512: The updated timing for United Health Group (OPTUM) online test is from 11:00 A.M.
+15/08/2019, 1:07 pm - +91 73797 43197: <Media omitted>
+15/08/2019, 1:07 pm - +91 73797 43197: <Media omitted>
+15/08/2019, 1:07 pm - +91 73797 43197: <Media omitted>
+15/08/2019, 1:07 pm - +91 73797 43197: <Media omitted>
+15/08/2019, 1:07 pm - +91 73797 43197: <Media omitted>
+15/08/2019, 1:07 pm - +91 73797 43197: <Media omitted>
+15/08/2019, 1:07 pm - +91 73797 43197: <Media omitted>
+15/08/2019, 1:07 pm - +91 73797 43197: <Media omitted>
+15/08/2019, 1:12 pm - +91 73797 43197: Report as per schedule if someone is unable to appear in the given slot it is his/her responsibility. Change of slot at that time will not be entertained.
+15/08/2019, 1:13 pm - Harsh: Ye kl wale paper ka hi hai na.
+15/08/2019, 1:13 pm - +91 73797 43197: Any request regarding change of slot will not be entertained.
+15/08/2019, 1:13 pm - +91 73797 43197: Haa
+15/08/2019, 5:01 pm - +91 96212 36512: Those whose name were not there in the final list and want to sit in placement drive should forward their details in the given format :
+Full name
+Branch
+Roll number
+Phone number
+Email address
+Permanent address
+PAN/Aadhar no
+10th Percentage/CGPA
+10th Board
+12th Percentage
+12th Board
+Aggregate Percentage/CGPA of B. Tech/M.C.A
+on this number 9919999017 within 1 hour.  If their details are incomplete their name will not be added.
+16/08/2019, 12:20 am - +91 96212 36512: <Media omitted>
+16/08/2019, 12:35 am - +91 96212 36512: Slot-1 : 10:45 am
+Slot-2 : 12 noon
+Slot-3 : 2 pm
+16/08/2019, 10:01 am - +91 94512 07948: This message was deleted
+16/08/2019, 10:01 am - +91 94512 07948: This message was deleted
+16/08/2019, 10:26 am - Tejashavi: Please do not share the  file with the credentials and if anyone is having it then please kindly delete it.
+16/08/2019, 11:25 am - +91 73797 43197: All the slots are delayed by 1 hour.
+16/08/2019, 12:04 pm - +91 86301 61987: Updated timing of the slots 
+Slot 2 : 1:30pm to 2:30pm
+Slot 3 : 2:30pm to 3:30pm
+16/08/2019, 12:33 pm - +91 73797 43197: Kindly make sure that students  are having there id cards with them. 
+If not college id then any other government id proof will work
+16/08/2019, 12:46 pm - +91 73797 43197: There is a logical and quantitative aptitude.
+16/08/2019, 12:46 pm - +91 73797 43197: In the paper
+16/08/2019, 12:49 pm - +91 73797 43197: Abhi tk kisi m coding ke questions nhi aaye h
+16/08/2019, 1:31 pm - +91 73797 43197: 2 coding ke questions aa rahe h
+17/08/2019, 12:06 am - Prashant knit: Dear Students, we are pleased to inform that Globalogic is visiting FGIET on 23rd & 24th Aug 2019 for pool campus drive. Four colleges will participate in this campus drive and they are BIET, KNIT, UIET & AITH. Online test & GD will conduct on 23rd & interviews will be on 24th Aug. Please find below the J.D. & CTC details 
+
+JD for Technical Positions
+· Strong programming skills
+
+· Advanced Math skills which will allow them to write complex algorithms
+
+· Strong understanding of Basic Concepts & Advanced concept
+
+· Strong Analytical & Numerical skills
+
+· Good understanding of Coding
+
+· Good Communication skills
+
+· Flexible to work on any of the technologies
+
+· Flexibility & Adaptability to changing situations
+
+· Good Attitude & Learning urge
+
+· Open to relocate across location-based on Project Needs
+
+
+
+Mandate that we look at: 
+
+
+
+Salary Offered: 4.8 LPA overall CTC
+
+Communication  needs to be up-to-the-mark and should be able to communicate 
+
+
+
+Criteria for this year
+- 60% cut-off throughout 10th, 12th and Degree 
+- All Branches ((Computer Science; Information Science/Technolgy, Electronics and Communication and EEE ) and MCA can take the test (only for government tier-2 colleges) can be pooled into your campus
+17/08/2019, 9:37 am - +91 96212 36512: Dear students,
+Results will be announced after the arrival of the team which is expected to be at 11 am. The process will  start just after the announcement. So, be active and we will update you as soon as we get further information.
+
+*TPO*
+17/08/2019, 10:29 am - +91 96212 36512: All the students who appeared for Optum,United Health Group hiring process are requested to assemble in ME-301 within *15 minutes* for the presentation of the company followed by *announcement of results.*
+17/08/2019, 10:29 am - +91 96212 36512: Please share it in your respective groups
+17/08/2019, 10:38 am - Amritesh Khare: In formals?
+17/08/2019, 10:39 am - Tejashavi: Yes
+17/08/2019, 10:42 am - +91 96212 36512: Students will bring all there documents and resume with them as just after the ppt interviews will start.
+19/08/2019, 11:24 am - +91 88537 60748: We may "expect" almost all the results from TCS by evening.....
+19/08/2019, 2:27 pm - +91 75220 17983 added +91 75710 74633
+19/08/2019, 5:34 pm - +91 96212 36512: Those students who got selected in United Health Group and TCS Ninja.Please reach Admin Ground as soon as possible Director sir is calling.
+19/08/2019, 5:38 pm - +91 80098 16660: Codevita ka result aa gya?
+19/08/2019, 5:38 pm - Shivang: Nahi
+19/08/2019, 7:22 pm - +91 81810 09879: <Media omitted>
+19/08/2019, 7:34 pm - +91 85740 09400: Aa gya result
+19/08/2019, 7:37 pm - +91 80098 16660: Codevita ka ya digital ka
+19/08/2019, 7:37 pm - +91 85740 09400: Digital.
+19/08/2019, 7:37 pm - Tejashavi: 🤦🏻‍♂🤦🏻‍♂
+19/08/2019, 7:38 pm - +91 81810 09879: 😂😂
+19/08/2019, 7:38 pm - +91 80098 16660: Upar codevita ka hai
+19/08/2019, 7:38 pm - +91 85740 09400: Meine dhyan nhi group mein reply kar diya
+19/08/2019, 8:03 pm - +91 81810 09879: <Media omitted>
+19/08/2019, 8:08 pm - +91 81810 09879: Mere tweet ka reply lgta h Jofra Archer ne diya tha..😅
+19/08/2019, 8:28 pm - Harsh: Kisi aur ka bhi Infosys ka interview hai kya 26th August ko??
+19/08/2019, 8:29 pm - +91 95326 86711 left
+19/08/2019, 8:31 pm - +91 98380 81123: 🙋🏻
+19/08/2019, 8:33 pm - Harsh: PSIT Kanpur me hai na ?
+19/08/2019, 8:43 pm - +91 75220 17983: Codevita ka result aagya
+19/08/2019, 8:49 pm - Pawan Mishra: Yeah , not selected
+19/08/2019, 8:53 pm - +91 98380 81123: Han
+19/08/2019, 8:56 pm - Khushboo: Mail aaya hai Kya???
+19/08/2019, 8:56 pm - Shivang: Ab kya karogi?
+19/08/2019, 8:57 pm - Rohit: Ab kyo pareshan ho
+19/08/2019, 8:57 pm - Khushboo: 😅 phir bhi
+19/08/2019, 8:58 pm - Prashant Dowedi: Bhai 2 companies mein job krogi kya? 😂
+19/08/2019, 8:58 pm - Khushboo: 😂😂
+19/08/2019, 9:00 pm - Harsh: Chalo tb agar jada log rahe ge to director se baat kare ge bus ka, waise lagta to nahi ki jada log hai
+19/08/2019, 9:01 pm - Diwakar: mera bhi h
+19/08/2019, 9:01 pm - Diwakar: ha
+19/08/2019, 9:04 pm - Pawan Mishra: Arjun ka bhi
+19/08/2019, 9:05 pm - Karan: This message was deleted
+19/08/2019, 9:05 pm - +91 81810 09879: 7
+19/08/2019, 9:06 pm - Tejashavi: Kyun Janna hai tujhe digital mein
+19/08/2019, 9:06 pm - Karan: nhi jaunga be aise hi puch rha tha😅
+19/08/2019, 9:07 pm - Karan: tu jayega tv interview me??
+19/08/2019, 9:07 pm - Prashant Dowedi: Beta tum bhut pele jaoge.
+19/08/2019, 9:08 pm - Shivang: Isko group se nikalu?
+19/08/2019, 9:08 pm - Karan: beta pehle tum niklo
+19/08/2019, 9:08 pm - Karan: This message was deleted
+19/08/2019, 9:08 pm - Karan: 🤣🤣
+19/08/2019, 9:08 pm - Karan: CR
+19/08/2019, 9:11 pm - Harsh: For *Infosys*
+I don't think so that we will have the privilege of bus, but there are two trains *Marudhar* and *Sultanpur Superfast* .
+I guess Sultanpur Superfast will be a better option.
+19/08/2019, 9:12 pm - Tejashavi: Nhi Bhai kyun itni bhaga daudi karre
+19/08/2019, 9:13 pm - Karan: 👍👍
+19/08/2019, 9:13 pm - Prashant Dowedi: CR ki jai ho
+19/08/2019, 9:19 pm - Harsh: Sorry, but Sultanpur Superfast doesn't run on sunday😞
+19/08/2019, 9:19 pm - Karan: Karthik calling Karthik😅
+19/08/2019, 9:21 pm - +91 80098 16660: Digital me kiska kiska hua?
+19/08/2019, 9:21 pm - Tejashavi: Bahauto ka
+19/08/2019, 9:21 pm - Harsh: 😅
+19/08/2019, 9:26 pm - Prakhar: U mean call for interview??
+19/08/2019, 9:26 pm - +91 80098 16660: Yeap
+19/08/2019, 9:28 pm - Prakhar: Unme mai bhi 🤚
+19/08/2019, 9:33 pm - +91 81810 09879: Kisika codevita selection mail aaya?
+19/08/2019, 10:07 pm - +91 81810 09879: Aa gya....Ninja
+19/08/2019, 10:35 pm - Rohit: 🤟
+20/08/2019, 12:37 am - +91 88537 60748: <Media omitted>
+20/08/2019, 12:37 am - +91 88537 60748: Digital ki list
+20/08/2019, 1:06 am - +91 88537 60748: Koi h jiska codevita ka mail hi na aaya ho abhi tak?
+20/08/2019, 1:06 am - +91 96212 36512: 🙋🏻
+20/08/2019, 1:31 am - +91 89608 31685: Me
+20/08/2019, 1:33 pm - Tejashavi: <Media omitted>
+20/08/2019, 3:28 pm - ASHUTOSH Knit: Most probably date for TNQT ninja interview is 22 August
+20/08/2019, 5:13 pm - ASHUTOSH Knit: <Media omitted>
+20/08/2019, 9:49 pm - +91 81810 09879: TPR plz confirm kr do ki ninja waale log Globalogics mein jaa skte h ya nhi
+20/08/2019, 10:09 pm - Prerna: This message was deleted
+20/08/2019, 10:10 pm - Tejashavi: Jo log codevita SE qualify Kare hai woh log Global Logic mein nhi Beth sakte
+20/08/2019, 10:10 pm - Tejashavi: 90% hai abhi yeh filhaal detailed explanation ke liye mujh SE personally mil sakte ho
+20/08/2019, 10:11 pm - Prerna: ye to 2018-19 ka hai?
+20/08/2019, 10:12 pm - Prerna: i mean list of companies jo mentioned hai
+20/08/2019, 10:12 pm - +91 81810 09879: Haan ....na pichhle saal itni aayi thi....aur unfortunately is saal bhi ni aayengi itni
+20/08/2019, 10:13 pm - ASHUTOSH Knit: Vo expected companies hai jo ab unexpected hain
+20/08/2019, 10:14 pm - +91 81810 09879: Sahi kaha
+20/08/2019, 10:14 pm - Devesh: 😂
+21/08/2019, 10:23 am - avanish: You deleted this message
+21/08/2019, 10:24 am - avanish: Reporting Time: 1:00 PM
+Interview Venue:  Shri Ramswaroop College Of Engineering.
+Mera kal nqt ka interview ka mail aya hai aur kisi ka hai?
+21/08/2019, 10:27 am - +91 86308 86066: 🙋‍♂
+21/08/2019, 10:27 am - avanish: reporting time?
+21/08/2019, 10:28 am - Vedas: Reporting 9:00 am
+21/08/2019, 10:28 am - +91 96215 85624: Reporting time 9 am
+21/08/2019, 10:28 am - +91 86308 86066: 1:00 PM
+21/08/2019, 10:28 am - +91 77058 40766: 9:00 am
+21/08/2019, 10:28 am - +91 75710 74633: Me too
+21/08/2019, 10:28 am - +91 95549 16622: 🙋🏻
+21/08/2019, 10:28 am - +91 75220 17983: 🙋
+21/08/2019, 10:29 am - Priyanka: 9am
+21/08/2019, 10:37 am - +91 94159 07304: 1:00 pm
+21/08/2019, 11:00 am - Tejashavi: https://forms.gle/4zRj9ak1D9sVnPzn9
+21/08/2019, 11:08 am - Tejashavi: Those who are not eligible for Global Logic (60% criteria) or who havent filled the form for global logic should not fill this form
+21/08/2019, 11:09 am - +91 78449 92214: 9am
+21/08/2019, 11:13 am - Tejashavi: This message was deleted
+21/08/2019, 11:14 am - Tejashavi: guys those who got selected via  codevita or tcs digital interview(jisne ninja package diya hai ) should also fill the form
+21/08/2019, 11:17 am - Tejashavi: aisa kaise 9am wala toh sab ladkiyon ka aa rha tha na
+21/08/2019, 11:19 am - +91 78449 92214: Bhai yahi hai
+21/08/2019, 11:19 am - Amritesh Khare: Nhi aisa nhi h bhut logo ka 9 bje h
+21/08/2019, 11:19 am - +91 82991 04558: Ladko Mein bhi 9 bje kafi logo ka hai
+21/08/2019, 11:20 am - Tejashavi: oh my bad 😅😅
+21/08/2019, 11:30 am - Tejashavi: Fill this form by 2pm
+21/08/2019, 2:33 pm - Tejashavi: Guys Edit ur submission in this form as a new option is added In which u have to mention the time slot as well
+21/08/2019, 2:39 pm - Devesh: What time slot should I fill as I want to go for global logic only..
+21/08/2019, 2:40 pm - Tejashavi: Ab bhar de ab AA RHA hai option
+21/08/2019, 3:15 pm - Tejashavi: This message was deleted
+21/08/2019, 3:16 pm - Tejashavi: Jin logo ne abhi Tak time slot nhi bhara jaldi 1/2 hr mein bhar do jaldi
+21/08/2019, 4:43 pm - Tejashavi: Sab ja rhe global logic mein
+21/08/2019, 6:24 pm - +91 86301 61987: Bus timings for TNQT Interviews at SRMS , Lucknow  are :
+
+Slot 1 -  4:45 am 
+Slot 2 -  8: 45 am
+21/08/2019, 6:24 pm - +91 86301 61987: Forward it in your respective groups
+22/08/2019, 4:51 am - +91 87658 86391: Bus chalne waali hai reach asap
+22/08/2019, 8:41 am - +91 91250 31384: Bus is going to depart from college in 5 minutes ...
+22/08/2019, 8:43 am - +91 91250 31384: Please come within the time limit bcoz there is an official order from A.K.Chauhan Sir that no delay will be there in departure of bus i.e.8:45
+22/08/2019, 10:19 am - +91 87652 01698 added +91 79051 22919
+22/08/2019, 11:03 am - +91 87652 01698 added +91 77068 68437 and +91 91258 79731
+22/08/2019, 11:32 am - +91 81810 09879: Globalogics ki timing ka kuchh pata chala?
+22/08/2019, 3:26 pm - +91 98892 60075: Koe update h kya esa abhi
+22/08/2019, 3:57 pm - Prerna: girls mei kon kon free ho gya hai tcs ke interview se...van jayegi to count krna hai... friends ka bhi inform kr dena agr free ho gye hoto
+22/08/2019, 4:01 pm - +91 75220 17983: 🙋
+22/08/2019, 4:02 pm - Prerna: as pas aur girls ho to pooch lo sbse
+22/08/2019, 4:03 pm - +91 75220 17983: Ok
+22/08/2019, 5:08 pm - +91 72378 94200: Jiska boys me interview as jae gadi ke pas
+22/08/2019, 6:26 pm - +91 80098 16660: Interview me kon kon bacha hai?
+22/08/2019, 6:50 pm - +91 88537 60748: Timing for GLOBAL LOGIC: 6:00am
+22/08/2019, 6:50 pm - +91 88537 60748: Test timing 9:00am
+22/08/2019, 7:06 pm - +91 80098 16660: Timing for what?
+22/08/2019, 7:06 pm - +91 80098 16660: Bus?
+22/08/2019, 7:07 pm - ASHUTOSH Knit: Vehicle timing for GLOBAL LOGIC is 6:00am in the morning and test will start at 9:00am. You have to be prepared for both the  scenario either you stay there or you have to return and go again on 24/08/19. Those who have given the consent must use the bus facility otherwise institute will not arrange any facility next time
+
+*S K SINHA*
+22/08/2019, 7:09 pm - +91 80098 16660: Tcs ke interview me kon kon bacha hai?
+23/08/2019, 6:13 am - Harsh: Bus aa gayi hai
+23/08/2019, 3:04 pm - Vineet New: Jiska first round ho gya Bo seminar hall me aajao bula rahe hai GL  wale
+23/08/2019, 5:27 pm - Prashant Dowedi: Jisko chalna ho jldi se aa jao nyi waali bus mein
+23/08/2019, 5:32 pm - Vineet New: Bas jaa Rahi jisko bags Lena hai Lelo jinko second bas se Jana hai
+23/08/2019, 10:32 pm - +91 88537 60748: Yr gate band krwana h....jaldi aa jao.ya atleast inform kr do
+25/08/2019, 3:50 am - Vineet New changed their phone number to a new number. Tap to message or add the new number.
+25/08/2019, 10:56 am - Vineet Maurya changed their phone number to a new number. Tap to message or add the new number.
+25/08/2019, 8:27 pm - +91 80098 16660: Kisi ko bus me lenovo ka black laptop bag dikha ho rae bareily se aate hue hai toh inform krna.
+25/08/2019, 8:48 pm - +91 80098 16660: Kisi ko kal bus me niche koi bag pada hua dikha ho toh inform kr de
+25/08/2019, 9:24 pm - Prashant Dowedi: This message was deleted
+25/08/2019, 9:25 pm - Prashant Dowedi: G-12 mein hai
+Ramanujam mein
+Idhar aana to le lena
+25/08/2019, 10:36 pm - +91 88537 60748 added +91 84237 62476
+27/08/2019, 1:12 pm - +91 88537 60748: Anyone up for laravel, react or angular development please contact..
+27/08/2019, 1:20 pm - +91 88537 60748: Moreover that's not for project....or any personal benefit
+29/08/2019, 10:26 pm - Prashant Dowedi: Yrr kitne log 8th September wala Elitmus de rhe hai?
+29/08/2019, 11:26 pm - +91 73797 43197: Webkul Software Pvt Ltd, Noida is visiting  SRMU for "Pool Campus Drive" on 15 Sept 2019. They will be conducting their campus recruitment process for the final year B.Tech(CS/IT)/MCA students (batch 2020) for the profile of ”Software Engineer Trainee”.                                                                                                                                           
+
+CTC offered – 3.2 LPA & other Perks & Benefits..
+
+Job Location –   Noida, India
+
+Selection Process –
+
+1. Initial Shortlisting through student’s profiles
+2. Coding based Machine Round   
+3. Technical Face to Face                                                                                                                                                                         4. HR Round
+
+ Venue – Shri Ramswaroop Memorial University, Lucknow
+
+Registration process appended below:-
+
+1. Visit http://campusconnect.webkul.com/
+2. Click on Campus Drive option at the top of the website which will redirect to campus drive details.
+3. This page will show the upcoming Campus Drives and option to apply.
+4. Click on SRMU Logo.jpegSRMU Pool Drive, Lucknow.
+5. Fill your Name, Contact and E-mail address. Click Next button.
+6. Fill up the information accordingly & Upload your CV.
+7. You will be notified for successful login process. Also, a link will be provided to registered mail for password setting..
+8. Copy the link or redirect form the same link and set the password accordingly.
+9. You will be redirected to the login page. Fill the login details to complete further process.
+10. Click Admit Card to download your admit card for the Campus drive.
+
+Important Note:-
+
+. Applicants are to carry hard copy of their admit cards at the time of Placement Drive.
+. Applicants need to reach the venue before 9:30 AM. Entry will not be allowed after the start time i.e. 10:00 AM.
+• Applicants are directed to carry a hard copy of their admit cards and CV at the time of Campus Drive. Those who are not having their admit
+cards will not be considered eligible for the process.
+29/08/2019, 11:27 pm - +91 73797 43197: <Media omitted>
+29/08/2019, 11:36 pm - +91 73797 43197: Fill it ASAP
+30/08/2019, 4:38 pm - +91 84237 62476: This message was deleted
+04/09/2019, 3:54 pm - Harsh: Kisi ko GL ka mail aaya??
+04/09/2019, 3:54 pm - +91 81810 09879: Nhi
+04/09/2019, 3:55 pm - +91 87652 01698: Han..abhi aaya h
+04/09/2019, 3:59 pm - +91 96212 36512: Nhi
+04/09/2019, 3:59 pm - +91 96212 36512: Kya mail aaya h
+04/09/2019, 4:01 pm - Harsh: Noida me hi hai reporting?
+04/09/2019, 4:01 pm - Harsh: Joining letter hai
+Reporting time aur date diya hua hai
+04/09/2019, 4:02 pm - +91 87652 01698: Han..6th July
+04/09/2019, 4:06 pm - +91 80098 16660: Jis mail se online test diya tha usi pe aaya?
+04/09/2019, 4:06 pm - +91 87652 01698: Han
+04/09/2019, 4:31 pm - Prerna: sbka aa gya hai?
+04/09/2019, 4:34 pm - +91 80098 16660: Ni
+04/09/2019, 4:35 pm - +91 96212 36512: This message was deleted
+04/09/2019, 4:35 pm - +91 96212 36512: Nhi
+04/09/2019, 4:40 pm - +91 81810 09879: Nhi
+04/09/2019, 4:47 pm - +91 85740 09400: Nhi
+04/09/2019, 5:18 pm - Pawan Mishra: Nhi
+04/09/2019, 5:30 pm - +91 96701 36229: nhi
+04/09/2019, 5:35 pm - +91 81711 80170 joined using this group's invite link
+04/09/2019, 5:38 pm - +91 84497 07661 joined using this group's invite link
+04/09/2019, 5:39 pm - +91 73485 41079 joined using this group's invite link
+04/09/2019, 5:43 pm - +91 95575 18018 joined using this group's invite link
+04/09/2019, 5:48 pm - +91 84399 11962 joined using this group's invite link
+04/09/2019, 6:30 pm - +91 93681 07216 joined using this group's invite link
+04/09/2019, 7:56 pm - +91 73556 52421 joined using this group's invite link
+04/09/2019, 8:17 pm - Raj Shrivastava: Na
+05/09/2019, 2:37 pm - ASHUTOSH Knit: This is for the TPO database.
+ link :https://forms.gle/WiafBTtniWx2bLd46
+05/09/2019, 2:37 pm - ASHUTOSH Knit: HI-TECH INSTITUTE OF ENGINEERING AND TECHNOLOGY" is organizing a Pool Campus Drive for *BYZU’S*.
+
+Educational Requirement: B.E/B.Tech/MBA (2020 Passing Out)
+
+Last date to fill registration link: 18-09-2019 [WEDNESDAY]
+
+Registration Link: https://forms.gle/ZUvXy7c24QeUBVmi7
+05/09/2019, 2:38 pm - ASHUTOSH Knit: <Media omitted>
+05/09/2019, 2:38 pm - ASHUTOSH Knit: <Media omitted>
+05/09/2019, 2:59 pm - +91 70883 15365 joined using this group's invite link
+05/09/2019, 3:08 pm - +91 87378 58897 joined using this group's invite link
+05/09/2019, 4:55 pm - +91 86045 29007 joined using this group's invite link
+05/09/2019, 6:52 pm - +91 85740 09400: This message was deleted
+05/09/2019, 7:10 pm - +91 80098 16660: Congratulations Sanjeev
+05/09/2019, 7:11 pm - +91 88537 60748: Congratulations saurabh...
+05/09/2019, 7:22 pm - +91 84237 62476: Ab unemployed peeps se vida lene ka samay aa gya hai😂😂😂
+05/09/2019, 7:32 pm - +91 73797 43197: Lekin hm dono ko yhi rhna h😂😂😂😂
+05/09/2019, 7:33 pm - +91 85740 09400: 🤣🤣
+05/09/2019, 8:22 pm - +91 73797 43197: This message was deleted
+05/09/2019, 8:27 pm - +91 84237 62476: @918853760748 
+Hme admin banao hm group se filtering karke group ki utility banaye rkhe😂😂
+05/09/2019, 8:28 pm - +91 84237 62476: Tm bhale nikal jao.....hm to last tk yahi rhne wale😆😆😆
+06/09/2019, 3:15 pm - Vineet New changed their phone number to a new number. Tap to message or add the new number.
+13/09/2019, 11:43 am - Prakhar: Digital ka sabka slot same hai??
+13/09/2019, 11:46 am - Atharva Knit: 12 pe h mera
+13/09/2019, 11:46 am - ASHUTOSH Knit: Sbka ABES me hi hai na. ?
+13/09/2019, 11:47 am - +91 95988 59972: 9:00
+13/09/2019, 11:47 am - Atharva Knit: Ha
+13/09/2019, 11:47 am - +91 95988 59972: Haan
+13/09/2019, 11:47 am - ASHUTOSH Knit: 9:00
+13/09/2019, 12:14 pm - Pawan Mishra: ✋
+13/09/2019, 12:15 pm - Lal Knit: Mera bhi
+13/09/2019, 12:27 pm - +91 79051 46793: 12
+13/09/2019, 12:35 pm - Harsh: Mere 2 mail aaye hai 
+Ek me 
+venue ABES hai 
+Aur ek me-
+Tata Consultancy Services, Galaxy Business Park Tower C, Plot No A44, Sector 62, Noida, Uttar Pradesh 20130
+13/09/2019, 12:36 pm - Harsh: TPRs a little help please
+13/09/2019, 12:36 pm - ASHUTOSH Knit: ABES final mail hai
+13/09/2019, 12:36 pm - ASHUTOSH Knit: Usme mention hai title me
+13/09/2019, 12:36 pm - Harsh: Ooo achaa tb theek hai👍🏻
+13/09/2019, 4:10 pm - Tejashavi: <Media omitted>
+13/09/2019, 4:10 pm - Tejashavi: This is bus route provided by SRMU regarding WEBKUL drive, which b is to be held on 15 Sept 2019.
+13/09/2019, 6:09 pm - +91 91252 92576: College se bus nhi ja rhi kya?
+13/09/2019, 6:51 pm - +91 91250 31384 left
+13/09/2019, 10:48 pm - +91 73807 66501: https://careers.wipro.com/elite-nth.aspx
+14/09/2019, 12:14 am - Shivam Jio joined using this group's invite link
+14/09/2019, 10:24 am - +91 89489 51895 joined using this group's invite link
+14/09/2019, 10:31 am - +91 73556 52421 left
+14/09/2019, 10:47 am - +91 84239 83540 left
+14/09/2019, 2:07 pm - +91 73797 43197: *WEBKUL*
+
+Venue: SRMU  Village Hadauri, Post Tindola, Lucknow - Deva Road, Barabanki, Uttar Pradesh 225003  
+
+Date and Timing: 15 Sept 2019 at 0800 am.
+
+*Bus Timing : 4:30 am*
+
+Important Note for Applicants:-
+
+- Applicants are to carry hard copy of their admit cards at the time of Placement Drive.
+-Applicants need to reach the venue before 8:00 AM. Entry will not be allowed after the start time i.e. 09:00 AM.
+-Applicants are directed to carry a hard copy of their admit cards and CV at the time of Campus Drive. Those who are not having their admit
+cards will not be considered eligible for the process.
+-Those who have registered can go for the drive.
+- First, there will be PPT, then online test of 90 mins and then and there the results will be declared, selected candidates will manage( *lodging facility will not be provided neither their returning* )  their things on there own and rest of candidates will return with the bus as the bus has been booked only for a day. 
+
+*TPO*
+14/09/2019, 2:10 pm - Avinash left
+15/09/2019, 4:41 am - Prashant Dowedi: Sb log jldi se aa jaye jinko jana ho
+15/09/2019, 4:44 am - S5: koi aa raha h kya
+15/09/2019, 11:59 am - Prashant knit: Aa jao test ke liye bula rhe
+15/09/2019, 4:04 pm - +91 85340 20321: Webkul m Jo selected hue h vo jldi se lab m aye
+15/09/2019, 4:04 pm - +91 85340 20321: Selected for 2nd round
+15/09/2019, 4:06 pm - +91 85340 20321: B-004
+15/09/2019, 4:07 pm - +91 95983 07448 joined using this group's invite link
+15/09/2019, 5:43 pm - +91 73797 43197: Jinka hota ja rha h bus pe aa jaae
+15/09/2019, 5:43 pm - +91 73797 43197: Bus nikalne waali h
+15/09/2019, 8:34 pm - Ashish: TCS offer letters are now available on tcsnext portal
+15/09/2019, 9:24 pm - +91 73985 23290 joined using this group's invite link
+15/09/2019, 9:40 pm - +91 80098 16660: Kisi code vita wale ka offer letter aaya hai kya tcs se?
+15/09/2019, 9:41 pm - +91 84497 07661: Nahi mera to nahi aaya
+15/09/2019, 9:48 pm - Prakhar: Mail par........ nhi?
+17/09/2019, 11:29 am - SDV3: Koi eisa hai jiska nqt ka offer letter nhi aaya ho abhi?
+17/09/2019, 1:18 pm - +91 96212 36512: The form accepts responses till 17th Sept 2019, 11:59pm
+17/09/2019, 1:18 pm - +91 96212 36512: This is regarding the placement records of the students of batch 2019-20.
+
+Link: https://forms.gle/A2KYz5AHvssisYQX6
+18/09/2019, 11:09 am - +91 96212 36512: KAMLA NEHRU INSTITUTE OF TECHNOLOGY is organizing a Campus Drive for NewGenApps
+
+NewGenApps is offering next generation technologies like- Big Data , Cloud Computing, Machine Learning ,Iot, Artificial Intelligence etc .
+
+ 
+
+Educational Requirement : B.Tech(C.S ,I.T)/ MCA (2020 Passing Batch)
+
+Last Date to fill registration link: 18-09-2019[THURSDAY] upto 12 pm
+
+Registration Link: https://forms.gle/qVL7x2na81AFwhUM8
+
+REGISTRATION FORM IS NOT FOR THE PLACED ONE
+18/09/2019, 7:25 pm - +91 73807 66501: <Media omitted>
+18/09/2019, 7:25 pm - +91 73807 66501: <Media omitted>
+18/09/2019, 7:25 pm - +91 73807 66501: Suggested By Dr. D.L. Gupta
+18/09/2019, 7:25 pm - +91 73807 66501: Bharat Vikas Parishad has launched online Bharat Ko Jano for students of higher education in all streams.Students who are willing to participate can go through this link
+www.bkjbharat.org
+After Registration this google form to be filled by aspirants:  https://docs.google.com/forms/d/e/1FAIpQLSeK2nt2ybgNbd30rdD24_36TezbXHhxbuokvJxsqns2mNvOYg/viewform?usp=sf_link
+This is AICTE approved and you will also be  provided a certificate and prize (2k-25k) from Bharat Vikas Parishad on scoring a good rank.
+18/09/2019, 8:04 pm - +91 79051 46793: Jinka ho gya hai hr aur Jana hai to AA jao sath me I am waiting at the gate
+19/09/2019, 11:04 pm - +91 80098 16660: Koi aisa jo nqt me place hua ho aur offer letter ni aaya.
+20/09/2019, 8:58 am - +91 96212 36512: *NewgenApps placement drive*
+
+CTC: 6.5-7 LPA
+
+DATE OF DRIVE: 21st sept 2019
+
+Registration open till: 11:59am (afternoon)20th sept 2019
+20/09/2019, 9:00 am - +91 96212 36512: For CS, IT, MCA only
+21/09/2019, 9:17 am - +91 86301 61987: The drive will start at 9:30 please reach on time
+21/09/2019, 9:58 am - +91 86301 61987: electrical Seminar hall m aana h PPT start hori h
+21/09/2019, 10:06 am - +91 86301 61987: Yr phle interview hoga to folder lekar aana
+21/09/2019, 10:31 am - ASHUTOSH Knit: Sir there will a 5 min Personal Interview and then you will be sent for test
+21/09/2019, 10:39 am - +91 86301 61987: Sir there will a 5 min Personal Interview and then you will be sent for test
+21/09/2019, 10:40 am - +91 86301 61987: Share it in your groups
+21/09/2019, 12:16 pm - +91 86301 61987: <Media omitted>
+21/09/2019, 12:16 pm - +91 86301 61987: The students will go for interview according to
+This list as this list is provided to HRs as well
+21/09/2019, 12:19 pm - +91 81810 09879: @919554831603  ....jao Interview k liye ..jldi
+21/09/2019, 12:19 pm - +91 81810 09879: 😂
+21/09/2019, 12:24 pm - Tejashavi: Minus Global Logic
+21/09/2019, 2:03 pm - +91 79051 46793: Guys please update the status
+21/09/2019, 2:22 pm - Tejashavi: 16 logo ka MCA SE ho gya hai
+21/09/2019, 2:23 pm - +91 79051 46793: Second round me Kya pucha ja rha hai any idea??😅
+21/09/2019, 2:26 pm - Tejashavi: Interview hua hai
+21/09/2019, 2:47 pm - Prakhar: Kitno ka hua
+21/09/2019, 2:49 pm - Tejashavi: 24
+21/09/2019, 3:21 pm - +91 78449 92214: IT wale tayar raho, mca ka khtm hone wala hai
+21/09/2019, 3:22 pm - +91 86301 61987: Next round ka koi idea
+21/09/2019, 3:24 pm - Prakhar: Cs ka abhi nhi ho rha na
+21/09/2019, 3:55 pm - +91 98380 81123: Ab 5 k grp mei bulane vale h...to sb aa jao..
+21/09/2019, 3:56 pm - +91 98380 81123: Thoda speed up hoga hopefully....
+21/09/2019, 3:59 pm - +91 78449 92214: Sb IT wale aa jao
+21/09/2019, 4:06 pm - ASHUTOSH Knit: Sir CSE AND IT final yr student plz reach for interview
+21/09/2019, 4:06 pm - ASHUTOSH Knit: The process is speeded up
+21/09/2019, 4:06 pm - ASHUTOSH Knit: 5 students are called in 1 go
+21/09/2019, 4:16 pm - ASHUTOSH Knit: Jldi se sbhi Cse Vale phuch jao phle Cse ka interview hoga
+21/09/2019, 4:16 pm - +91 73797 43197: Guys please reach asap
+21/09/2019, 5:55 pm - +91 87658 86391: Seminar hall waale sab tpo office ke bahar aa jao
+21/09/2019, 6:45 pm - +91 88537 60748: @918181009879 we want meme
+21/09/2019, 6:46 pm - +91 75220 17983: 👍👍
+21/09/2019, 6:47 pm - Prakhar: And the hard one
+21/09/2019, 6:59 pm - +91 81810 09879: Hm krte hain prabandh...aap chinta mt kriye
+21/09/2019, 7:03 pm - +91 81810 09879: https://www.quora.com/unanswered/How-was-your-interview-experience-of-NewGenApps-Lucknow
+21/09/2019, 7:04 pm - +91 81810 09879: You can write your Interview here...NewGenApps doesn't exist on the internet, so lets mark its presence there
+21/09/2019, 7:04 pm - +91 81810 09879: *experience
+21/09/2019, 7:06 pm - ASEEM SRIVASTAVA: https://www.glassdoor.co.in/Overview/Working-at-New-Generation-Applications-NewGenApps-EI_IE411941.11,49.htm
+21/09/2019, 7:06 pm - ASEEM SRIVASTAVA: Kindly pour your heart love here too
+21/09/2019, 7:06 pm - Prashant Dowedi: 😂 😂 😂
+21/09/2019, 7:13 pm - Shivang: The things I am hearing are outrageous. How can a company has such callous attitude.
+21/09/2019, 7:21 pm - +91 81810 09879: <Media omitted>
+21/09/2019, 7:23 pm - +91 97932 37273: 🤣🤣🤣🤣
+21/09/2019, 7:23 pm - +91 77058 40766: 😁😁😁😁
+21/09/2019, 7:24 pm - +91 94570 09431: 🤣🤣
+21/09/2019, 7:28 pm - Shailu: 👌🏻👌🏻🤣🤣
+21/09/2019, 7:28 pm - Prashant Dowedi: 😂 😂 😂
+21/09/2019, 7:28 pm - +91 89608 31685: 🤣🤣🤣
+21/09/2019, 7:31 pm - +91 81810 09879: <Media omitted>
+21/09/2019, 7:42 pm - +91 88537 60748: Prabandh santoshjanak h...
+21/09/2019, 8:00 pm - Prashant Dowedi: 😂 😂 😂 😂 😂
+21/09/2019, 8:59 pm - +91 98892 60075: 👍
+21/09/2019, 10:10 pm - +91 84237 62476: Anyone from CS/IT who want to have his/her drive for NewgenApp ??
+
+Ask for the same in your respective group.....if anyone is interested then we will collect the name by some means..
+21/09/2019, 11:05 pm - +91 84237 62476: No one?
+21/09/2019, 11:27 pm - +91 84237 62476: There are few people who have given their name for same.....
+So, should i forward a Google form considering some more people may also want to have their drive....?
+21/09/2019, 11:28 pm - S5: ha google form bna do
+21/09/2019, 11:28 pm - +91 84237 62476: Aur jyada time na hai....aur na hi koi jaruri hai ki sab jae....
+So dusra kya kar rha teesra kya kar rha na dekh k........
+Agar tmhara khud ka man ho to bata dena....qki kal list forward karni hai
+21/09/2019, 11:31 pm - +91 84237 62476: Aur ha....
+Jo log form fill karenge soch samjh k karenge......
+
+Baki form fill karne k bad nahi jate....uske lie jo hoga uske jimmedar o khud honge....
+Ise dhyan rkh k fill karna😅😅
+21/09/2019, 11:31 pm - +91 84237 62476: Hm form circulate kara de rhe
+21/09/2019, 11:33 pm - Arbaaz joined using this group's invite link
+22/09/2019, 12:48 am - +91 96212 36512: All the students interested for the drive of NewGen App at Lucknow must fill this form by *2 pm*, 22 sept.
+https://forms.gle/VcasxVy31XFTp7MD6
+22/09/2019, 2:01 am - Shailesh Yadav joined using this group's invite link
+22/09/2019, 10:35 am - Harsh: Cs it mca ki gate ki vlass chal rahi hai aaj
+22/09/2019, 10:35 am - Harsh: Aa jao jise bhi aana ho
+22/09/2019, 10:35 am - Harsh: *class
+22/09/2019, 9:46 pm - Amritesh Khare: Background check wala option bhra h kisi ne ..
+22/09/2019, 9:47 pm - Amritesh Khare: Tcs offer letter accept krne ke baad?
+22/09/2019, 9:47 pm - SDV3: Ye kha pr hai ?
+22/09/2019, 9:50 pm - +91 73985 23290: This message was deleted
+22/09/2019, 9:51 pm - Shivang: Ye offer letter Ata kaha hai?
+22/09/2019, 9:52 pm - +91 73985 23290: Nextstep.tcs
+22/09/2019, 9:52 pm - Shivang: Login Kiya. Uske Baad?
+22/09/2019, 9:53 pm - +91 73985 23290: Haan bhai
+22/09/2019, 9:55 pm - Shivang: No offer letter. 😁
+22/09/2019, 9:55 pm - Shivang: Koi hai Saath dene wala?
+22/09/2019, 9:57 pm - ASEEM SRIVASTAVA: Codevita walo ka nai aaya
+22/09/2019, 9:58 pm - Shivang: Oh.
+22/09/2019, 10:02 pm - Amritesh Khare: Jinka nqt se hua h unka aaya
+22/09/2019, 10:41 pm - Prashant knit changed their phone number to a new number. Tap to message or add the new number.
+22/09/2019, 10:44 pm - rahul yadav changed their phone number to a new number. Tap to message or add the new number.
+23/09/2019, 2:46 am - +91 80098 16660: Mera abhi tk ni aaya.. Nqt se hua tha
+23/09/2019, 3:22 am - Amritesh Khare: 22 thi last accept krne ki
+23/09/2019, 3:22 am - +91 80098 16660: Tere liye
+23/09/2019, 3:23 am - +91 80098 16660: Meri toh aai hi ni abhi
+23/09/2019, 3:52 am - +91 80098 16660: Koi aisa jo nqt ke through select hua ho aur offer letter na aaya ho uska nextstep.tcs.com pr
+23/09/2019, 9:57 am - +91 91258 79731: Gate ki class cl 204 ke samne ho rai hai
+23/09/2019, 5:14 pm - Prashant Dowedi: <Media omitted>
+23/09/2019, 5:16 pm - Prashant Dowedi: Leave of the following student has been forwarded from TPO office to respective departments for the pool drive of LIDO Learning.
+
+No vehicle facilities will be provided by the Institute for the drive.
+23/09/2019, 5:55 pm - +91 85740 09400: Worried for u Saurabh #GlobalLogic
+23/09/2019, 6:19 pm - +91 80098 16660: Woh aa gai hai uski chinta nai
+23/09/2019, 6:20 pm - +91 80098 16660: Lido ka kb aaya?
+23/09/2019, 6:20 pm - +91 80098 16660: What the heck?
+23/09/2019, 6:20 pm - +91 85740 09400: BGC ki details bhar de..
+23/09/2019, 7:05 pm - Vineet Maurya: <Media omitted>
+23/09/2019, 10:30 pm - +91 81266 11579 joined using this group's invite link
+24/09/2019, 1:24 am - +91 98073 91504: This message was deleted
+24/09/2019, 1:24 am - +91 98073 91504: <Media omitted>
+24/09/2019, 6:59 pm - +91 79051 46793: <Media omitted>
+24/09/2019, 7:14 pm - Tejashavi: Lido learning SE related kuch query ho poochlo
+24/09/2019, 7:15 pm - Raj Shrivastava: Kucch faq's batao
+24/09/2019, 7:15 pm - Raj Shrivastava: 😂
+24/09/2019, 7:15 pm - Tejashavi: Pehla toh yehi hai ki koi jaa bhi RHA hai
+24/09/2019, 7:15 pm - Tejashavi: Iska ans Launde hi batayenge
+24/09/2019, 7:15 pm - Raj Shrivastava: 😂😂Nahi
+24/09/2019, 7:15 pm - Tejashavi: Fir Kya query hogi
+24/09/2019, 7:19 pm - Tejashavi: Btado be kaun kaun ja rha hai
+25/09/2019, 6:11 pm - Shivang: Codevita walo ka bhi offer letter aa gaya. Enjoy.
+25/09/2019, 6:46 pm - ASEEM SRIVASTAVA: <Media omitted>
+25/09/2019, 6:47 pm - +91 81810 09879: Ratan Tata
+25/09/2019, 6:50 pm - +91 73098 78907: Fc kohli
+25/09/2019, 9:46 pm - +91 98073 91504: contest is live if someone wants to have fun can participate
+26/09/2019, 12:41 am - Vineet Maurya: This message was deleted
+26/09/2019, 10:19 am - Nitish Yadav It changed their phone number to a new number. Tap to message or add the new number.
+26/09/2019, 11:24 am - Harsh: Find the attached user name password and license key for video lectures of Gate class. Also send it to all concern students
+26/09/2019, 11:24 am - Harsh: <Media omitted>
+26/09/2019, 5:15 pm - Tejashavi: <Media omitted>
+26/09/2019, 6:02 pm - Tejashavi: *NewGen Apps Off-Campus Hiring*
+
+*Date:* 27th September
+*Reporting Time:* 11am
+*Venue:* 2nd floor, Tekarees Chambers, 17/3 Opp. Jawahar Bhawan, Ashok Marg, Hazratganj Lucknow, Uttar Pradesh, 226001
+
+MCA Students will go through System Test.
+
+B.Tech. Students will have their first round of interview and then the System test.
+
+The results for the same will be informed via email.
+
+*Bus facility*
+Reporting time: 5:45 am
+
+Everyone is required to be on time.
+27/09/2019, 6:22 am - +91 82854 26877: Newgen Apps ke liye bus 7am pe jaegi baarish ki wajah se. Jo aa sakte ho aa Jaye.
+27/09/2019, 6:25 am - +91 85340 20321: Bus driver 20 min m aa jayega , to 7 bje bus chli jayegi without any further wait
+27/09/2019, 6:46 am - +91 85340 20321: Bus driver aa chuka h, sb phuch jaye
+27/09/2019, 8:27 am - Prashant Dowedi: *Attention everyone*
+
+Due to heavy rain few of the the trees on the roadside are falling, It is advised to not to stand under any tree till the rain stops and stay careful.
+27/09/2019, 9:51 am - Prashant Dowedi: Everyone is requested to use water very carefully as there is a fault in the line which can not be repaired in the rain and motors may not work in the evening.
+27/09/2019, 9:56 am - Harsh: Gate ki class chal rahi hai kya??
+27/09/2019, 10:04 am - Prashant Dowedi: Dur to heavy rain the classes for today will not be held. 
+-Director sir
+27/09/2019, 10:15 am - +91 79051 46793: Haan and if people are willing to go then go soon
+27/09/2019, 7:46 pm - +91 79051 46793: Kisi KE pass Meri tie hai Jo bhi Lucknow aaya hai
+28/09/2019, 11:33 am - +91 95988 59972: This message was deleted
+28/09/2019, 3:32 pm - Shivang: https://www.livemint.com/education/news/iits-increase-m-tech-fees-by-up-to-10-times-to-2-lakh-per-year-1569609681727.html
+28/09/2019, 3:38 pm - Vedas: This message was deleted
+28/09/2019, 8:44 pm - Vineet Maurya changed their phone number to a new number. Tap to message or add the new number.
+01/10/2019, 5:23 pm - +91 96212 36512: *SAP India, is organising a "Pool Campus Drive" in SRM Group, Lucknow*
+
+Companies Profile:-
+
+SAP,  is the market leader in enterprise application software, helping companies of all sizes and in all industries run at their best: 77% of the world’s transaction revenue touches an SAP system. Our machine learning, Internet of Things (IoT), and advanced analytics technologies help turn customers’ businesses into intelligent enterprises. Our end-to-end suite of applications and services enables our customers to operate profitably, adapt continuously, and make a difference.
+
+With a global network of customers, partners, employees, and thought leaders, SAP helps the world run better and improves people’s lives. 
+
+Scholar@SAP is a globally recognized work-integrated and learning program in partnership with BITS Pilani.  As a Scholar,
+
+you will have the opportunity to rotate across SAP business areas while receiving on-the-job
+
+and structured development and coaching from leaders in technology. Work from Monday to Friday on exciting and meaningful projects,
+
+and on Saturdays attend academic classes conducted by BITS Pilani faculty on the SAP campus. At the end of the program and your studies,
+
+you will have the opportunity to secure a position at SAP.
+
+Other Related details are as follows :
+
+
+Course Eligible: B.Tech (CS /IT/ ECE)  Batch 2020 
+
+Eligibility: 60% Min in  10th & 12th & Graduation Min 70%    
+
+Stipend: Rs. 25,000 per month for both the years
+
+Selection Process: Online Assessment  ->  2 Rounds Technical Interview  ->  HR Interview
+
+*Date of Event: 04 -October-2019*
+
+Venue: G Block Computer Labs at  SRMGPC, Lucknow.
+
+Time: 09:30 AM
+
+Interview date: 17th- October-2019 (Tentative)
+
+*Registration open till 11:59 pm Tonight(01/10/19).*
+
+Registration Link: https://forms.gle/rzVmcaYp24fbnwAH7
+01/10/2019, 6:21 pm - +91 96962 51162 joined using this group's invite link
+06/10/2019, 2:34 am - +91 86045 29007 left
+07/10/2019, 5:43 pm - +91 95549 16622 left
+12/10/2019, 10:17 am - Uqba changed their phone number to a new number. Tap to message or add the new number.
+13/10/2019, 6:15 pm - Uqba changed their phone number to a new number. Tap to message or add the new number.
+15/10/2019, 4:23 pm - +91 88537 60748: 20th 3:30 kanpur, anyone else?
+15/10/2019, 4:24 pm - +91 86301 61987: Yes me
+15/10/2019, 4:25 pm - +91 75220 17983: Same pr 8:30
+15/10/2019, 4:25 pm - +91 86301 61987: Hnn sorry Mera bhi 8.30
+15/10/2019, 4:26 pm - Raj Shrivastava: Ye kya h
+15/10/2019, 4:26 pm - +91 75220 17983: Wipro ka test k liye
+15/10/2019, 4:27 pm - ROHIT IT KNIT: Mera hai
+15/10/2019, 4:29 pm - +91 73797 43197: Me
+15/10/2019, 4:30 pm - +91 88537 60748: Good enough...
+15/10/2019, 10:48 pm - ASEEM SRIVASTAVA: Anybody having test date on 19th for Wipro exam?
+15/10/2019, 11:07 pm - Shailu: 🙋🏻‍♂
+16/10/2019, 12:30 am - Prerna: yes
+16/10/2019, 2:46 am - Prakhar: Yes
+16/10/2019, 4:01 am - Atharva Knit: Yeah
+16/10/2019, 10:46 am - +91 95988 59972: Yes
+16/10/2019, 11:52 am - Shivang added +91 87074 86415
+16/10/2019, 2:42 pm - +91 88537 60748: Motive: to arrange the conveyance on sufficient count....
+16/10/2019, 2:43 pm - +91 87074 86415: Me too
+16/10/2019, 2:44 pm - Shivang: Optum offer letter aa gaya hai on mail.
+16/10/2019, 2:45 pm - Mk Knit: Me too
+16/10/2019, 3:04 pm - avanish: You deleted this message
+16/10/2019, 3:40 pm - Diwakar: Me
+16/10/2019, 8:26 pm - +91 73797 43197: https://forms.gle/9nxcLk3hrUgESLXR8
+
+You have to fill the form before 11:59 pm today. So fill it asap.
+17/10/2019, 2:19 pm - +91 88537 60748: Bus arrange nhi ho payegi....
+17/10/2019, 3:54 pm - +91 88537 60748: This message was deleted
+17/10/2019, 3:54 pm - +91 88537 60748: For wipro: apne admit cards mail kr do knitcdcmembers@gmail.com pr...
+17/10/2019, 3:55 pm - +91 87074 86415: For vehicle facility
+17/10/2019, 3:56 pm - +91 87074 86415: Aur thodi der mein sbko TPO bhi aana hai vehicle(for wipro) ki application pr sign ke liye.
+17/10/2019, 4:42 pm - +91 87074 86415: Jisne mail send kr diya ho TPO aa jaye signature ke liye
+17/10/2019, 5:07 pm - Shailu: Sign krne ke liye jaldi aa jao...
+TPO office close hone wala hai
+17/10/2019, 5:34 pm - +91 88537 60748: ...
+17/10/2019, 5:50 pm - +91 86301 61987: Arbaz Khan, Rishabh Gupta, Shyam Narayan, Arpit Sharma, Brijesh Chauhan, Dheeraj Maurya
+17/10/2019, 5:50 pm - +91 86301 61987: Agar college conveyance se psit kanpur Jana h to please tpo aakar sign kr dijiye
+17/10/2019, 5:52 pm - +91 86301 61987: Aur agar nahi Jana to please grp pr batado
+17/10/2019, 5:53 pm - +91 94503 27268: Jana hai par college par nhi hu
+17/10/2019, 5:54 pm - +91 94503 27268: Shyam Narayan(178610)
+17/10/2019, 5:54 pm - +91 86301 61987: Ohkay
+18/10/2019, 4:24 pm - +91 87074 86415: Vehicle for wipro is confirmed.
+18/10/2019, 4:31 pm - Ashish: 👍
+18/10/2019, 4:54 pm - +91 87074 86415: <Media omitted>
+18/10/2019, 4:54 pm - +91 87074 86415: <Media omitted>
+18/10/2019, 4:55 pm - +91 87074 86415: Timings for bus on 19th will be 4:30 AM sharp
+18/10/2019, 10:44 pm - +91 96212 36512 added +91 76518 70314
+18/10/2019, 11:29 pm - +91 87074 86415: Please convey it to your friends who are not in the group.
+19/10/2019, 4:43 am - +91 87074 86415: Wipro waale sb jldi aa jao
+We are about to leave
+19/10/2019, 4:45 am - Ashish: A rhe bhai
+19/10/2019, 5:02 am - Shailu: *Count Down* for 5 min
+19/10/2019, 5:02 am - Shailu: Jaldi kro
+19/10/2019, 5:03 am - Shailu: 4
+19/10/2019, 5:04 am - Shailu: 3
+19/10/2019, 5:05 am - Shailu: 2
+19/10/2019, 5:05 am - Shailu: Start....and....
+19/10/2019, 5:05 am - Shailu: Goooooooo
+19/10/2019, 1:05 pm - +91 88537 60748: For 20th it will be 19th Oct, 10:30 PM...
+19/10/2019, 5:25 pm - Shailu: Aa jao sab log...jaldi se
+19/10/2019, 6:41 pm - +91 96212 36512: This form is compulsory to be filled by all the placed students. The link will remain active till Oct 20, 11:59pm
+19/10/2019, 6:41 pm - +91 96212 36512: https://forms.gle/HnbEkrWGometSVa97
+19/10/2019, 10:28 pm - Gulam Mujuddin: Count down start now 5 min
+19/10/2019, 10:29 pm - +91 91982 98650: Wait
+19/10/2019, 10:30 pm - Gulam Mujuddin: 4min
+19/10/2019, 10:31 pm - Vineet New: This message was deleted
+20/10/2019, 10:34 am - +91 96212 36512: Form to be filled by final year students of all branches in order to complete there respective database. It must be filled before 12:30 pm today.
+
+
+
+https://forms.gle/Rr3dmHC3hxRq4X7Z7
+20/10/2019, 6:07 pm - +91 89489 51895 left
+21/10/2019, 8:15 pm - Shivang: <Media omitted>
+22/10/2019, 12:04 pm - Shivang: Hi optum folks. I exchanged some mails with the HR regarding some doubts with the form. Here is the reply
+22/10/2019, 12:04 pm - Shivang: <Media omitted>
+22/10/2019, 12:04 pm - Khushboo: Ok
+22/10/2019, 12:05 pm - Karan: thanks bro
+22/10/2019, 1:04 pm - +91 74609 69509: Thankew
+25/10/2019, 10:44 pm - +91 72378 94200: -Attension Please -
+There is an urgent  requirement of B- blood group for my uncle.Anyone having this blood group plzz help him by donating the blood at any cost.
+Contact me(Krishna Pratap Singh)- 7237894290
+27/10/2019, 12:38 pm - anuj it branch: <Media omitted>
+27/10/2019, 3:44 pm - Shivam Jio: 🥰
+_A ƒєsτıναℓ ƒuℓℓ_
+_Ŏƒ sωєєτ мємσяıєs,_
+_❄sκy ƒuℓℓ σƒ ƒıяєωσяκs,🎆_
+_мσuτн ƒuℓℓ σƒ sωєєτs,🍰_
+_🏡нσusє ƒuℓℓ σƒ đıyαs🔅_
+              _αиđ_
+_нєαяτ ƒuℓℓ σƒ jσy._
+_ωısнıиg yσu αℓℓ α νєяy_
+  ❤ _нαppy đıωαℓı τσ yσu αиđ yσuя ƒαмıℓy_ 
+🌟✨⚡💥⚡💫☀
+28/10/2019, 1:49 pm - Prashant Dowedi left

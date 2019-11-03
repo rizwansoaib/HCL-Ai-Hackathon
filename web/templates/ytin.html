@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube Sentiment Analysis</title>
+</head>
+
+
+<style>
+    form {
+  text-align: center;
+}
+</style>
+<body>
+
+<h1 align="center">Welcome to Youtube Sentiment Analysis</h1><br><br>
+
+<h2 align="center">Please paste youtube video link</h2>
+
+
+<br><br><br>
+
+
+
+<form method="post" action="/youtube" >{% csrf_token %}
+  <input type="text" name="link" a><br><br><br><br>
+    <button type="submit">Analyze Link</button>
+</form>
+
+
+
+<div>
+
+
+
+
+
+
+    <h2 align="center">
+<a href="/">Whatsapp Sentiment Analysis</a>
+</h2>
+
+
+<h2 align="center">Developed By HCL</h2>
+
+
+
+
+</div>
+
+</body>
+</html>

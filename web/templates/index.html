@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload</title>
+</head>
+
+
+<style>
+    form {
+  text-align: center;
+}
+</style>
+<body>
+
+<h1 align="center">Welcome to Whatsapp Sentiment Analysis</h1><br><br>
+
+<h2 align="center">Please upload exported data (*.txt) format</h2>
+
+
+<br><br><br>
+
+
+
+<form method="post" action="/process" enctype="multipart/form-data">{% csrf_token %}
+  <input type="file" name="data" accept=".txt"><br><br><br><br>
+    <button type="submit">Upload Whatsapp Data</button>
+</form>
+
+
+
+<div>
+
+
+    <h2 align="center">
+<a href="/youtube">Youtube Sentiment Analysis</a>
+</h2>
+
+
+<h2 align="center">Developed By HCL</h2>
+
+
+
+
+</div>
+
+</body>
+</html>
