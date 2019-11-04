@@ -6,9 +6,9 @@
 * Classifier: NaivBayes
 * Testing Dataset: User Whatsapp chat exported text format
 
-## Youtube Sentiment Analysis
+## Youtube Comment Sentiment Analysis
 
  * Same Model
- * Using Selenium module grab all comments of youtube and applying Sentiment Analysis
+ * From given link uses Selenium module grab all comments of youtube and applying Sentiment Analysis
  
  
