@@ -6,6 +6,11 @@
 * Classifier: NaivBayes
 * Testing Dataset: User Whatsapp chat exported text format
 ### Export Whatsapp Chat
+1. Open Chat Click Option(Three dot)
+2. Tap on more
+3. Click Export chat
+4. Without Media 
+5. Now use *.txt file 
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/29729380/68144767-559cf500-ff5a-11e9-9c2e-f4ff75f01e07.jpeg" width="210" />
