@@ -6,7 +6,7 @@
 * Classifier: NaivBayes
 * Testing Dataset: User Whatsapp chat exported text format
 ### Export Whatsapp Chat
-1. Open Chat Click Option(Three dot)
+1. Open Chat Click Option (Three dot)
 2. Tap on more
 3. Click Export chat
 4. Without Media 
