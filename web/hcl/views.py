@@ -35,6 +35,7 @@ def process(request):
         uploaded_file = request.FILES['data']
         fs = FileSystemStorage()
         fs.save(uploaded_file.name, uploaded_file)
+        return HttpResponse(os.listdir())
         f = open('model', 'rb')
         classifier = pickle.load(f)
         f.close()
@@ -65,7 +66,7 @@ def process(request):
         sizes = [pos, neg]
         fig1, ax1 = plt.subplots()
         ax1.pie(sizes, labels=labels, autopct='%1.1f%%')
-        plt.title('Whatsapp Sentiment Analysis')
+        plt.title('Whatsapp Sentiment Analysis Overall')
 
 
 
@@ -115,7 +116,7 @@ def process(request):
         ax.set_yticks(np.arange(0, max_x, 1))
         ax.set_xticklabels(names,rotation=90)
         ax.legend((rects1[0], rects2[0]), ('positive', 'negative'))
-        ax.set_title('Whatsapp Chat Sentiment Analysis')
+        ax.set_title('Whatsapp Chat Sentiment Analysis Individual')
         fig.set_size_inches(35, 15, forward=True)
 
 

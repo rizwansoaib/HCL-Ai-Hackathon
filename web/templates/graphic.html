@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Whatsapp Sentiment Analysis</title>
+    <title>Result</title>
 </head>
 <body >
-
+<center><h1>Whastapp Sentiment Analysis</h1> </center>
 <br>
 <br>
 <br>
@@ -14,13 +14,20 @@
 
 <center>
 
-<img src="data:image/png;base64,{{ indi|safe }}">
+<div style="overflow: auto; ">
+<img src="data:image/png;base64,{{ indi|safe }}" height="850" >
     <br>
+</div>
+	<br>
+	<br>
+	<br>
+<div style="overflow: auto">
+	
 
     <img src="data:image/png;base64,{{ full|safe }}">
     </center>
-
-<h2 align="center">Developed by HCL</h2>
+</div >
+<h2 align="center">Developed at HCL Ai Hackathon</h2>
 
 </body>
 </html>

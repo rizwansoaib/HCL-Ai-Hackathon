@@ -11,37 +11,38 @@
   text-align: center;
 }
 </style>
-<body>
+{% load static %}
+<body style="background-image:url({% static "yback.jpg" %}) ">
 
-<h1 align="center">Welcome to Youtube Sentiment Analysis</h1><br><br>
+<h1 align="center" style="font-size:80px">Welcome to Youtube Sentiment Analysis</h1><br>
 
-<h2 align="center">Please paste youtube video link</h2>
+<h2 align="center" style="font-size:50px">Please paste youtube video link</h2>
 
 
-<br><br><br>
+<br><br><br><br><br>
 
 
 
 <form method="post" action="/youtube" >{% csrf_token %}
-  <input type="text" name="link" a><br><br><br><br>
-    <button type="submit">Analyze Link</button>
+  <input type="text" placeholder="              Youtube Video Link" name="link" style="margin-left: 120px"><br><br><br><br>
+    <button type="submit" style="margin-left: 122px;border:none;background: none;">Analyze</button>
 </form>
 
+<br><br><br><br><br><br><br><br>
 
-
-<div>
-
-
-
+<div >
 
 
 
-    <h2 align="center">
+
+
+
+    <h2 align="center" style="font-size:50px">
 <a href="/">Whatsapp Sentiment Analysis</a>
 </h2>
 
 
-<h2 align="center">Developed By HCL</h2>
+<h2 align="center"  style="font-size:30px">Developed at HCL Ai Hackathon</h2>
 
 
 
