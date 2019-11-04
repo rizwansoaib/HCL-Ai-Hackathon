@@ -27,6 +27,14 @@
  
 ## Demo of WebApp
 
+![1](photo/1.png)
+![2](photo/2.png)
+![3](photo/3.png)
+![4](photo/4.png)
+![5](photo/5.png)
+![6](photo/6.png)
+
+
  
  
 ## Team
