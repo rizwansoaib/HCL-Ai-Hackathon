@@ -23,7 +23,7 @@
 ## Youtube Comment Sentiment Analysis
 
  * Same Model
- * From given link uses Selenium module grab all comments of youtube and applying Sentiment Analysis
+ * From given link uses Selenium module grab all comments of youtube video and applying Sentiment Analysis
  
  
 ## Team
