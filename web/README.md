@@ -3,7 +3,7 @@
      selenium
      django
 ## Set Selenium Webdriver Path
-      Download geckodriver [Click here](https://github.com/mozilla/geckodriver/releases)
+   Download geckodriver [Click here](https://github.com/mozilla/geckodriver/releases)
      paste binary file in directory /usr/local/bin 
      
 ## Run 
