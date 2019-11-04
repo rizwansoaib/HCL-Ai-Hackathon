@@ -35,7 +35,7 @@ def process(request):
         uploaded_file = request.FILES['data']
         fs = FileSystemStorage()
         fs.save(uploaded_file.name, uploaded_file)
-        return HttpResponse(os.listdir())
+      
         f = open('model', 'rb')
         classifier = pickle.load(f)
         f.close()
