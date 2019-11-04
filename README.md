@@ -5,6 +5,15 @@
 * Trainig Dataset: Movie reveiw nltk 
 * Classifier: NaivBayes
 * Testing Dataset: User Whatsapp chat exported text format
+### Export Whatsapp Chat
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/29729380/68144767-559cf500-ff5a-11e9-9c2e-f4ff75f01e07.jpeg" width="210" />
+  <img src="https://user-images.githubusercontent.com/29729380/68144770-56358b80-ff5a-11e9-80ca-94fe4a6e1386.jpeg" width="210" /> 
+  <img src="https://user-images.githubusercontent.com/29729380/68144772-56358b80-ff5a-11e9-8eed-a2d9dfc5ca71.jpeg" width="210" />
+   <img src="https://user-images.githubusercontent.com/29729380/68144773-56ce2200-ff5a-11e9-9079-fe9f426df3c5.jpeg" width="210" />
+</p>
+
 
 ## Youtube Comment Sentiment Analysis
 
